@@ -21,7 +21,7 @@ const svgs = (await readdir(assetRoot)).filter(file => file.endsWith('.svg'))
 
 if ((registry.match(/^  - name:/gm) ?? []).length !== 7) throw new Error('registry must declare seven skills')
 if (skills.length !== 7) throw new Error(`expected seven portable skills, found ${skills.length}`)
-if (svgs.length !== 10) throw new Error(`expected ten SVG assets, found ${svgs.length}`)
+if (svgs.length !== 11) throw new Error(`expected eleven SVG assets, found ${svgs.length}`)
 
 for (const file of skills) {
   const source = await readFile(file, 'utf8')

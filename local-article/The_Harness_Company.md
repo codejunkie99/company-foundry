@@ -10,7 +10,7 @@ It is not a group chat where five agents play at being a management team. It is 
 
 That sounds modest. It is a much bigger change than it first appears.
 
-<img src="../assets/company-foundry.svg" alt="Company Foundry turns a company brief into scoped work, skills, routes, artifacts, and review." width="1200" />
+<img src="assets/company-foundry.svg" alt="Company Foundry turns a company brief into scoped work, skills, routes, artifacts, and review." width="1200" />
 
 Most companies already have the ingredients: documents, repositories, customer conversations, spreadsheets, analysts, designers, engineers, and approval steps. The problem is that these ingredients do not form a reliable system. Knowledge lives in people. Process lives in memory. Important decisions are rediscovered each time work changes hands.
 
@@ -32,7 +32,7 @@ This single sentence hides five different jobs. Someone needs to define the cust
 
 In an ordinary organisation, the work passes through meetings. In an AI-native organisation, the hand-offs should become explicit objects.
 
-<img src="../assets/company-brief.svg" alt="A company brief defines an outcome, constraints, evidence, owners, and decisions." width="1200" />
+<img src="assets/company-brief.svg" alt="A company brief defines an outcome, constraints, evidence, owners, and decisions." width="1200" />
 
 The first object is the company brief. It is not a grand strategy memo. It is a compact statement of what matters now:
 
@@ -60,7 +60,7 @@ The company harness should turn a brief into a closed loop:
 
 The loop matters because output is not the same as completed work. A beautiful research memo that cannot show its sources is not complete. A working pull request with no stated customer problem is not complete. A dashboard with no action attached is not complete.
 
-<img src="../assets/work-packet.svg" alt="A work packet moves from brief to evidence, route, artifact, review, and decision." width="1200" />
+<img src="assets/work-packet.svg" alt="A work packet moves from brief to evidence, route, artifact, review, and decision." width="1200" />
 
 The work packet is the smallest useful interface between a company and an agent. It contains the brief, inputs, permitted tools, skill names, selected model route, authority level, expected artifacts, reviewer, and stopping rule.
 
@@ -80,7 +80,7 @@ Company-level research needs two kinds of context. The first is external: market
 
 **The internal record is what makes the research company-specific.** Without it, the system is performing category research, not customer research.
 
-<img src="../assets/evidence-loop.svg" alt="Evidence is collected, cited, assessed, used for a decision, and fed back into the next research cycle." width="1200" />
+<img src="assets/evidence-loop.svg" alt="Evidence is collected, cited, assessed, used for a decision, and fed back into the next research cycle." width="1200" />
 
 The customer-evidence-research skill should require a claim ledger. Each material claim records its source, date, scope, confidence, and whether it is observed fact or interpretation. The system should say “we do not know” when the evidence is absent.
 
@@ -106,7 +106,7 @@ Some tasks need inexpensive extraction across hundreds of files. Some need a qui
 
 The answer is not to make every worker choose a model by instinct. The harness needs a model router.
 
-<img src="../assets/model-route.svg" alt="A model router selects economy, fast, or capable tiers and records the route receipt." width="1200" />
+<img src="assets/model-route.svg" alt="A model router selects economy, fast, or capable tiers and records the route receipt." width="1200" />
 
 At the simplest level, the router has three lanes:
 
@@ -128,7 +128,7 @@ People use the word “skill” too loosely. A long prompt is not automatically 
 
 A useful company skill is a versioned procedure with clear inputs, steps, artifact expectations, review checks, and stop conditions. It is small enough to understand and specific enough to reuse.
 
-<img src="../assets/skill-registry.svg" alt="A skill registry makes procedures discoverable, versioned, reviewed, and portable." width="1200" />
+<img src="assets/skill-registry.svg" alt="A skill registry makes procedures discoverable, versioned, reviewed, and portable." width="1200" />
 
 The initial registry does not need hundreds of skills. It needs a few that match the company loop:
 
@@ -152,7 +152,7 @@ The weakest form of agent work lives only in a conversation window.
 
 That is acceptable for brainstorming. It is not acceptable for company memory. A company needs artifacts that can be inspected without replaying a chat: a research brief, a decision record, a pull request, an interface preview, a dashboard, an experiment plan, or a customer account review.
 
-<img src="../assets/artifact-lineage.svg" alt="Artifacts preserve lineage from work packet through evidence and review to the final decision." width="1200" />
+<img src="assets/artifact-lineage.svg" alt="Artifacts preserve lineage from work packet through evidence and review to the final decision." width="1200" />
 
 Each artifact should carry lineage. It should point to the work packet, the evidence used, the model route, the skill version, the reviewer, and the resulting decision. It does not need to be verbose. It needs to be findable.
 
@@ -164,7 +164,7 @@ A customer-risk dashboard, for example, should show the measure, the time window
 
 The Company Room is a practical way to collect these artifacts. It is not another strategy board. It is an operational view of active packets: what is in progress, what evidence has arrived, which model route was used, what artifact exists, which review is waiting, and what decision is blocked.
 
-<img src="../assets/company-room.svg" alt="A Company Room shows active work packets, artifacts, review state, and blocked decisions." width="1200" />
+<img src="assets/company-room.svg" alt="A Company Room shows active work packets, artifacts, review state, and blocked decisions." width="1200" />
 
 The interface can be generated by Codex or another coding environment when the skill has a clear artifact contract. The important point is not which computer-use tool creates the page. The important point is that the generated page has a defined job in the company loop.
 
@@ -181,7 +181,7 @@ An agent may be able to read a repository, query a CRM, open a browser, create a
 - `commit`: make a reversible change inside an approved boundary;
 - `emit`: send or publish externally.
 
-<img src="../assets/authority-gates.svg" alt="Authority gates separate observation, preparation, commitment, and external emission." width="1200" />
+<img src="assets/authority-gates.svg" alt="Authority gates separate observation, preparation, commitment, and external emission." width="1200" />
 
 The default should be `prepare`. This is where most useful work happens anyway. The model can research, write, code on a branch, generate an interface, and assemble a decision packet without creating an irreversible external consequence.
 
@@ -197,7 +197,7 @@ A harness has a different job. It defines how a particular work packet is execut
 
 The company operating method sits above both. It should be able to compile its work into a harness without being trapped inside it.
 
-<img src="../assets/runtime-adapters.svg" alt="A portable operating method uses adapters for DeepSeek Harness, Codex, and Claude Code." width="1200" />
+<img src="assets/runtime-adapters.svg" alt="A portable operating method uses adapters for DeepSeek Harness, Codex, and Claude Code." width="1200" />
 
 That is why the registry uses adapters. The same skill contract can be expressed in DeepSeek Harness as a preset and component configuration. It can be exposed to Codex or Claude Code as a skill file. It can produce artifacts that a project control plane indexes and displays.
 
@@ -287,7 +287,7 @@ The phrase “AI-native company” can encourage a fantasy: agents in every func
 
 The practical version is more interesting. It is a company that can describe its recurring work clearly enough for humans and models to carry it out together. It treats customer evidence as a shared asset. It makes model choice observable. It gives artifacts a lineage. It keeps authority explicit. It turns good judgement into procedures without pretending that procedures are judgement itself.
 
-<img src="../assets/architecture.svg" alt="The architecture connects briefs, skill registry, model routing, authority gates, artifacts, and adapters." width="1200" />
+<img src="assets/architecture.svg" alt="The architecture connects briefs, skill registry, model routing, authority gates, artifacts, and adapters." width="1200" />
 
 The product is not a dashboard, a prompt library, or an agent that claims to run the business. **The product is an executable organisational design.**
 
