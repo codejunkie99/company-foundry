@@ -4,7 +4,9 @@
   "private": true,
   "description": "Portable methods, skills, and DeepSeek Harness presets for company-specific AI work.",
   "scripts": {
-    "validate": "node scripts/validate.mjs"
+    "validate": "node scripts/validate.mjs",
+    "x:build-draft": "node scripts/build-x-article-draft.mjs",
+    "x:create-draft": "node scripts/create-x-article-draft.mjs"
   },
   "license": "MIT"
 }
