@@ -4,6 +4,7 @@
     "blocks": [
       {
         "text": "TLDR: If you don't want to read the 3,945 words in this article, you can just go to this GitHub repo: https://github.com/codejunkie99/company-foundry.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -22,6 +23,7 @@
       },
       {
         "text": "i built the part of an AI company nobody wants to build...",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -34,6 +36,7 @@
       },
       {
         "text": "not another agent.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -46,6 +49,7 @@
       },
       {
         "text": "the thing that tells every agent what work matters, what it can see, what it can change, what model it should use, and what it has to leave behind when it is done.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -58,6 +62,7 @@
       },
       {
         "text": "that thing is the harness.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -70,6 +75,7 @@
       },
       {
         "text": "Diagram: Company Foundry: company brief to company method to scoped work to artifacts\nhttps://raw.githubusercontent.com/codejunkie99/company-foundry/main/assets/company-foundry.svg",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -88,6 +94,7 @@
       },
       {
         "text": "a useful agent is not an organisation",
+        "type": "header-two",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -100,6 +107,7 @@
       },
       {
         "text": "Most teams are moving through the same sequence.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -112,6 +120,7 @@
       },
       {
         "text": "They start with one useful chat. Then they give it a browser.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -124,6 +133,7 @@
       },
       {
         "text": "Then another agent gets access to the repository. Then someone connects a spreadsheet, a CRM, a database, and a handful of model providers.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -136,6 +146,7 @@
       },
       {
         "text": "The demos look insane. Work starts to move faster.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -148,6 +159,7 @@
       },
       {
         "text": "the demo breaks at accountability",
+        "type": "header-three",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -160,6 +172,7 @@
       },
       {
         "text": "Then someone asks a very boring question.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -172,6 +185,7 @@
       },
       {
         "text": "Where did that customer claim come from?",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -184,6 +198,7 @@
       },
       {
         "text": "The answer is often: somewhere in a chat.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -196,6 +211,7 @@
       },
       {
         "text": "That is the whole problem.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -208,6 +224,7 @@
       },
       {
         "text": "good work needs a durable record",
+        "type": "header-three",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -220,6 +237,7 @@
       },
       {
         "text": "A chat can contain good work. A chat is not a company method.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -232,6 +250,7 @@
       },
       {
         "text": "A prompt can contain a clever workflow. A prompt is not a durable operating system.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -244,6 +263,7 @@
       },
       {
         "text": "A model setting can choose something smart today. It is not a routing policy that explains cost, speed, quality, and what happens when the model is unavailable.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -256,6 +276,7 @@
       },
       {
         "text": "the model is rented",
+        "type": "blockquote",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -268,6 +289,7 @@
       },
       {
         "text": "the agent is replaceable",
+        "type": "blockquote",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -280,6 +302,7 @@
       },
       {
         "text": "the company method is owned",
+        "type": "blockquote",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -292,6 +315,7 @@
       },
       {
         "text": "the system has to answer for the work",
+        "type": "header-three",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -304,6 +328,7 @@
       },
       {
         "text": "I think this is where most \"AI-native company\" conversations go wrong.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -316,6 +341,7 @@
       },
       {
         "text": "People picture an organisation made of autonomous personalities. An AI CEO. An AI sales team. An AI product manager. A little org chart of bots talking to each other until the business runs itself.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -328,6 +354,7 @@
       },
       {
         "text": "That is the visible layer. It is not the useful layer.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -340,6 +367,7 @@
       },
       {
         "text": "The useful layer is much less glamorous. It is a system that turns a company question into accountable work.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -352,6 +380,7 @@
       },
       {
         "text": "the path from question to action must be visible",
+        "type": "header-three",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -364,6 +393,7 @@
       },
       {
         "text": "Why does the work exist? Which customer sources are approved? What is the agent allowed to do? Which model tier fits? What artifact does it owe the next person? Who reviews the result before it changes anything real?",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -376,6 +406,7 @@
       },
       {
         "text": "If the system cannot answer those questions, it may be a useful assistant. It is not yet an organisation.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -388,6 +419,7 @@
       },
       {
         "text": "i wanted to compile a company, not prompt one",
+        "type": "header-two",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -400,6 +432,7 @@
       },
       {
         "text": "The project is called Company Foundry.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -412,6 +445,7 @@
       },
       {
         "text": "You describe a company once. Its product. Customers. Goals. Approved sources. Repositories. Applications. Access limits. Budgets. Review rules. What a good artifact looks like.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -424,6 +458,7 @@
       },
       {
         "text": "Then the system turns that into a working company harness.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -436,6 +471,7 @@
       },
       {
         "text": "Not one giant prompt.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -448,6 +484,7 @@
       },
       {
         "text": "Not one agent persona pretending to know the business.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -460,6 +497,7 @@
       },
       {
         "text": "from company description to runtime method",
+        "type": "header-three",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -472,6 +510,7 @@
       },
       {
         "text": "A portable company specification with the parts a runtime actually needs.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -484,6 +523,7 @@
       },
       {
         "text": "Diagram: Company specification, operating methods, and runtime adapters\nhttps://raw.githubusercontent.com/codejunkie99/company-foundry/main/assets/architecture.svg",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -502,6 +542,7 @@
       },
       {
         "text": "three layers, one method",
+        "type": "header-three",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -513,7 +554,8 @@
         "key": "0015"
       },
       {
-        "text": "- Company specification. Identity, customers, active goals, source rules, authority, resources, and standards. It is not a knowledge dump. The harness selects the relevant records when a task needs them.",
+        "text": "Company specification. Identity, customers, active goals, source rules, authority, resources, and standards. It is not a knowledge dump. The harness selects the relevant records when a task needs them.",
+        "type": "unordered-list-item",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -525,7 +567,8 @@
         "key": "0016"
       },
       {
-        "text": "- Method registry. The company's reusable ways of working: customer research, product decisions, code delivery, dashboard creation, and artifact review.",
+        "text": "Method registry. The company's reusable ways of working: customer research, product decisions, code delivery, dashboard creation, and artifact review.",
+        "type": "unordered-list-item",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -537,7 +580,8 @@
         "key": "0017"
       },
       {
-        "text": "- Runtime adapter. DeepSeek Harness consumes native presets and scoped skill files. Codex and Claude Code consume the same method through their own skill roots. A control plane consumes goals, budgets, approvals, and audit records.",
+        "text": "Runtime adapter. DeepSeek Harness consumes native presets and scoped skill files. Codex and Claude Code consume the same method through their own skill roots. A control plane consumes goals, budgets, approvals, and audit records.",
+        "type": "unordered-list-item",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -550,6 +594,7 @@
       },
       {
         "text": "The company should not be trapped in a chat UI.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -562,6 +607,7 @@
       },
       {
         "text": "That is the point of compiling the method before you pick the interface.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -574,6 +620,7 @@
       },
       {
         "text": "the company brief is the first artifact",
+        "type": "header-two",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -586,6 +633,7 @@
       },
       {
         "text": "name the operating facts before the worker",
+        "type": "header-three",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -598,6 +646,7 @@
       },
       {
         "text": "Most people begin by naming an agent.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -610,6 +659,7 @@
       },
       {
         "text": "\"You are a world-class researcher.\" \"You are our chief of staff.\" \"You are the best product manager in the world.\"",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -622,6 +672,7 @@
       },
       {
         "text": "That is fun for five minutes.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -634,6 +685,7 @@
       },
       {
         "text": "The more useful question is: what does this company need a worker to know before it can do anything safely?",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -646,6 +698,7 @@
       },
       {
         "text": "Diagram: The six fields in a company brief\nhttps://raw.githubusercontent.com/codejunkie99/company-foundry/main/assets/company-brief.svg",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -664,6 +717,7 @@
       },
       {
         "text": "company context is a record, not a prompt",
+        "type": "header-three",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -676,6 +730,7 @@
       },
       {
         "text": "The first input to Company Foundry is a company brief.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -688,6 +743,7 @@
       },
       {
         "text": "It is deliberately structured.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -700,6 +756,7 @@
       },
       {
         "text": "Identity tells the harness what the company sells, who it serves, and which product terms matter. Goals tell it what outcome matters now, not every idea the founder has ever had.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -712,6 +769,7 @@
       },
       {
         "text": "Evidence tells it which sources are approved and which data is restricted. Authority tells it what a worker may observe, prepare, commit, or emit.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -724,6 +782,7 @@
       },
       {
         "text": "Resources tell it which repos, apps, and tools exist. Standards tell it what a finished piece of work must contain.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -736,6 +795,7 @@
       },
       {
         "text": "the brief makes the operating choice explicit",
+        "type": "header-three",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -748,6 +808,7 @@
       },
       {
         "text": "That gives you a clean answer to a subtle problem.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -760,6 +821,7 @@
       },
       {
         "text": "select context; do not flood the model",
+        "type": "header-three",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -772,6 +834,7 @@
       },
       {
         "text": "Company context should be durable. Task context should be selective.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -784,6 +847,7 @@
       },
       {
         "text": "You do not want every agent to receive every customer note and every access credential. You want a customer-research task to receive the relevant company definition, approved evidence references, appropriate skills, and a tightly scoped permission set.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -796,6 +860,7 @@
       },
       {
         "text": "The agent gets the context it needs for its job. The company keeps the rest under policy.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -808,6 +873,7 @@
       },
       {
         "text": "update the rule once, then reuse it everywhere",
+        "type": "header-three",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -820,6 +886,7 @@
       },
       {
         "text": "This also makes change boring in a good way.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -832,6 +899,7 @@
       },
       {
         "text": "If your customer segment changes, update the company brief. If an old source is no longer approved, update its policy. If a new model becomes useful, update the registry. The next relevant task gets the new rule without rewriting twenty agent prompts.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -844,6 +912,7 @@
       },
       {
         "text": "Prompts describe a moment.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -856,6 +925,7 @@
       },
       {
         "text": "Company records describe a method.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -868,6 +938,7 @@
       },
       {
         "text": "every important job needs a packet",
+        "type": "header-two",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -880,6 +951,7 @@
       },
       {
         "text": "describe the job before the model begins",
+        "type": "header-three",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -892,6 +964,7 @@
       },
       {
         "text": "Here is the easiest way to tell whether you have a company method or an agent demo.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -904,6 +977,7 @@
       },
       {
         "text": "Can you write down the job before the model starts?",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -916,6 +990,7 @@
       },
       {
         "text": "Diagram: A bounded company work packet\nhttps://raw.githubusercontent.com/codejunkie99/company-foundry/main/assets/work-packet.svg",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -934,6 +1009,7 @@
       },
       {
         "text": "I call that record a work packet.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -946,6 +1022,7 @@
       },
       {
         "text": "scope and output make the work inspectable",
+        "type": "header-three",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -958,6 +1035,7 @@
       },
       {
         "text": "A work packet names the outcome, owner, scope, inputs, authority, required artifacts, and quality checks. It is not a project plan. It is a bounded unit of work that another worker can inspect, run, review, or resume.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -970,6 +1048,7 @@
       },
       {
         "text": "Take customer research.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -982,6 +1061,7 @@
       },
       {
         "text": "The bad request is: \"research our customers.\"",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -994,6 +1074,7 @@
       },
       {
         "text": "The useful request is closer to this:",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1006,6 +1087,7 @@
       },
       {
         "text": "Question: Why do mid-market operations teams choose us?",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1018,6 +1100,7 @@
       },
       {
         "text": "Audience: Product and growth leaders",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1030,6 +1113,7 @@
       },
       {
         "text": "Sources: Approved interviews, support summaries, CRM notes",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1042,6 +1126,7 @@
       },
       {
         "text": "Authority: Prepare only",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1054,6 +1139,7 @@
       },
       {
         "text": "Artifact: Evidence ledger and insight brief",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1066,6 +1152,7 @@
       },
       {
         "text": "Check: Every material claim points to an inspectable source",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1078,6 +1165,7 @@
       },
       {
         "text": "the packet owns the definition of done",
+        "type": "header-three",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1090,6 +1178,7 @@
       },
       {
         "text": "Now the model has a job. The company has a record. A reviewer knows what to inspect.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1102,6 +1191,7 @@
       },
       {
         "text": "stop vague performance before it starts",
+        "type": "header-three",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1114,6 +1204,7 @@
       },
       {
         "text": "This is also how you stop AI work from becoming vague performance.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1126,6 +1217,7 @@
       },
       {
         "text": "The agent cannot quietly redefine success because the packet owns the outcome.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1138,6 +1230,7 @@
       },
       {
         "text": "It cannot pretend a broad brief grants production access because the packet owns authority.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1150,6 +1243,7 @@
       },
       {
         "text": "It cannot call a beautiful summary complete if the packet requires source references and a review state.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1162,6 +1256,7 @@
       },
       {
         "text": "The packet makes work legible before the model makes it fluent.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1174,6 +1269,7 @@
       },
       {
         "text": "customer research is where the harness becomes real",
+        "type": "header-two",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1186,6 +1282,7 @@
       },
       {
         "text": "Customer research is a perfect first workflow because it is useful everywhere and easy to fake.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1198,6 +1295,7 @@
       },
       {
         "text": "Every model can create an impressive market summary. Very few systems can show you exactly which customer interviews support its recommendation, what it inferred, what it does not know, and who checked the conclusion before it entered a product decision.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1210,6 +1308,7 @@
       },
       {
         "text": "Diagram: Sources become a ledger and support reviewable claims\nhttps://raw.githubusercontent.com/codejunkie99/company-foundry/main/assets/evidence-loop.svg",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1228,6 +1327,7 @@
       },
       {
         "text": "research needs a proof chain",
+        "type": "header-three",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1240,6 +1340,7 @@
       },
       {
         "text": "The research skill runs in four steps.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1251,7 +1352,8 @@
         "key": "002t"
       },
       {
-        "text": "1. Discovery maps the question: customer segments, buying triggers, product terms, competitor names, and unknowns. This is coverage work. An economy model may be enough.",
+        "text": "Discovery maps the question: customer segments, buying triggers, product terms, competitor names, and unknowns. This is coverage work. An economy model may be enough.",
+        "type": "ordered-list-item",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1263,7 +1365,8 @@
         "key": "002u"
       },
       {
-        "text": "2. Evidence builds the source ledger. Each source gets an identifier, type, location, access status, date, and relevant extract.",
+        "text": "Evidence builds the source ledger. Each source gets an identifier, type, location, access status, date, and relevant extract.",
+        "type": "ordered-list-item",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1275,7 +1378,8 @@
         "key": "002v"
       },
       {
-        "text": "3. Synthesis compares the evidence and writes the brief. A capable model such as Kimi K3 can be useful here because the question, source set, and required artifact are bounded.",
+        "text": "Synthesis compares the evidence and writes the brief. A capable model such as Kimi K3 can be useful here because the question, source set, and required artifact are bounded.",
+        "type": "ordered-list-item",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1287,7 +1391,8 @@
         "key": "002w"
       },
       {
-        "text": "4. Review checks the evidence match, sensitive-data rule, claim strength, and recommendation. The result becomes an artifact another team can consume.",
+        "text": "Review checks the evidence match, sensitive-data rule, claim strength, and recommendation. The result becomes an artifact another team can consume.",
+        "type": "ordered-list-item",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1300,6 +1405,7 @@
       },
       {
         "text": "discovery finds the question",
+        "type": "blockquote",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1312,6 +1418,7 @@
       },
       {
         "text": "evidence proves the claim",
+        "type": "blockquote",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1324,6 +1431,7 @@
       },
       {
         "text": "synthesis explains the meaning",
+        "type": "blockquote",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1336,6 +1444,7 @@
       },
       {
         "text": "review protects the company from a confident mistake",
+        "type": "blockquote",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1348,6 +1457,7 @@
       },
       {
         "text": "keep facts separate from conclusions",
+        "type": "header-three",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1360,6 +1470,7 @@
       },
       {
         "text": "The important rule is almost embarrassingly simple.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1372,6 +1483,7 @@
       },
       {
         "text": "Model output is not a source.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1384,6 +1496,7 @@
       },
       {
         "text": "It can extract, compare, draft, and propose. It does not become company evidence because it sounds clear. The evidence ledger stays separate from the conclusion.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1396,6 +1509,7 @@
       },
       {
         "text": "Once you have that, the next workflow gets easier.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1408,6 +1522,7 @@
       },
       {
         "text": "artifacts feed the next workflow",
+        "type": "header-three",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1420,6 +1535,7 @@
       },
       {
         "text": "The product skill does not need to research the whole company again. It consumes the approved research artifact.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1432,6 +1548,7 @@
       },
       {
         "text": "It creates a problem map, a decision brief, and a specification. The build skill consumes the approved specification.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1444,6 +1561,7 @@
       },
       {
         "text": "It produces an implementation plan, changed files, checks, and a reviewable delivery record.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1456,6 +1574,7 @@
       },
       {
         "text": "memory compounds through approved artifacts",
+        "type": "header-three",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1468,6 +1587,7 @@
       },
       {
         "text": "Company memory compounds through approved artifacts, not model recall.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1480,6 +1600,7 @@
       },
       {
         "text": "Each approved result becomes an input another workflow can inspect and reuse. That is how the company compounds work without asking one model to remember everything.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1492,6 +1613,7 @@
       },
       {
         "text": "Kimi K3 is a worker, not the company",
+        "type": "header-two",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1504,6 +1626,7 @@
       },
       {
         "text": "The title says Kimi K3 because it is a good way to make the idea concrete.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1516,6 +1639,7 @@
       },
       {
         "text": "You can put Kimi K3 in the capable tier for deep synthesis, difficult code, architecture, or high-value decisions.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1528,6 +1652,7 @@
       },
       {
         "text": "Use a faster model for time-sensitive small work. Use an economy model for extraction, tagging, or broad first-pass coverage.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1540,6 +1665,7 @@
       },
       {
         "text": "The mistake is turning that choice into a dropdown people click at random.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1552,6 +1678,7 @@
       },
       {
         "text": "Diagram: A packet selects an economy, fast, or capable model tier\nhttps://raw.githubusercontent.com/codejunkie99/company-foundry/main/assets/model-route.svg",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1570,6 +1697,7 @@
       },
       {
         "text": "route the work before it starts",
+        "type": "header-three",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1582,6 +1710,7 @@
       },
       {
         "text": "The router should decide before the work begins.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1594,6 +1723,7 @@
       },
       {
         "text": "It reads the work packet. Does this job require structured output, browser or computer use, a large evidence set, rapid response, or a high-quality conclusion?",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1606,6 +1736,7 @@
       },
       {
         "text": "Then it filters out models that cannot meet the requirement. It records the selected tier, reason, and fallback.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1618,6 +1749,7 @@
       },
       {
         "text": "keep a route receipt",
+        "type": "header-three",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1630,6 +1762,7 @@
       },
       {
         "text": "The route receipt makes the model choice inspectable.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1642,6 +1775,7 @@
       },
       {
         "text": "packet: customer-insight-q3",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1654,6 +1788,7 @@
       },
       {
         "text": "requirements: [cross-source-synthesis, structured-artifact]",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1666,6 +1801,7 @@
       },
       {
         "text": "preference: quality",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1678,6 +1814,7 @@
       },
       {
         "text": "selected: Kimi K3",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1690,6 +1827,7 @@
       },
       {
         "text": "reason: The packet compares evidence across approved sources.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1702,6 +1840,7 @@
       },
       {
         "text": "fallback: approved-capable-model, then human review",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1714,6 +1853,7 @@
       },
       {
         "text": "inspect the choice when the result is weak",
+        "type": "header-three",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1726,6 +1866,7 @@
       },
       {
         "text": "That receipt changes the conversation after a bad result.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1738,6 +1879,7 @@
       },
       {
         "text": "Instead of saying \"AI got it wrong,\" inspect the packet, source set, skill version, route, artifact, and review.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1750,6 +1892,7 @@
       },
       {
         "text": "Maybe the evidence was poor. Maybe the skill was too vague. Maybe the capable model was unnecessary. Maybe the task needed a person.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1762,6 +1905,7 @@
       },
       {
         "text": "explain the trade-off, not just the failure",
+        "type": "header-three",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1774,6 +1918,7 @@
       },
       {
         "text": "This is what a company needs from model routing.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1786,6 +1931,7 @@
       },
       {
         "text": "Not a leaderboard.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1798,6 +1944,7 @@
       },
       {
         "text": "A way to explain a trade-off.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1810,6 +1957,7 @@
       },
       {
         "text": "a good harness lets work fail without leaving a mess",
+        "type": "header-two",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1822,6 +1970,7 @@
       },
       {
         "text": "Company logic should not be trapped inside a long agent conversation.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1834,6 +1983,7 @@
       },
       {
         "text": "Real work changes state.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1846,6 +1996,7 @@
       },
       {
         "text": "An agent can draft an answer, discover that a source is weak, choose another approach, and start again. That should not leave five half-finished artifacts, three accidental records, and an unclear decision trail behind it.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1858,6 +2009,7 @@
       },
       {
         "text": "The harness needs a clean difference between internal exploration and an effect that the company has to live with.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1870,6 +2022,7 @@
       },
       {
         "text": "scope exploration; gate real effects",
+        "type": "header-three",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1882,6 +2035,7 @@
       },
       {
         "text": "The easiest mental model is a work scope.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1894,6 +2048,7 @@
       },
       {
         "text": "Inside the scope, an agent can read approved files, create a candidate brief, prepare code in an isolated branch, test a dashboard query, or retry a failed tool call.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1906,6 +2061,7 @@
       },
       {
         "text": "The scope can be discarded, retried, or reviewed. This is where model work should be flexible.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1918,6 +2074,7 @@
       },
       {
         "text": "declare the effect before it becomes real",
+        "type": "header-three",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1930,6 +2087,7 @@
       },
       {
         "text": "Outside the scope, the system should be careful.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1942,6 +2100,7 @@
       },
       {
         "text": "Writing a CRM update, merging code, charging a card, changing a shared database record, or sending information to a customer changes company or external state.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1954,6 +2113,7 @@
       },
       {
         "text": "Before that happens, the system needs a visible proposed effect. What will change? Where? Why? Which packet permits it? What evidence supports it? Who can approve it? Can it be compensated if it goes wrong?",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1966,6 +2126,7 @@
       },
       {
         "text": "automate by policy, not accident",
+        "type": "header-three",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1978,6 +2139,7 @@
       },
       {
         "text": "This does not mean the company must make every agent wait for a human.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1990,6 +2152,7 @@
       },
       {
         "text": "It means the company decides where it is safe to automate. Some internal changes may be approved in policy. Some public or financial actions may require a person. The difference must be declared before the model begins to act.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2002,6 +2165,7 @@
       },
       {
         "text": "That is what makes a harness flexible instead of reckless.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2014,6 +2178,7 @@
       },
       {
         "text": "It lets models explore freely where exploration is cheap. It adds a gate where the company creates an obligation.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2026,6 +2191,7 @@
       },
       {
         "text": "preserve a clear result, even after a failed run",
+        "type": "header-three",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2038,6 +2204,7 @@
       },
       {
         "text": "The loop should converge even when the model changes its mind.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2050,6 +2217,7 @@
       },
       {
         "text": "If two research paths reach the same approved artifact, preserve one clear result and its evidence. Do not make the team untangle every abandoned branch.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2062,6 +2230,7 @@
       },
       {
         "text": "If a run fails in the middle, the next worker should see where it stopped. It should not start from a guessed narrative.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2074,6 +2243,7 @@
       },
       {
         "text": "Company memory is not every token the model produced.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2086,6 +2256,7 @@
       },
       {
         "text": "Company memory is the small set of work records and effects the next person needs to trust.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2098,6 +2269,7 @@
       },
       {
         "text": "the real safety system is authority",
+        "type": "header-two",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2110,6 +2282,7 @@
       },
       {
         "text": "The dangerous part of an agent is not that it writes text.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2122,6 +2295,7 @@
       },
       {
         "text": "The dangerous part is that it can make a change outside itself.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2134,6 +2308,7 @@
       },
       {
         "text": "Create a CRM record. Modify production code. Start a paid campaign. Send a customer email. Publish something public. Trigger a third-party workflow.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2146,6 +2321,7 @@
       },
       {
         "text": "Those are emissions from the company into the world.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2158,6 +2334,7 @@
       },
       {
         "text": "Diagram: Observe, prepare, commit, and emit authority gates\nhttps://raw.githubusercontent.com/codejunkie99/company-foundry/main/assets/authority-gates.svg",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2176,6 +2353,7 @@
       },
       {
         "text": "Company Foundry uses four levels of authority.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2187,7 +2365,8 @@
         "key": "004y"
       },
       {
-        "text": "- `observe` lets a worker inspect approved information.",
+        "text": "`observe` lets a worker inspect approved information.",
+        "type": "unordered-list-item",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2199,7 +2378,8 @@
         "key": "004z"
       },
       {
-        "text": "- `prepare` lets it produce a draft, a candidate dashboard, or code in an isolated workspace.",
+        "text": "`prepare` lets it produce a draft, a candidate dashboard, or code in an isolated workspace.",
+        "type": "unordered-list-item",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2211,7 +2391,8 @@
         "key": "0050"
       },
       {
-        "text": "- `commit` lets it change internal company state.",
+        "text": "`commit` lets it change internal company state.",
+        "type": "unordered-list-item",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2223,7 +2404,8 @@
         "key": "0051"
       },
       {
-        "text": "- `emit` lets it act outside the company boundary.",
+        "text": "`emit` lets it act outside the company boundary.",
+        "type": "unordered-list-item",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2236,6 +2418,7 @@
       },
       {
         "text": "reversible work and irreversible effects",
+        "type": "header-three",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2248,6 +2431,7 @@
       },
       {
         "text": "This is not about making agents slow.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2260,6 +2444,7 @@
       },
       {
         "text": "It is how you let them explore quickly without letting them create permanent mess.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2272,6 +2457,7 @@
       },
       {
         "text": "An agent can draft ten versions of an email. It can prepare code in a branch. It can make a candidate dashboard. Those are reversible internal actions.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2284,6 +2470,7 @@
       },
       {
         "text": "Sending the email is one event. Merging the code is one event. Publishing the dashboard is one event. Changing the roadmap is one decision.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2296,6 +2483,7 @@
       },
       {
         "text": "make the transition visible",
+        "type": "header-three",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2308,6 +2496,7 @@
       },
       {
         "text": "The harness should make that transition visible.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2320,6 +2509,7 @@
       },
       {
         "text": "explore freely inside the work scope",
+        "type": "blockquote",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2332,6 +2522,7 @@
       },
       {
         "text": "commit deliberately to company state",
+        "type": "blockquote",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2344,6 +2535,7 @@
       },
       {
         "text": "emit externally through an explicit gate",
+        "type": "blockquote",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2356,6 +2548,7 @@
       },
       {
         "text": "authority follows the packet, not the model",
+        "type": "header-three",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2368,6 +2561,7 @@
       },
       {
         "text": "The model does not choose its own authority. The work packet and runtime policy do.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2380,6 +2574,7 @@
       },
       {
         "text": "That is the difference between a bot with tools and a company that can trust its automation.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2392,6 +2587,7 @@
       },
       {
         "text": "skills are not prompt files",
+        "type": "header-two",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2404,6 +2600,7 @@
       },
       {
         "text": "The word skill gets used for almost anything now.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2416,6 +2613,7 @@
       },
       {
         "text": "Sometimes it means a folder with a good prompt. Sometimes it means a tool. Sometimes it means a model can magically do something.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2428,6 +2626,7 @@
       },
       {
         "text": "For a company, a skill should mean a reusable method with a known input and a known output.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2440,6 +2639,7 @@
       },
       {
         "text": "Diagram: Artifact lineage from inputs to review\nhttps://raw.githubusercontent.com/codejunkie99/company-foundry/main/assets/artifact-lineage.svg",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2458,6 +2658,7 @@
       },
       {
         "text": "The Company Foundry registry starts with seven skills.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2469,7 +2670,8 @@
         "key": "005l"
       },
       {
-        "text": "- `company-work-packet` turns a request into bounded work.",
+        "text": "`company-work-packet` turns a request into bounded work.",
+        "type": "unordered-list-item",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2481,7 +2683,8 @@
         "key": "005m"
       },
       {
-        "text": "- `customer-evidence-research` produces a ledger and insight brief.",
+        "text": "`customer-evidence-research` produces a ledger and insight brief.",
+        "type": "unordered-list-item",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2493,7 +2696,8 @@
         "key": "005n"
       },
       {
-        "text": "- `model-route-record` selects and records a route.",
+        "text": "`model-route-record` selects and records a route.",
+        "type": "unordered-list-item",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2505,7 +2709,8 @@
         "key": "005o"
       },
       {
-        "text": "- `company-code-delivery` produces a scoped plan, changed files, and actual test evidence.",
+        "text": "`company-code-delivery` produces a scoped plan, changed files, and actual test evidence.",
+        "type": "unordered-list-item",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2517,7 +2722,8 @@
         "key": "005p"
       },
       {
-        "text": "- `company-ui-artifact` produces a UI brief, information architecture, data contract, state matrix, implementation record, and verification evidence.",
+        "text": "`company-ui-artifact` produces a UI brief, information architecture, data contract, state matrix, implementation record, and verification evidence.",
+        "type": "unordered-list-item",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2529,7 +2735,8 @@
         "key": "005q"
       },
       {
-        "text": "- `company-dashboard` produces metric definitions, lineage, freshness, permission rules, views, and all of the states a real dashboard needs.",
+        "text": "`company-dashboard` produces metric definitions, lineage, freshness, permission rules, views, and all of the states a real dashboard needs.",
+        "type": "unordered-list-item",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2541,7 +2748,8 @@
         "key": "005r"
       },
       {
-        "text": "- `company-artifact-review` records provenance, uncertainty, and review state.",
+        "text": "`company-artifact-review` records provenance, uncertainty, and review state.",
+        "type": "unordered-list-item",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2554,6 +2762,7 @@
       },
       {
         "text": "artifacts make work inspectable",
+        "type": "header-three",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2566,6 +2775,7 @@
       },
       {
         "text": "That last part matters more than it looks.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2578,6 +2788,7 @@
       },
       {
         "text": "A chat answer disappears into history. A company artifact has a path. It has inputs. It has a route. It has source references. It has a reviewer. It can be marked draft, review-required, approved, rejected, or superseded.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2590,6 +2801,7 @@
       },
       {
         "text": "Now a dashboard can trace back to the research brief that informed it. The research brief can trace back to sources. The source selection can trace back to the work packet. The packet can trace back to a company goal.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2602,6 +2814,7 @@
       },
       {
         "text": "You can actually inspect how work became a decision.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2614,6 +2827,7 @@
       },
       {
         "text": "the Company Room is the interface i want",
+        "type": "header-two",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2626,6 +2840,7 @@
       },
       {
         "text": "I do not think the first interface should be an animated chart of ten agents talking to each other.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2638,6 +2853,7 @@
       },
       {
         "text": "That is a demo interface.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2650,6 +2866,7 @@
       },
       {
         "text": "The first interface should be a Company Room.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2662,6 +2879,7 @@
       },
       {
         "text": "Diagram: The Company Room operating dashboard\nhttps://raw.githubusercontent.com/codejunkie99/company-foundry/main/assets/company-room.svg",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2680,6 +2898,7 @@
       },
       {
         "text": "One place where a person can ask a company question and see the accountable system behind the answer.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2692,6 +2911,7 @@
       },
       {
         "text": "Why do these customers buy from us? What should we build next? Which work should use Kimi K3? Which artifact is waiting for review? Which claim has weak evidence? Which action is blocked because the worker only has prepare authority?",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2704,6 +2924,7 @@
       },
       {
         "text": "a dashboard needs an operating job",
+        "type": "header-three",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2716,6 +2937,7 @@
       },
       {
         "text": "The room should show the packet, approved context, skill, route, authority, evidence, artifact, and review state.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2728,6 +2950,7 @@
       },
       {
         "text": "This is the real use of a dashboard.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2740,6 +2963,7 @@
       },
       {
         "text": "Not a pretty collection of activity metrics.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2752,6 +2976,7 @@
       },
       {
         "text": "It is an operating surface for decisions.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2764,6 +2989,7 @@
       },
       {
         "text": "UI artifacts define the experience before code exists",
+        "type": "header-three",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2776,6 +3002,7 @@
       },
       {
         "text": "The UI skill makes this concrete. Before an agent builds an interface, it names the user, job, primary action, entities, data sources, roles, views, and every field's source.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2788,6 +3015,7 @@
       },
       {
         "text": "It also names every visible state: loading, empty, partial data, error, permission denied, and stale data.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2800,6 +3028,7 @@
       },
       {
         "text": "That requirement kills a lot of AI slop before it reaches the screen.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2812,6 +3041,7 @@
       },
       {
         "text": "dashboard metrics need provenance",
+        "type": "header-three",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2824,6 +3054,7 @@
       },
       {
         "text": "The dashboard skill does the same thing for metrics. A metric needs a definition, source, owner, freshness rule, visibility rule, and a path back to the artifact that produced it.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2836,6 +3067,7 @@
       },
       {
         "text": "A model-generated estimate must be labelled as an estimate. It must not quietly appear as company truth.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2848,6 +3080,7 @@
       },
       {
         "text": "The artifact is the interface contract.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2860,6 +3093,7 @@
       },
       {
         "text": "The dashboard is the company looking at its own work.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2872,6 +3106,7 @@
       },
       {
         "text": "this is why DeepSeek Harness matters",
+        "type": "header-two",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2884,6 +3119,7 @@
       },
       {
         "text": "DeepSeek Harness is not a company operating system.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2896,6 +3132,7 @@
       },
       {
         "text": "It is a good place to start because it treats agent systems as composition. Models, tools, storage, policy, interfaces, and agent behavior are separate capabilities.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2908,6 +3145,7 @@
       },
       {
         "text": "A preset can scope which model-facing tools and skills an agent receives. It does not own the global sandbox, permission system, session store, or provider configuration.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2920,6 +3158,7 @@
       },
       {
         "text": "portable method, native runtime",
+        "type": "header-three",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2932,6 +3171,7 @@
       },
       {
         "text": "That is exactly the boundary Company Foundry needs.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2944,6 +3184,7 @@
       },
       {
         "text": "Diagram: Company Foundry adapters for DeepSeek Harness, Codex, and Claude Code\nhttps://raw.githubusercontent.com/codejunkie99/company-foundry/main/assets/runtime-adapters.svg",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2962,6 +3203,7 @@
       },
       {
         "text": "The repository includes two native DeepSeek Harness presets.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2974,6 +3216,7 @@
       },
       {
         "text": "`company-research` gives an agent the work-packet, customer-evidence, routing, dashboard, and artifact-review methods.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2986,6 +3229,7 @@
       },
       {
         "text": "`company-builder` gives it the work-packet, routing, code-delivery, UI, dashboard, and review methods.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2998,6 +3242,7 @@
       },
       {
         "text": "use the runtime's real permission system",
+        "type": "header-three",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3010,6 +3255,7 @@
       },
       {
         "text": "They are intentionally not a secret permission system. They use the harness's real sandbox and permission services.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3022,6 +3268,7 @@
       },
       {
         "text": "They do not hard-pin Kimi K3. The packet states the task need, the registry states allowed model tiers, and the runtime enforces route and authority policy.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3034,6 +3281,7 @@
       },
       {
         "text": "Codex and Claude Code get the same method through adapter skills. Their tools are different. The packet, evidence, route, artifact, and review records stay the same.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3046,6 +3294,7 @@
       },
       {
         "text": "That makes the company method portable.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3058,6 +3307,7 @@
       },
       {
         "text": "The runtime can change. The company does not have to start from zero.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3070,6 +3320,7 @@
       },
       {
         "text": "control planes are not harnesses, and that is fine",
+        "type": "header-two",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3082,6 +3333,7 @@
       },
       {
         "text": "The company does not need one framework to own everything.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3094,6 +3346,7 @@
       },
       {
         "text": "This is where a lot of AI infrastructure projects get needlessly complicated. They try to make one product be the agent runtime, permission system, org chart, goal tracker, budget service, dashboard, browser, model router, and coding environment at the same time.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3106,6 +3359,7 @@
       },
       {
         "text": "That produces a large product before it produces one reliable workflow.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3118,6 +3372,7 @@
       },
       {
         "text": "give each layer one job",
+        "type": "header-three",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3130,6 +3385,7 @@
       },
       {
         "text": "The better split is simple.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3142,6 +3398,7 @@
       },
       {
         "text": "record why the work exists, where it runs, and how it is assembled",
+        "type": "header-three",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3154,6 +3411,7 @@
       },
       {
         "text": "A control plane owns why work exists. It tracks goals, budgets, owners, approvals, and audit. It can answer: should this job exist, who is responsible, and can the company spend on it?",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3166,6 +3424,7 @@
       },
       {
         "text": "A work runtime owns where the job runs. It knows the agent identity, the machine or sandbox, the task, and the live execution record. It can answer: which worker did this, where did it run, and what happened while it ran?",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3178,6 +3437,7 @@
       },
       {
         "text": "A harness owns how the work is assembled. It selects context, tools, skills, policy, route, and artifact rules. It can answer: what did this worker receive, what method did it follow, and what must the result contain?",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3190,6 +3450,7 @@
       },
       {
         "text": "compile one company method into many adapters",
+        "type": "header-three",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3202,6 +3463,7 @@
       },
       {
         "text": "Company Foundry sits above those layers as the compiler.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3214,6 +3476,7 @@
       },
       {
         "text": "It begins with one company specification and exports the appropriate form for each layer.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3226,6 +3489,7 @@
       },
       {
         "text": "A DeepSeek Harness target gets a native preset, scoped skills, and policy-ready files. A control plane gets roles, goals, budgets, approvals, and work records.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3238,6 +3502,7 @@
       },
       {
         "text": "A runtime gets agent and task definitions. Codex and Claude Code get portable operating skills.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3250,6 +3515,7 @@
       },
       {
         "text": "adapters preserve choice without pretending to be identical",
+        "type": "header-three",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3262,6 +3528,7 @@
       },
       {
         "text": "No fake integration is required.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3274,6 +3541,7 @@
       },
       {
         "text": "If a runtime does not have a native adapter yet, it still receives an implementation specification. That is much better than pretending every product is the same under a different logo.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3286,6 +3554,7 @@
       },
       {
         "text": "The company specification is the common language. The adapters are replaceable.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3298,6 +3567,7 @@
       },
       {
         "text": "build the smallest possible AI-native company",
+        "type": "header-two",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3310,6 +3580,7 @@
       },
       {
         "text": "Do not begin by creating a fake executive team.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3322,6 +3593,7 @@
       },
       {
         "text": "Do not begin by handing an agent every company credential.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3334,6 +3606,7 @@
       },
       {
         "text": "Do not begin by making a dashboard of messages.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3346,6 +3619,7 @@
       },
       {
         "text": "start with one closed loop",
+        "type": "header-three",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3358,6 +3632,7 @@
       },
       {
         "text": "Start with one closed loop:",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3370,6 +3645,7 @@
       },
       {
         "text": "company brief",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3382,6 +3658,7 @@
       },
       {
         "text": "-> customer research packet",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3394,6 +3671,7 @@
       },
       {
         "text": "-> approved sources",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3406,6 +3684,7 @@
       },
       {
         "text": "-> evidence skill",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3418,6 +3697,7 @@
       },
       {
         "text": "-> Kimi K3 route",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3430,6 +3710,7 @@
       },
       {
         "text": "-> source-led insight brief",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3442,6 +3723,7 @@
       },
       {
         "text": "-> human review",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3454,6 +3736,7 @@
       },
       {
         "text": "-> product decision record",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3466,6 +3749,7 @@
       },
       {
         "text": "test a real loop before you add another one",
+        "type": "header-three",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3478,6 +3762,7 @@
       },
       {
         "text": "Make it real.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3490,6 +3775,7 @@
       },
       {
         "text": "Use a real company question. Use approved sources. Let the system produce a real artifact. Let a reviewer find something wrong. Fix the skill. Update the packet. Run it again.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3502,6 +3788,7 @@
       },
       {
         "text": "add complexity only after the loop is dependable",
+        "type": "header-three",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3514,6 +3801,7 @@
       },
       {
         "text": "Then add the next loop.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3526,6 +3814,7 @@
       },
       {
         "text": "Decision brief to product specification. Product specification to code plan. Code plan to reviewed pull request. Pull request to release record. Each loop adds a skill, artifact type, authority boundary, and evaluation only when the company has earned the complexity.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3538,6 +3827,7 @@
       },
       {
         "text": "That is how you stay flexible.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3550,6 +3840,7 @@
       },
       {
         "text": "Not by giving every model every tool.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3562,6 +3853,7 @@
       },
       {
         "text": "By giving every important piece of work a stable path through the company.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3574,6 +3866,7 @@
       },
       {
         "text": "make the first capability dependable",
+        "type": "header-three",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3586,6 +3879,7 @@
       },
       {
         "text": "The repository is intentionally small because the first job is not to simulate a company.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3598,6 +3892,7 @@
       },
       {
         "text": "The first job is to make one company capability dependable.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3610,6 +3905,7 @@
       },
       {
         "text": "Start with the customer question that already causes confusion. Put approved evidence in one place. Make the route visible. Demand an artifact.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3622,6 +3918,7 @@
       },
       {
         "text": "Give a reviewer a real opportunity to reject it. Then ask whether the next workflow can consume that artifact without restarting the research.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3634,6 +3931,7 @@
       },
       {
         "text": "the loop earns compounding work",
+        "type": "header-three",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3646,6 +3944,7 @@
       },
       {
         "text": "When that works, the company has its first compounding loop.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3658,6 +3957,7 @@
       },
       {
         "text": "That is more valuable than another impressive agent demo.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3670,6 +3970,7 @@
       },
       {
         "text": "the method outlives the worker",
+        "type": "header-three",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3682,6 +3983,7 @@
       },
       {
         "text": "The workers will keep changing.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3694,6 +3996,7 @@
       },
       {
         "text": "The company method is what stays.",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3706,6 +4009,7 @@
       },
       {
         "text": "Build the first Company Foundry harness here.: https://github.com/codejunkie99/company-foundry",
+        "type": "unstyled",
         "data": {
           "cashtags": [],
           "hashtags": [],

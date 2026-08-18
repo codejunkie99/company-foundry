@@ -35,19 +35,49 @@ function linkData(text) {
   return { cashtags: [], hashtags: [], mentions: [], urls };
 }
 
-function cleanLine(line) {
-  const image = line.match(/<img src="\.\.\/assets\/([^"/]+)" alt="([^"]+)"[^>]*\/>/);
-  if (image) {
-    return `Diagram: ${image[2]}\n${repositoryAssets}/${image[1]}`;
-  }
-
+function plainText(line) {
   return line
-    .replace(/^#{2,6}\s+/, "")
-    .replace(/^>\s?/, "")
-    .replace(/^[-*]\s+/, "- ")
     .replace(/\[([^\]]+)\]\((https?:\/\/[^)]+)\)/g, "$1: $2")
     .replace(/\*\*([^*]+)\*\*/g, "$1")
     .trim();
+}
+
+function parseLine(line) {
+  const image = line.match(/<img src="\.\.\/assets\/([^"/]+)" alt="([^"]+)"[^>]*\/>/);
+  if (image) {
+    return {
+      text: `Diagram: ${image[2]}\n${repositoryAssets}/${image[1]}`,
+      type: "unstyled",
+    };
+  }
+
+  const match = line.match(/^(#{2,6})\s+(.*)$/);
+  if (match) {
+    return {
+      text: plainText(match[2]),
+      type: match[1].length === 2 ? "header-two" : "header-three",
+    };
+  }
+
+  const listMatch = line.match(/^[-*]\s+(.*)$/);
+  if (listMatch) {
+    return { text: plainText(listMatch[1]), type: "unordered-list-item" };
+  }
+
+  const orderedListMatch = line.match(/^\d+\.\s+(.*)$/);
+  if (orderedListMatch) {
+    return { text: plainText(orderedListMatch[1]), type: "ordered-list-item" };
+  }
+
+  const quoteMatch = line.match(/^>\s?(.*)$/);
+  if (quoteMatch) {
+    return { text: plainText(quoteMatch[1]), type: "blockquote" };
+  }
+
+  return {
+    text: plainText(line),
+    type: "unstyled",
+  };
 }
 
 const blocks = [];
@@ -57,11 +87,12 @@ for (const rawLine of lines) {
     continue;
   }
 
-  const text = cleanLine(rawLine);
+  const { text, type } = parseLine(rawLine);
   if (!text) continue;
 
   blocks.push({
     text,
+    type,
     data: linkData(text),
     entity_ranges: [],
     inline_style_ranges: [],
