@@ -6,7 +6,9 @@
   "scripts": {
     "validate": "node scripts/validate.mjs",
     "x:build-draft": "node scripts/build-x-article-draft.mjs",
-    "x:create-draft": "node scripts/create-x-article-draft.mjs"
+    "x:build-rich-draft": "node scripts/build-rich-x-article-draft.mjs",
+    "x:create-draft": "node scripts/create-x-article-draft.mjs",
+    "x:upload-media": "node scripts/upload-x-article-media.mjs"
   },
   "license": "MIT"
 }

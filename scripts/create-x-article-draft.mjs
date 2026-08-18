@@ -2,7 +2,10 @@ import { readFile } from "node:fs/promises";
 import { resolve } from "node:path";
 
 const root = resolve(import.meta.dirname, "..");
-const payloadPath = resolve(root, "articles/x-draft-payload.json");
+const payloadPath = resolve(
+  root,
+  process.env.X_ARTICLE_PAYLOAD ?? "articles/x-draft-payload.json",
+);
 const accessToken =
   process.env.X_USER_ACCESS_TOKEN ??
   process.env.X_ACCESS_TOKEN ??

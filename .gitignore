@@ -2,3 +2,5 @@ node_modules/
 dist/
 .DS_Store
 artifacts/
+articles/x-media-manifest.json
+articles/x-rich-draft-payload.json
