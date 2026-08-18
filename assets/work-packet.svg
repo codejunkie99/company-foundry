@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Company work packet</title>
+  <desc id="desc">A packet names the outcome, scope, authority, inputs, outputs, and checks before any material task runs.</desc>
+  <style>
+    .bg { fill: #08090b; } .grid { stroke: #17191d; } .muted { fill: #7e838c; }
+    .white { fill: #f4f5f7; } .cyan { fill: #73e4ff; } .violet { fill: #a69aff; } .gold { fill: #ffd19a; }
+    .mono { font-family: "SFMono-Regular", Menlo, Consolas, monospace; }
+    .serif { font-family: "New York", Georgia, "Times New Roman", serif; }
+    .sans { font-family: "Helvetica Neue", Arial, sans-serif; }
+  </style>
+  <rect class="bg" width="1200" height="520"/>
+  <g class="grid"><path d="M0 90H1200M0 180H1200M0 270H1200M0 360H1200M0 450H1200"/><path d="M120 0V520M300 0V520M480 0V520M660 0V520M840 0V520M1020 0V520"/></g>
+  <text x="60" y="72" class="mono muted" font-size="16" letter-spacing="3">WORK PACKET</text>
+  <text x="60" y="126" class="serif white" font-size="40">A broad request is not a grant.</text>
+  <rect x="60" y="170" width="1080" height="290" rx="8" fill="#101216" stroke="#262a31"/>
+  <text x="100" y="222" class="mono cyan" font-size="20">customer-insight-q3</text>
+  <line x1="100" y1="246" x2="1100" y2="246" stroke="#262a31"/>
+  <g font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="17">
+    <text x="100" y="294" class="muted">OUTCOME</text>
+    <text x="360" y="294" class="white">Explain why customers choose the product</text>
+    <text x="100" y="334" class="muted">SCOPE</text>
+    <text x="360" y="334" class="white">Approved interviews and support summaries only</text>
+    <text x="100" y="374" class="muted">AUTHORITY</text>
+    <text x="360" y="374" class="white">Observe and prepare</text>
+    <text x="100" y="414" class="muted">ARTIFACTS</text>
+    <text x="360" y="414" class="white">Evidence ledger and insight brief</text>
+    <text x="100" y="454" class="muted">CHECKS</text>
+    <text x="360" y="454" class="white">Every material claim has a source reference</text>
+  </g>
+  <text x="60" y="494" class="mono muted" font-size="14">default authority: prepare</text>
+</svg>

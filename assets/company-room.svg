@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="540" viewBox="0 0 1200 540" role="img" aria-labelledby="title desc">
+  <title id="title">Company room</title>
+  <desc id="desc">A company room shows one question becoming a packet, route, artifact, and review without inventing activity or costs.</desc>
+  <style>
+    .bg { fill: #08090b; } .grid { stroke: #17191d; } .muted { fill: #7e838c; }
+    .white { fill: #f4f5f7; } .cyan { fill: #73e4ff; } .violet { fill: #a69aff; } .gold { fill: #ffd19a; }
+    .mono { font-family: "SFMono-Regular", Menlo, Consolas, monospace; }
+    .serif { font-family: "New York", Georgia, "Times New Roman", serif; }
+    .sans { font-family: "Helvetica Neue", Arial, sans-serif; }
+  </style>
+  <rect class="bg" width="1200" height="540"/>
+  <g class="grid"><path d="M0 90H1200M0 180H1200M0 270H1200M0 360H1200M0 450H1200"/><path d="M120 0V540M300 0V540M480 0V540M660 0V540M840 0V540M1020 0V540"/></g>
+  <text x="60" y="72" class="mono muted" font-size="16" letter-spacing="3">COMPANY ROOM</text>
+  <text x="60" y="126" class="serif white" font-size="40">The dashboard is a projection, not a second truth.</text>
+  <rect x="60" y="170" width="1080" height="300" rx="8" fill="#101216" stroke="#262a31"/>
+  <text x="90" y="216" class="mono cyan" font-size="18">WHY DO THESE CUSTOMERS BUY FROM US?</text>
+  <line x1="90" y1="238" x2="1110" y2="238" stroke="#262a31"/>
+  <g font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="15">
+    <text x="90" y="276" class="muted">PACKET</text>
+    <text x="250" y="276" class="white">customer-insight-q3</text>
+    <text x="90" y="312" class="muted">ROUTE</text>
+    <text x="250" y="312" class="white">capable lane + receipt</text>
+    <text x="90" y="348" class="muted">AUTHORITY</text>
+    <text x="250" y="348" class="white">observe / prepare</text>
+    <text x="90" y="384" class="muted">EVIDENCE</text>
+    <text x="250" y="384" class="white">14 sources / 2 gaps</text>
+    <text x="90" y="420" class="muted">ARTIFACT</text>
+    <text x="250" y="420" class="white">insight-brief v1 / review required</text>
+    <text x="90" y="456" class="muted">COST</text>
+    <text x="250" y="456" class="white">linked receipt, no invented totals</text>
+  </g>
+  <text x="60" y="510" class="mono muted" font-size="14">approve / revise / reject only against real records</text>
+</svg>

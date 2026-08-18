@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+  <title id="title">Authority gates</title>
+  <desc id="desc">Observe, prepare, commit, and emit are separate authority levels with written gates before company state changes or external effects.</desc>
+  <style>
+    .bg { fill: #08090b; } .grid { stroke: #17191d; } .muted { fill: #7e838c; }
+    .white { fill: #f4f5f7; } .cyan { fill: #73e4ff; } .violet { fill: #a69aff; } .gold { fill: #ffd19a; }
+    .mono { font-family: "SFMono-Regular", Menlo, Consolas, monospace; }
+    .serif { font-family: "New York", Georgia, "Times New Roman", serif; }
+    .sans { font-family: "Helvetica Neue", Arial, sans-serif; }
+  </style>
+  <rect class="bg" width="1200" height="560"/>
+  <g class="grid"><path d="M0 90H1200M0 180H1200M0 270H1200M0 360H1200M0 450H1200"/><path d="M120 0V560M300 0V560M480 0V560M660 0V560M840 0V560M1020 0V560"/></g>
+  <text x="60" y="72" class="mono muted" font-size="16" letter-spacing="3">AUTHORITY GATES</text>
+  <text x="60" y="126" class="serif white" font-size="40">The effect becomes real at the gate.</text>
+  <g font-family="SFMono-Regular, Menlo, Consolas, monospace">
+    <rect x="80" y="200" width="230" height="90" rx="5" fill="#101216" stroke="#262a31"/>
+    <text x="104" y="248" font-size="22" class="white">OBSERVE</text>
+    <text x="104" y="278" font-size="14" class="muted">inspect approved info</text>
+    <rect x="340" y="200" width="230" height="90" rx="5" fill="#101216" stroke="#262a31"/>
+    <text x="364" y="248" font-size="22" class="white">PREPARE</text>
+    <text x="364" y="278" font-size="14" class="muted">create private drafts</text>
+    <rect x="600" y="200" width="230" height="90" rx="5" fill="#101216" stroke="#73e4ff"/>
+    <text x="624" y="248" font-size="22" class="white">COMMIT</text>
+    <text x="624" y="278" font-size="14" class="muted">change reviewed state</text>
+    <rect x="860" y="200" width="230" height="90" rx="5" fill="#101216" stroke="#ffd19a"/>
+    <text x="884" y="248" font-size="22" class="white">EMIT</text>
+    <text x="884" y="278" font-size="14" class="muted">send or act outside</text>
+  </g>
+  <g stroke="#4d525a" stroke-width="2" fill="none"><path d="M310 245h30M570 245h30M830 245h30"/></g>
+  <g fill="#4d525a"><polygon points="340,245 328,237 328,253"/><polygon points="600,245 588,237 588,253"/><polygon points="860,245 848,237 848,253"/></g>
+  <g font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="15">
+    <rect x="80" y="350" width="1040" height="58" rx="5" fill="#101216" stroke="#262a31"/>
+    <text x="106" y="386" class="muted">RULES</text>
+    <text x="240" y="386" class="white">explore freely inside scope</text>
+    <text x="520" y="386" class="white">commit deliberately</text>
+    <text x="760" y="386" class="white">emit only through a visible gate</text>
+  </g>
+  <text x="60" y="470" class="mono muted" font-size="15">a skill never grants commit or emit by itself</text>
+  <rect x="60" y="492" width="1080" height="40" rx="5" fill="#101216" stroke="#262a31"/>
+  <text x="90" y="518" class="mono white" font-size="15">BEFORE AN EXTERNAL EFFECT: target, intended change, evidence, actor, approval rule, compensation path</text>
+</svg>

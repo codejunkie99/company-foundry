@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+  <title id="title">Company Foundry architecture</title>
+  <desc id="desc">A company specification compiles into an operating-method registry that runtime adapters enforce.</desc>
+  <style>
+    .bg { fill: #08090b; } .grid { stroke: #17191d; } .muted { fill: #7e838c; }
+    .white { fill: #f4f5f7; } .cyan { fill: #73e4ff; } .violet { fill: #a69aff; } .gold { fill: #ffd19a; }
+    .mono { font-family: "SFMono-Regular", Menlo, Consolas, monospace; }
+    .serif { font-family: "New York", Georgia, "Times New Roman", serif; }
+    .sans { font-family: "Helvetica Neue", Arial, sans-serif; }
+  </style>
+  <rect class="bg" width="1200" height="560"/>
+  <g class="grid"><path d="M0 90H1200M0 180H1200M0 270H1200M0 360H1200M0 450H1200"/><path d="M120 0V560M300 0V560M480 0V560M660 0V560M840 0V560M1020 0V560"/></g>
+  <text x="60" y="72" class="mono muted" font-size="16" letter-spacing="3">ARCHITECTURE</text>
+  <text x="60" y="126" class="serif white" font-size="40">Three layers, one company method.</text>
+  <g font-family="SFMono-Regular, Menlo, Consolas, monospace">
+    <rect x="70" y="180" width="320" height="230" rx="8" fill="#101216" stroke="#262a31"/>
+    <text x="100" y="230" font-size="20" class="white">COMPANY SPEC</text>
+    <text x="100" y="270" font-size="15" class="muted">identity / goals / sources</text>
+    <text x="100" y="306" font-size="15" class="muted">authority / resources / standards</text>
+    <rect x="440" y="180" width="320" height="230" rx="8" fill="#101216" stroke="#262a31"/>
+    <text x="470" y="230" font-size="20" class="white">METHOD REGISTRY</text>
+    <text x="470" y="270" font-size="15" class="muted">skills / packets / routes</text>
+    <text x="470" y="306" font-size="15" class="muted">artifacts / reviews / evaluations</text>
+    <rect x="810" y="180" width="320" height="230" rx="8" fill="#101216" stroke="#262a31"/>
+    <text x="840" y="230" font-size="20" class="white">RUNTIME ADAPTERS</text>
+    <text x="840" y="270" font-size="15" class="muted">DeepSeek Harness / Codex / Claude Code</text>
+    <text x="840" y="306" font-size="15" class="muted">control and work planes</text>
+  </g>
+  <g stroke="#4d525a" stroke-width="2" fill="none"><path d="M390 295h50M760 295h50"/></g>
+  <g fill="#4d525a"><polygon points="440,295 428,287 428,303"/><polygon points="810,295 798,287 798,303"/></g>
+  <rect x="70" y="450" width="1060" height="52" rx="5" fill="#101216" stroke="#73e4ff"/>
+  <text x="100" y="482" class="mono white" font-size="15">the registry describes what the runtime must enforce and records the result in artifacts</text>
+</svg>

@@ -1,0 +1,38 @@
+version: 0.1.0
+name: company-foundry
+principles:
+  - A work packet names the outcome, scope, authority, inputs, artifacts, and checks.
+  - Evidence is separate from generated analysis.
+  - Model routing is a recorded policy decision, not a chat preference.
+  - Artifacts are reviewable files with provenance and status.
+  - Observe, prepare, commit, and emit are separate authority levels.
+skills:
+  - name: company-work-packet
+    category: operating-method
+    inputs: [request, company-context]
+    outputs: [work-packet.yml]
+  - name: customer-evidence-research
+    category: research
+    inputs: [work-packet, approved-sources]
+    outputs: [evidence.yml, insight-brief.md]
+  - name: model-route-record
+    category: routing
+    inputs: [work-packet, model-registry]
+    outputs: [model-route.yml]
+  - name: company-code-delivery
+    category: build
+    inputs: [work-packet, repository]
+    outputs: [plan.md, delivery.yml, verification.md]
+  - name: company-ui-artifact
+    category: app
+    inputs: [work-packet, product-context, application]
+    outputs: [ui-brief.yml, data-contract.yml, state-matrix.md, verification.md]
+  - name: company-dashboard
+    category: dashboard
+    inputs: [work-packet, approved-data]
+    outputs: [dashboard.yml, metric-definitions.md, view-spec.md, verification.md]
+  - name: company-artifact-review
+    category: governance
+    inputs: [artifact, evidence, authority]
+    outputs: [review.md, run.yml]
+authority: [observe, prepare, commit, emit]

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="540" viewBox="0 0 1200 540" role="img" aria-labelledby="title desc">
+  <title id="title">Evidence loop</title>
+  <desc id="desc">Approved sources become an evidence ledger, claims, review, and a decision brief.</desc>
+  <style>
+    .bg { fill: #08090b; } .grid { stroke: #17191d; } .muted { fill: #7e838c; }
+    .white { fill: #f4f5f7; } .cyan { fill: #73e4ff; } .violet { fill: #a69aff; } .gold { fill: #ffd19a; }
+    .mono { font-family: "SFMono-Regular", Menlo, Consolas, monospace; }
+    .serif { font-family: "New York", Georgia, "Times New Roman", serif; }
+    .sans { font-family: "Helvetica Neue", Arial, sans-serif; }
+  </style>
+  <rect class="bg" width="1200" height="540"/>
+  <g class="grid"><path d="M0 90H1200M0 180H1200M0 270H1200M0 360H1200M0 450H1200"/><path d="M120 0V540M300 0V540M480 0V540M660 0V540M840 0V540M1020 0V540"/></g>
+  <text x="60" y="72" class="mono muted" font-size="16" letter-spacing="3">CUSTOMER EVIDENCE</text>
+  <text x="60" y="126" class="serif white" font-size="40">Generated summaries are analysis, not sources.</text>
+  <g font-family="SFMono-Regular, Menlo, Consolas, monospace">
+    <rect x="70" y="200" width="230" height="110" rx="5" fill="#101216" stroke="#262a31"/>
+    <text x="96" y="244" font-size="17" class="white">DISCOVER</text>
+    <text x="96" y="276" font-size="13" class="muted">segments, unknowns, gaps</text>
+    <rect x="340" y="200" width="230" height="110" rx="5" fill="#101216" stroke="#262a31"/>
+    <text x="366" y="244" font-size="17" class="white">COLLECT</text>
+    <text x="366" y="276" font-size="13" class="muted">source id, type, access, excerpts</text>
+    <rect x="610" y="200" width="230" height="110" rx="5" fill="#101216" stroke="#a69aff"/>
+    <text x="636" y="244" font-size="17" class="white">SYNTHESIZE</text>
+    <text x="636" y="276" font-size="13" class="muted">known, inferred, to learn</text>
+    <rect x="880" y="200" width="240" height="110" rx="5" fill="#101216" stroke="#73e4ff"/>
+    <text x="906" y="244" font-size="17" class="white">REVIEW</text>
+    <text x="906" y="276" font-size="13" class="muted">reject unsupported claims</text>
+  </g>
+  <g stroke="#4d525a" stroke-width="2" fill="none"><path d="M300 255h40M570 255h40M840 255h40"/></g>
+  <g fill="#4d525a"><polygon points="340,255 328,247 328,263"/><polygon points="610,255 598,247 598,263"/><polygon points="880,255 868,247 868,263"/></g>
+  <rect x="70" y="380" width="1050" height="70" rx="5" fill="#101216" stroke="#262a31"/>
+  <text x="96" y="414" class="mono muted" font-size="14">ARTIFACT</text>
+  <text x="250" y="414" class="mono white" font-size="15">source ledger / claim table / open questions / next actions / skill version / route / review status</text>
+  <text x="60" y="500" class="mono muted" font-size="14">workers communicate through artifacts, not private summaries</text>
+</svg>

@@ -1,0 +1,10 @@
+{
+  "name": "company-foundry",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A portable operating-method registry for AI-native companies.",
+  "scripts": {
+    "validate": "node scripts/validate.mjs"
+  },
+  "license": "MIT"
+}

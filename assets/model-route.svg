@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="540" viewBox="0 0 1200 540" role="img" aria-labelledby="title desc">
+  <title id="title">Model routing</title>
+  <desc id="desc">Task requirements filter ineligible models, pick an economy, fast, or capable lane, and record a route receipt.</desc>
+  <style>
+    .bg { fill: #08090b; } .grid { stroke: #17191d; } .muted { fill: #7e838c; }
+    .white { fill: #f4f5f7; } .cyan { fill: #73e4ff; } .violet { fill: #a69aff; } .gold { fill: #ffd19a; }
+    .mono { font-family: "SFMono-Regular", Menlo, Consolas, monospace; }
+    .serif { font-family: "New York", Georgia, "Times New Roman", serif; }
+    .sans { font-family: "Helvetica Neue", Arial, sans-serif; }
+  </style>
+  <rect class="bg" width="1200" height="540"/>
+  <g class="grid"><path d="M0 90H1200M0 180H1200M0 270H1200M0 360H1200M0 450H1200"/><path d="M120 0V540M300 0V540M480 0V540M660 0V540M840 0V540M1020 0V540"/></g>
+  <text x="60" y="72" class="mono muted" font-size="16" letter-spacing="3">MODEL ROUTER</text>
+  <text x="60" y="126" class="serif white" font-size="40">Route models like a company spends money.</text>
+  <circle cx="170" cy="285" r="60" fill="#101216" stroke="#4d525a"/>
+  <text x="128" y="280" class="mono white" font-size="16" text-anchor="middle">PACKET</text>
+  <text x="128" y="304" class="mono muted" font-size="13" text-anchor="middle">requirements</text>
+  <g font-family="SFMono-Regular, Menlo, Consolas, monospace">
+    <rect x="380" y="140" width="300" height="80" rx="5" fill="#101216" stroke="#262a31"/>
+    <text x="414" y="192" font-size="20" class="white">ECONOMY</text>
+    <text x="414" y="216" font-size="14" class="muted">extraction, first pass</text>
+    <rect x="380" y="240" width="300" height="80" rx="5" fill="#101216" stroke="#a69aff"/>
+    <text x="414" y="292" font-size="20" class="white">FAST</text>
+    <text x="414" y="316" font-size="14" class="muted">small interactive actions</text>
+    <rect x="380" y="340" width="300" height="80" rx="5" fill="#101216" stroke="#ffd19a"/>
+    <text x="414" y="392" font-size="20" class="white">CAPABLE</text>
+    <text x="414" y="416" font-size="14" class="muted">synthesis and hard work</text>
+    <rect x="760" y="250" width="360" height="70" rx="5" fill="#101216" stroke="#73e4ff"/>
+    <text x="788" y="292" font-size="18" class="white">ROUTE RECEIPT</text>
+    <text x="788" y="316" font-size="13" class="muted">candidates, reason, fallback, cost</text>
+  </g>
+  <g stroke="#4d525a" stroke-width="2" fill="none">
+    <path d="M230 285h120"/>
+    <path d="M680 180h80M680 280h80M680 380h80"/>
+    <path d="M760 277v0"/>
+  </g>
+  <g fill="#4d525a"><polygon points="350,285 338,277 338,293"/><polygon points="760,180 748,172 748,188"/><polygon points="760,280 748,272 748,288"/><polygon points="760,380 748,372 748,388"/></g>
+  <text x="60" y="480" class="mono muted" font-size="15">the router owns the tradeoff. the agent owns the task.</text>
+</svg>

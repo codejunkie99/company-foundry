@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="540" viewBox="0 0 1200 540" role="img" aria-labelledby="title desc">
+  <title id="title">Artifact lineage</title>
+  <desc id="desc">A decision record traces back through an artifact, run, route, skill, packet, and company brief.</desc>
+  <style>
+    .bg { fill: #08090b; } .grid { stroke: #17191d; } .muted { fill: #7e838c; }
+    .white { fill: #f4f5f7; } .cyan { fill: #73e4ff; } .violet { fill: #a69aff; } .gold { fill: #ffd19a; }
+    .mono { font-family: "SFMono-Regular", Menlo, Consolas, monospace; }
+    .serif { font-family: "New York", Georgia, "Times New Roman", serif; }
+    .sans { font-family: "Helvetica Neue", Arial, sans-serif; }
+  </style>
+  <rect class="bg" width="1200" height="540"/>
+  <g class="grid"><path d="M0 90H1200M0 180H1200M0 270H1200M0 360H1200M0 450H1200"/><path d="M120 0V540M300 0V540M480 0V540M660 0V540M840 0V540M1020 0V540"/></g>
+  <text x="60" y="72" class="mono muted" font-size="16" letter-spacing="3">ARTIFACT LINEAGE</text>
+  <text x="60" y="126" class="serif white" font-size="40">One record you can follow back to a source.</text>
+  <g font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="14">
+    <rect x="60" y="240" width="165" height="60" rx="5" fill="#101216" stroke="#262a31"/><text x="80" y="277" class="white">company brief</text>
+    <rect x="275" y="240" width="165" height="60" rx="5" fill="#101216" stroke="#262a31"/><text x="295" y="277" class="white">work packet</text>
+    <rect x="490" y="240" width="150" height="60" rx="5" fill="#101216" stroke="#262a31"/><text x="510" y="277" class="white">skill v1.2</text>
+    <rect x="690" y="240" width="160" height="60" rx="5" fill="#101216" stroke="#262a31"/><text x="710" y="277" class="white">model route</text>
+    <rect x="900" y="240" width="150" height="60" rx="5" fill="#101216" stroke="#262a31"/><text x="920" y="277" class="white">run record</text>
+    <rect x="270" y="380" width="190" height="60" rx="5" fill="#101216" stroke="#a69aff"/><text x="290" y="417" class="white">artifact</text>
+    <rect x="510" y="380" width="180" height="60" rx="5" fill="#101216" stroke="#262a31"/><text x="530" y="417" class="white">review</text>
+    <rect x="740" y="380" width="230" height="60" rx="5" fill="#101216" stroke="#73e4ff"/><text x="760" y="417" class="white">decision record</text>
+  </g>
+  <g stroke="#4d525a" stroke-width="2" fill="none">
+    <path d="M225 270h50M440 270h50M640 270h50M850 270h50M975 270v50M975 320h-685M290 320v20M600 410h40M690 410h50"/>
+  </g>
+  <g fill="#4d525a"><polygon points="275,270 263,262 263,278"/><polygon points="490,270 478,262 478,278"/><polygon points="690,270 678,262 678,278"/><polygon points="900,270 888,262 888,278"/><polygon points="510,410 498,402 498,418"/><polygon points="740,410 728,402 728,418"/></g>
+  <text x="60" y="500" class="mono muted" font-size="14">an artifact without evidence turns a fluent guess into company memory</text>
+</svg>

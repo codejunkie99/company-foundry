@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+  <title id="title">Skill registry</title>
+  <desc id="desc">Skills are versioned company methods with an owner, inputs, outputs, authority, artifacts, and evaluation.</desc>
+  <style>
+    .bg { fill: #08090b; } .grid { stroke: #17191d; } .muted { fill: #7e838c; }
+    .white { fill: #f4f5f7; } .cyan { fill: #73e4ff; } .violet { fill: #a69aff; } .gold { fill: #ffd19a; }
+    .mono { font-family: "SFMono-Regular", Menlo, Consolas, monospace; }
+    .serif { font-family: "New York", Georgia, "Times New Roman", serif; }
+    .sans { font-family: "Helvetica Neue", Arial, sans-serif; }
+  </style>
+  <rect class="bg" width="1200" height="560"/>
+  <g class="grid"><path d="M0 90H1200M0 180H1200M0 270H1200M0 360H1200M0 450H1200"/><path d="M120 0V560M300 0V560M480 0V560M660 0V560M840 0V560M1020 0V560"/></g>
+  <text x="60" y="72" class="mono muted" font-size="16" letter-spacing="3">SKILL REGISTRY</text>
+  <text x="60" y="126" class="serif white" font-size="40">Skills are not prompts. They are company methods.</text>
+
+  <g font-family="SFMono-Regular, Menlo, Consolas, monospace">
+    <rect x="80" y="180" width="340" height="88" rx="5" fill="#101216" stroke="#262a31"/>
+    <text x="106" y="216" font-size="18" class="cyan">company-work-packet</text>
+    <text x="106" y="248" font-size="14" class="muted">bounded outcome, scope, authority</text>
+
+    <rect x="440" y="180" width="340" height="88" rx="5" fill="#101216" stroke="#262a31"/>
+    <text x="466" y="216" font-size="18" class="cyan">customer-evidence-research</text>
+    <text x="466" y="248" font-size="14" class="muted">evidence ledger and insight brief</text>
+
+    <rect x="800" y="180" width="330" height="88" rx="5" fill="#101216" stroke="#262a31"/>
+    <text x="826" y="216" font-size="18" class="cyan">model-route-record</text>
+    <text x="826" y="248" font-size="14" class="muted">tier, rationale, fallback, receipt</text>
+
+    <rect x="80" y="300" width="340" height="88" rx="5" fill="#101216" stroke="#262a31"/>
+    <text x="106" y="336" font-size="18" class="cyan">company-code-delivery</text>
+    <text x="106" y="368" font-size="14" class="muted">plan, change, checks, artifact</text>
+
+    <rect x="440" y="300" width="340" height="88" rx="5" fill="#101216" stroke="#262a31"/>
+    <text x="466" y="336" font-size="18" class="cyan">company-ui-artifact</text>
+    <text x="466" y="368" font-size="14" class="muted">users, data contract, states</text>
+
+    <rect x="800" y="300" width="330" height="88" rx="5" fill="#101216" stroke="#262a31"/>
+    <text x="826" y="336" font-size="18" class="cyan">company-dashboard</text>
+    <text x="826" y="368" font-size="14" class="muted">metrics, lineage, verification</text>
+
+    <rect x="80" y="420" width="1050" height="52" rx="5" fill="#101216" stroke="#73e4ff"/>
+    <text x="108" y="452" font-size="17" class="cyan">company-artifact-review</text>
+    <text x="388" y="452" font-size="14" class="muted">provenance / evidence / authority / review state</text>
+  </g>
+  <text x="60" y="514" class="mono muted" font-size="14">registry answers which version created an artifact and which method may change company state</text>
+</svg>

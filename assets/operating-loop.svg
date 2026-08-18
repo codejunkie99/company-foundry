@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">The Company Foundry operating loop</title>
+  <desc id="desc">Company brief becomes a work packet, skill, model route, run, evidence, artifact, review, and decision.</desc>
+  <style>
+    .bg { fill: #08090b; } .grid { stroke: #17191d; } .muted { fill: #7e838c; }
+    .white { fill: #f4f5f7; } .cyan { fill: #73e4ff; } .violet { fill: #a69aff; } .gold { fill: #ffd19a; }
+    .mono { font-family: "SFMono-Regular", Menlo, Consolas, monospace; }
+    .serif { font-family: "New York", Georgia, "Times New Roman", serif; }
+    .sans { font-family: "Helvetica Neue", Arial, sans-serif; }
+  </style>
+  <rect class="bg" width="1200" height="520"/>
+  <g class="grid"><path d="M0 90H1200M0 180H1200M0 270H1200M0 360H1200M0 450H1200"/><path d="M120 0V520M300 0V520M480 0V520M660 0V520M840 0V520M1020 0V520"/></g>
+  <text x="60" y="72" class="mono muted" font-size="16" letter-spacing="3">THE OPERATING LOOP</text>
+  <text x="60" y="126" class="serif white" font-size="40">Every arrow is a place work can become unclear.</text>
+
+  <g font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="14">
+    <rect x="60" y="190" width="170" height="54" rx="5" fill="#101216" stroke="#262a31"/>
+    <text x="82" y="222" class="white">company brief</text>
+    <rect x="280" y="190" width="150" height="54" rx="5" fill="#101216" stroke="#262a31"/>
+    <text x="302" y="222" class="white">work packet</text>
+    <rect x="480" y="190" width="120" height="54" rx="5" fill="#101216" stroke="#262a31"/>
+    <text x="502" y="222" class="white">skill</text>
+    <rect x="650" y="190" width="140" height="54" rx="5" fill="#101216" stroke="#262a31"/>
+    <text x="672" y="222" class="white">model route</text>
+    <rect x="840" y="190" width="120" height="54" rx="5" fill="#101216" stroke="#262a31"/>
+    <text x="862" y="222" class="white">run</text>
+
+    <rect x="60" y="330" width="170" height="54" rx="5" fill="#101216" stroke="#262a31"/>
+    <text x="82" y="362" class="white">evidence</text>
+    <rect x="280" y="330" width="170" height="54" rx="5" fill="#101216" stroke="#262a31"/>
+    <text x="302" y="362" class="white">artifact</text>
+    <rect x="500" y="330" width="150" height="54" rx="5" fill="#101216" stroke="#262a31"/>
+    <text x="522" y="362" class="white">review</text>
+    <rect x="700" y="330" width="180" height="54" rx="5" fill="#101216" stroke="#73e4ff"/>
+    <text x="722" y="362" class="white">decision</text>
+  </g>
+  <g stroke="#4d525a" stroke-width="2" fill="none">
+    <path d="M230 217h50M430 217h50M600 217h50M790 217h50M900 217v48M900 265H170M170 265v65M450 330h50M650 330h50"/>
+  </g>
+  <g fill="#4d525a">
+    <polygon points="280,217 268,209 268,225"/>
+    <polygon points="480,217 468,209 468,225"/>
+    <polygon points="650,217 638,209 638,225"/>
+    <polygon points="840,217 828,209 828,225"/>
+    <polygon points="280,330 268,322 268,338"/>
+    <polygon points="500,330 488,322 488,338"/>
+    <polygon points="700,330 688,322 688,338"/>
+  </g>
+  <text x="60" y="452" class="mono muted" font-size="15">companies continue. sessions end.</text>
+</svg>

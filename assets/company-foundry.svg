@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Company Foundry harness stack</title>
+  <desc id="desc">A company brief compiles into work packets, skills, model routes, evidence, artifacts, reviews, and decisions across five layers.</desc>
+  <style>
+    .bg { fill: #08090b; }
+    .grid { stroke: #17191d; stroke-width: 1; }
+    .faint { stroke: #4d525a; }
+    .muted { fill: #7e838c; }
+    .white { fill: #f4f5f7; }
+    .cyan { fill: #73e4ff; }
+    .violet { fill: #a69aff; }
+    .gold { fill: #ffd19a; }
+    .mono { font-family: "SFMono-Regular", Menlo, Consolas, monospace; }
+    .serif { font-family: "New York", Georgia, "Times New Roman", serif; }
+    .sans { font-family: "Helvetica Neue", Arial, sans-serif; }
+    .panel { fill: #101216; stroke: #262a31; stroke-width: 1; }
+    .line { fill: none; stroke-width: 1; }
+    .dark { fill: #08090b; }
+  </style>
+  <rect class="bg" width="1600" height="900"/>
+  <g class="grid">
+    <path d="M0 90H1600M0 180H1600M0 270H1600M0 360H1600M0 450H1600M0 540H1600M0 630H1600M0 720H1600M0 810H1600"/>
+    <path d="M160 0V900M320 0V900M480 0V900M640 0V900M800 0V900M960 0V900M1120 0V900M1280 0V900M1440 0V900"/>
+  </g>
+  <path d="M0 520C300 520 500 470 820 470S1380 560 1600 560" class="line" stroke="#15181d"/>
+  <path d="M0 620C360 620 620 560 960 560S1420 660 1600 650" class="line" stroke="#15181d"/>
+
+  <text x="72" y="70" class="mono muted" font-size="17" letter-spacing="3">COMPANY FOUNDRY / HARNESS STACK</text>
+  <line x1="72" y1="96" x2="880" y2="96" class="faint"/>
+  <text x="72" y="132" class="mono muted" font-size="18" letter-spacing="2">THE HARNESS COMPANY</text>
+
+  <text x="66" y="248" class="serif white" font-size="78">How to build an</text>
+  <text x="58" y="354" class="serif white" font-size="138">AI-native</text>
+  <text x="58" y="462" class="serif white" font-size="138">company</text>
+  <text x="72" y="548" class="sans white" font-size="30">THE MODEL RUNS INSIDE ONE LAYER.</text>
+  <text x="72" y="592" class="sans white" font-size="30">THE COMPANY SURVIVES ACROSS ALL FIVE.</text>
+  <line x1="72" y1="637" x2="760" y2="637" class="faint"/>
+
+  <text x="72" y="682" class="mono muted" font-size="16" letter-spacing="2">BUILD SURFACE</text>
+  <rect x="72" y="700" width="196" height="44" rx="5" fill="none" class="faint"/>
+  <text x="92" y="728" class="mono white" font-size="16">DEEPSEEK HARNESS</text>
+  <rect x="284" y="700" width="180" height="44" rx="5" fill="none" class="faint"/>
+  <text x="304" y="728" class="mono white" font-size="16">COMPANY FOUNDRY</text>
+  <rect x="480" y="700" width="196" height="44" rx="5" fill="none" class="faint"/>
+  <text x="500" y="728" class="mono white" font-size="16">REPLACEABLE MODEL</text>
+
+  <g font-family="SFMono-Regular, Menlo, Consolas, monospace">
+    <rect x="1030" y="96" width="470" height="52" rx="5" fill="#101216" stroke="#262a31"/>
+    <text x="1052" y="131" font-size="18" fill="#7e838c">05</text>
+    <text x="1102" y="131" font-size="20" fill="#f4f5f7">COMPANY ROOM</text>
+
+    <rect x="1030" y="246" width="470" height="52" rx="5" fill="#101216" stroke="#262a31"/>
+    <text x="1052" y="281" font-size="18" fill="#7e838c">04</text>
+    <text x="1102" y="281" font-size="20" fill="#f4f5f7">ARTIFACTS</text>
+
+    <rect x="1030" y="396" width="470" height="52" rx="5" fill="#101216" stroke="#73e4ff"/>
+    <text x="1052" y="431" font-size="18" fill="#73e4ff">03</text>
+    <text x="1102" y="431" font-size="20" fill="#f4f5f7">EXECUTION HARNESS</text>
+
+    <rect x="1030" y="546" width="470" height="52" rx="5" fill="#101216" stroke="#262a31"/>
+    <text x="1052" y="581" font-size="18" fill="#7e838c">02</text>
+    <text x="1102" y="581" font-size="20" fill="#f4f5f7">WORK CONTRACT</text>
+
+    <rect x="1030" y="696" width="470" height="52" rx="5" fill="#101216" stroke="#262a31"/>
+    <text x="1052" y="731" font-size="18" fill="#7e838c">01</text>
+    <text x="1102" y="731" font-size="20" fill="#f4f5f7">COMPANY SPECIFICATION</text>
+  </g>
+
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#73e4ff"/>
+      <stop offset="0.5" stop-color="#a69aff"/>
+      <stop offset="1" stop-color="#ffd19a"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="470" width="1600" height="3" fill="url(#accent)"/>
+
+  <rect x="920" y="430" width="630" height="44" rx="5" fill="#08090b" stroke="#4d525a" stroke-width="1"/>
+  <text x="948" y="459" class="mono white" font-size="16">PACKET  &gt;  SKILL  &gt;  ROUTE  &gt;  RUN  &gt;  EVIDENCE</text>
+
+  <line x1="72" y1="852" x2="1528" y2="852" class="faint"/>
+  <text x="72" y="878" class="mono muted" font-size="15" letter-spacing="2">5 LAYERS  /  3 MODEL LANES  /  2 WRITTEN GATES  /  1 COMPANY RECORD</text>
+</svg>

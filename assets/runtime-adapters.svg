@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Runtime adapters</title>
+  <desc id="desc">The same portable method works through DeepSeek Harness presets, Codex, and Claude Code adapters without changing the company contract.</desc>
+  <style>
+    .bg { fill: #08090b; } .grid { stroke: #17191d; } .muted { fill: #7e838c; }
+    .white { fill: #f4f5f7; } .cyan { fill: #73e4ff; } .violet { fill: #a69aff; } .gold { fill: #ffd19a; }
+    .mono { font-family: "SFMono-Regular", Menlo, Consolas, monospace; }
+    .serif { font-family: "New York", Georgia, "Times New Roman", serif; }
+    .sans { font-family: "Helvetica Neue", Arial, sans-serif; }
+  </style>
+  <rect class="bg" width="1200" height="520"/>
+  <g class="grid"><path d="M0 90H1200M0 180H1200M0 270H1200M0 360H1200M0 450H1200"/><path d="M120 0V520M300 0V520M480 0V520M660 0V520M840 0V520M1020 0V520"/></g>
+  <text x="60" y="72" class="mono muted" font-size="16" letter-spacing="3">RUNTIME ADAPTERS</text>
+  <text x="60" y="126" class="serif white" font-size="40">One method, several runtimes.</text>
+  <g font-family="SFMono-Regular, Menlo, Consolas, monospace">
+    <rect x="80" y="210" width="300" height="110" rx="5" fill="#101216" stroke="#262a31"/>
+    <text x="110" y="258" font-size="18" class="white">DeepSeek Harness</text>
+    <text x="110" y="290" font-size="14" class="muted">native presets and plugins</text>
+    <rect x="450" y="210" width="300" height="110" rx="5" fill="#101216" stroke="#262a31"/>
+    <text x="480" y="258" font-size="18" class="white">Codex</text>
+    <text x="480" y="290" font-size="14" class="muted">portable entry skill</text>
+    <rect x="820" y="210" width="300" height="110" rx="5" fill="#101216" stroke="#262a31"/>
+    <text x="850" y="258" font-size="18" class="white">Claude Code</text>
+    <text x="850" y="290" font-size="14" class="muted">portable entry skill</text>
+    <rect x="80" y="380" width="1040" height="50" rx="5" fill="#101216" stroke="#73e4ff"/>
+    <text x="110" y="411" font-size="15" class="white">shared registry / same artifact contracts / no provider owns the method</text>
+  </g>
+  <text x="60" y="490" class="mono muted" font-size="14">the model is rented. the agent is replaceable. the operating method is owned.</text>
+</svg>
