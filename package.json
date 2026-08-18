@@ -1,0 +1,10 @@
+{
+  "name": "company-foundry",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Portable methods, skills, and DeepSeek Harness presets for company-specific AI work.",
+  "scripts": {
+    "validate": "node scripts/validate.mjs"
+  },
+  "license": "MIT"
+}
