@@ -1,6 +1,6 @@
 # The Harness Company: How to Build Your First AI-Native Company with Kimi K3
 
-TLDR: If you don't want to read the 4,086 words in this article, you can just go to this [GitHub repo](https://github.com/codejunkie99/company-foundry).
+TLDR: If you don't want to read the 4,554 words in this article, you can just go to this [GitHub repo](https://github.com/codejunkie99/company-foundry).
 
 An AI-native company is not a company that bought a chat subscription.
 
@@ -17,6 +17,33 @@ Most companies already have the ingredients: documents, repositories, customer c
 Language models make that weakness visible because they can move through information faster than the organisation can coordinate it. The model is not the organisational innovation. The harness around the model is.
 
 This is a practical design for that harness. It uses Kimi K3 as a capable-model example, but it is deliberately not built around one provider. The durable object is a portable company operating method: a small set of skills, presets, records, authority gates, and artifacts that can run in a harness today and survive a model change tomorrow.
+
+## First, separate the six jobs
+
+The word “agent” hides too much. A serious harness has six jobs, and each has to be designed deliberately.
+
+1. **Composition:** choose the model, tools, policies, storage, UI, and extensions that exist for this agent.
+2. **Admission and state:** accept inputs, serialize turns, preserve durable history, and resume or fork safely.
+3. **Context construction:** decide exactly what the model sees: instructions, tool schemas, runtime context, and prior messages.
+4. **Execution:** run the model, dispatch tools, enforce permissions and sandbox policy, and close the turn.
+5. **Observation and recovery:** retain events, checkpoint work, retry failures, compact history, recover interruptions, and report telemetry.
+6. **Surfaces:** expose the same agent through a web app, CLI, protocol, or SDK.
+
+**These are the first principles of a harness because every company workflow depends on them, even when it does not name them.** A good UI cannot compensate for bad context. A capable model cannot substitute for permission enforcement. A fast tool call does not create a durable record.
+
+This separation tells us where company design belongs. The company brief, work packet, skill, evidence contract, and review rule are part of the operating method. Session persistence, sandboxing, tool execution, and provider access are runtime concerns. The dashboard is a surface. It should display the work, not become the work.
+
+## Why DeepSeek Harness belongs underneath it
+
+DeepSeek Harness is the native runtime because it is not one hard-coded agent. It composes a system from replaceable plugins: model adapters, prompt construction, tools, session logs, execution policies, filesystem and process providers, persistence, UI, and the agent loop.
+
+That design creates capability seams. A service declares a stable capability, a provider implements it, and a consumer uses it. The implementation can change without forcing every consumer to be rewritten. A filesystem can be local or sandboxed. A session log can be file-based or backed by a database. A model provider can change while the company skill remains the same.
+
+**This is the missing bridge from first principles to an AI-native company.** The company operating method should specify what a packet needs. DeepSeek Harness should compose and enforce the runtime that satisfies it.
+
+In practice, `company-research` is a DeepSeek Harness preset for evidence-bound research, route records, reviewable artifacts, and dashboards. `company-builder` is a preset for code, app, UI, and dashboard delivery with the same bounded work packets and review rules. They use the harness's sandbox, permission, session, and model-provider services; they do not hard-pin Kimi K3.
+
+Kimi K3 is therefore a capable route for a packet, not the system itself. The model router can select it for difficult synthesis or complex product work, select a fast model for iteration, and select an economy model for extraction. The route receipt preserves that decision. The preset preserves the environment. The artifact preserves the result.
 
 ## The problem is not intelligence
 
