@@ -15,25 +15,6 @@ if (!titleLine) {
 }
 
 const title = titleLine.slice(2).trim();
-let key = 0;
-
-function nextKey() {
-  key += 1;
-  return key.toString(36).padStart(4, "0");
-}
-
-function linkData(text) {
-  const urls = [];
-  for (const match of text.matchAll(/https?:\/\/[^\s)]+/g)) {
-    const url = match[0].replace(/[.,;:!?]+$/, "");
-    urls.push({
-      from_index: match.index,
-      text: url,
-      to_index: match.index + url.length,
-    });
-  }
-  return { cashtags: [], hashtags: [], mentions: [], urls };
-}
 
 function plainText(line) {
   return line
@@ -80,7 +61,7 @@ function parseLine(line) {
   };
 }
 
-const blocks = [];
+const sourceBlocks = [];
 for (const rawLine of lines) {
   if (rawLine.startsWith("# ")) continue;
   if (rawLine.startsWith("```")) {
@@ -90,15 +71,65 @@ for (const rawLine of lines) {
   const { text, type } = parseLine(rawLine);
   if (!text) continue;
 
-  blocks.push({
+  sourceBlocks.push({
     text,
     type,
-    data: linkData(text),
-    entity_ranges: [],
-    inline_style_ranges: [],
-    key: nextKey(),
   });
 }
+
+const blocks = [];
+let textParts = [];
+let textLength = 0;
+
+function appendText(text) {
+  const separatorLength = textParts.length ? 2 : 0;
+  if (textParts.length && textLength + separatorLength + text.length > 480) {
+    blocks.push({ text: textParts.join("\n\n"), type: "unstyled" });
+    textParts = [];
+    textLength = 0;
+  }
+
+  textParts.push(text);
+  textLength += separatorLength + text.length;
+}
+
+function flushText() {
+  if (!textParts.length) return;
+  blocks.push({ text: textParts.join("\n\n"), type: "unstyled" });
+  textParts = [];
+  textLength = 0;
+}
+
+for (const block of sourceBlocks) {
+  if (block.type === "header-two") {
+    flushText();
+    blocks.push(block);
+    continue;
+  }
+
+  if (block.type === "header-three") {
+    appendText(block.text.toUpperCase());
+    continue;
+  }
+
+  if (block.type === "unordered-list-item") {
+    appendText(`- ${block.text}`);
+    continue;
+  }
+
+  if (block.type === "ordered-list-item") {
+    appendText(`- ${block.text}`);
+    continue;
+  }
+
+  if (block.type === "blockquote") {
+    appendText(`"${block.text}"`);
+    continue;
+  }
+
+  appendText(block.text);
+}
+flushText();
 
 const payload = {
   title,
