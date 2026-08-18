@@ -1,6 +1,6 @@
 # The Harness Company: How to Build Your First AI-Native Company with Kimi K3
 
-TLDR: If you don't want to read the 4,554 words in this article, you can just go to this [GitHub repo](https://github.com/codejunkie99/company-foundry).
+TLDR: If you don't want to read the 4,912 words in this article, you can just go to this [GitHub repo](https://github.com/codejunkie99/company-foundry).
 
 An AI-native company is not a company that bought a chat subscription.
 
@@ -10,8 +10,6 @@ It is not a group chat where five agents play at being a management team. It is 
 
 That sounds modest. It is a much bigger change than it first appears.
 
-<img src="assets/company-foundry.svg" alt="Company Foundry turns a company brief into scoped work, skills, routes, artifacts, and review." width="1200" />
-
 Most companies already have the ingredients: documents, repositories, customer conversations, spreadsheets, analysts, designers, engineers, and approval steps. The problem is that these ingredients do not form a reliable system. Knowledge lives in people. Process lives in memory. Important decisions are rediscovered each time work changes hands.
 
 Language models make that weakness visible because they can move through information faster than the organisation can coordinate it. The model is not the organisational innovation. The harness around the model is.
@@ -19,6 +17,8 @@ Language models make that weakness visible because they can move through informa
 This is a practical design for that harness. It uses Kimi K3 as a capable-model example, but it is deliberately not built around one provider. The durable object is a portable company operating method: a small set of skills, presets, records, authority gates, and artifacts that can run in a harness today and survive a model change tomorrow.
 
 ## First, separate the six jobs
+
+<img src="assets/editorial/01-first-principles.svg" alt="A six-stage map of the first principles of an agent harness: composition, state, context, execution, recovery, and surfaces." width="1600" />
 
 The word “agent” hides too much. A serious harness has six jobs, and each has to be designed deliberately.
 
@@ -35,17 +35,31 @@ This separation tells us where company design belongs. The company brief, work p
 
 ## Why DeepSeek Harness belongs underneath it
 
+<img src="assets/editorial/02-deepseek-harness.svg" alt="A runtime map showing DeepSeek Harness as a reversible service graph from profile patches to event logs." width="1600" />
+
 DeepSeek Harness is the native runtime because it is not one hard-coded agent. It composes a system from replaceable plugins: model adapters, prompt construction, tools, session logs, execution policies, filesystem and process providers, persistence, UI, and the agent loop.
 
 That design creates capability seams. A service declares a stable capability, a provider implements it, and a consumer uses it. The implementation can change without forcing every consumer to be rewritten. A filesystem can be local or sandboxed. A session log can be file-based or backed by a database. A model provider can change while the company skill remains the same.
 
 **This is the missing bridge from first principles to an AI-native company.** The company operating method should specify what a packet needs. DeepSeek Harness should compose and enforce the runtime that satisfies it.
 
+The next two figures are primary-source excerpts from the Cordis paper that underpins this runtime model. They are included to establish the technical mechanism, not to claim that the paper proposes a company operating model.
+
+<img src="assets/paper-excerpts/cordis-paper-p29-29.png" alt="Paper page 29 showing the base component lifecycle: Inactive and Active." width="900" />
+
+**Primary source, Figure 1, page 29:** a component moves between inactive and active states through reload and unload transitions. [Open the paper](https://github.com/cordiverse/paper/blob/main/paper.pdf).
+
+<img src="assets/paper-excerpts/cordis-paper-p34-34.png" alt="Paper page 34 showing an extended lifecycle with Reloading and Unloading states." width="900" />
+
+**Primary source, Figure 2, page 34:** the fuller lifecycle introduces visible in-progress states for reloading and unloading. The company-level inference is ours: a skill should make its own inputs, work, output, review, and stopping point equally explicit.
+
 In practice, `company-research` is a DeepSeek Harness preset for evidence-bound research, route records, reviewable artifacts, and dashboards. `company-builder` is a preset for code, app, UI, and dashboard delivery with the same bounded work packets and review rules. They use the harness's sandbox, permission, session, and model-provider services; they do not hard-pin Kimi K3.
 
 Kimi K3 is therefore a capable route for a packet, not the system itself. The model router can select it for difficult synthesis or complex product work, select a fast model for iteration, and select an economy model for extraction. The route receipt preserves that decision. The preset preserves the environment. The artifact preserves the result.
 
 ## The problem is not intelligence
+
+<img src="assets/editorial/03-work-not-intelligence.svg" alt="A work-design map showing the stages that turn an outcome into a decision." width="1600" />
 
 When people first add AI to a company, they often start with a question like: which model should we use?
 
@@ -58,8 +72,6 @@ Consider a normal product request: “Research why mid-market customers stop usi
 This single sentence hides five different jobs. Someone needs to define the customer segment. Someone needs to locate interviews, support tickets, usage data, and prior decisions. Someone needs to separate evidence from interpretation. Someone needs to write code and make an interface that helps a person decide. Someone needs authority to change production behaviour.
 
 In an ordinary organisation, the work passes through meetings. In an AI-native organisation, the hand-offs should become explicit objects.
-
-<img src="assets/company-brief.svg" alt="A company brief defines an outcome, constraints, evidence, owners, and decisions." width="1200" />
 
 The first object is the company brief. It is not a grand strategy memo. It is a compact statement of what matters now:
 
@@ -76,6 +88,8 @@ This is why “give every department an agent” is a weak starting point. Depar
 
 ## Start with a closed loop
 
+<img src="assets/editorial/04-closed-loop.svg" alt="A closed operating loop from brief to evidence, route, artifact, review, and decision." width="1600" />
+
 The company harness should turn a brief into a closed loop:
 
 1. define the work;
@@ -87,8 +101,6 @@ The company harness should turn a brief into a closed loop:
 
 The loop matters because output is not the same as completed work. A beautiful research memo that cannot show its sources is not complete. A working pull request with no stated customer problem is not complete. A dashboard with no action attached is not complete.
 
-<img src="assets/work-packet.svg" alt="A work packet moves from brief to evidence, route, artifact, review, and decision." width="1200" />
-
 The work packet is the smallest useful interface between a company and an agent. It contains the brief, inputs, permitted tools, skill names, selected model route, authority level, expected artifacts, reviewer, and stopping rule.
 
 That might look like extra administration. In practice, it removes the expensive kind of ambiguity. A person opening a packet should be able to answer four questions quickly: what is being attempted, why does it matter, what evidence is allowed, and who gets to decide what happens next?
@@ -99,6 +111,8 @@ There is a useful test here. Imagine a new operator, a new model, and a new team
 
 ## Customer research needs a company memory
 
+<img src="assets/editorial/05-customer-evidence.svg" alt="An evidence map joining interviews, tickets, usage data, market evidence, and a claim ledger." width="1600" />
+
 Customer research is a good first workload because it exposes every weakness in the system.
 
 The naive version asks a model to “research this company” from the web. It comes back with a clean summary, a list of competitors, and a confident point of view. The result may be useful. It may also be a polished version of the wrong problem.
@@ -106,8 +120,6 @@ The naive version asks a model to “research this company” from the web. It c
 Company-level research needs two kinds of context. The first is external: market structure, public positioning, alternatives, news, pricing, category language, and observable product behaviour. The second is internal: calls, tickets, win and loss notes, product usage, sales notes, retention data, experiments, and decisions that are not visible on the internet.
 
 **The internal record is what makes the research company-specific.** Without it, the system is performing category research, not customer research.
-
-<img src="assets/evidence-loop.svg" alt="Evidence is collected, cited, assessed, used for a decision, and fed back into the next research cycle." width="1200" />
 
 The customer-evidence-research skill should require a claim ledger. Each material claim records its source, date, scope, confidence, and whether it is observed fact or interpretation. The system should say “we do not know” when the evidence is absent.
 
@@ -127,13 +139,13 @@ The research artifact should end with a decision frame, not just observations:
 
 ## Use a router, not a favourite model
 
+<img src="assets/editorial/06-model-router.svg" alt="A model-routing map with economy, fast, capable, Kimi K3, fallback, and route receipt stages." width="1600" />
+
 Every company will use more than one model. This is not a temporary inconvenience. It is the normal condition of an AI-native organisation.
 
 Some tasks need inexpensive extraction across hundreds of files. Some need a quick response while a customer waits. Some need sustained reasoning over a complicated plan, a difficult codebase, or conflicting evidence. Some need a model that works with a specific tool or data boundary.
 
 The answer is not to make every worker choose a model by instinct. The harness needs a model router.
-
-<img src="assets/model-route.svg" alt="A model router selects economy, fast, or capable tiers and records the route receipt." width="1200" />
 
 At the simplest level, the router has three lanes:
 
@@ -151,11 +163,30 @@ This also gives the company a graceful way to change. A provider can become unav
 
 ## Skills are procedures with an output contract
 
+<img src="assets/editorial/07-skill-registry.svg" alt="A skill-registry map connecting work packets, research, routes, code, dashboards, and review." width="1600" />
+
 People use the word “skill” too loosely. A long prompt is not automatically a skill.
 
 A useful company skill is a versioned procedure with clear inputs, steps, artifact expectations, review checks, and stop conditions. It is small enough to understand and specific enough to reuse.
 
-<img src="assets/skill-registry.svg" alt="A skill registry makes procedures discoverable, versioned, reviewed, and portable." width="1200" />
+At minimum, a `SKILL.md` should look like an operating contract, not a creative brief:
+
+```md
+---
+name: company-code-delivery
+description: Deliver one approved change with evidence and review.
+---
+
+1. Load the work packet and inspect the affected path.
+2. State the acceptance criteria and the bounded implementation plan.
+3. Change only the approved scope and run the focused checks.
+4. Write a delivery artifact: files changed, checks run, result, authority used.
+5. Stop at review unless the packet grants a higher authority level.
+```
+
+The frontmatter makes the procedure discoverable. The numbered method gives the agent an order of work. The delivery artifact gives the reviewer something independent of the chat. The authority line tells the runtime where execution ends.
+
+**A skill file is where a company turns a standard into an executable, reviewable commitment.** It has the same shape as a sound engineering component: declared needs, bounded behaviour, and a visible result.
 
 The initial registry does not need hundreds of skills. It needs a few that match the company loop:
 
@@ -175,11 +206,11 @@ This is also how code and application work become first-class. A code-delivery s
 
 ## Artifacts must outlive the chat
 
+<img src="assets/editorial/08-artifact-lineage.svg" alt="An artifact-lineage map linking the work packet, sources, skill version, model route, artifact, and review." width="1600" />
+
 The weakest form of agent work lives only in a conversation window.
 
 That is acceptable for brainstorming. It is not acceptable for company memory. A company needs artifacts that can be inspected without replaying a chat: a research brief, a decision record, a pull request, an interface preview, a dashboard, an experiment plan, or a customer account review.
-
-<img src="assets/artifact-lineage.svg" alt="Artifacts preserve lineage from work packet through evidence and review to the final decision." width="1200" />
 
 Each artifact should carry lineage. It should point to the work packet, the evidence used, the model route, the skill version, the reviewer, and the resulting decision. It does not need to be verbose. It needs to be findable.
 
@@ -191,11 +222,11 @@ A customer-risk dashboard, for example, should show the measure, the time window
 
 The Company Room is a practical way to collect these artifacts. It is not another strategy board. It is an operational view of active packets: what is in progress, what evidence has arrived, which model route was used, what artifact exists, which review is waiting, and what decision is blocked.
 
-<img src="assets/company-room.svg" alt="A Company Room shows active work packets, artifacts, review state, and blocked decisions." width="1200" />
-
 The interface can be generated by Codex or another coding environment when the skill has a clear artifact contract. The important point is not which computer-use tool creates the page. The important point is that the generated page has a defined job in the company loop.
 
 ## Authority is a product feature
+
+<img src="assets/editorial/09-authority-gates.svg" alt="An authority ladder from observe to prepare, commit, emit, policy, and audit log." width="1600" />
 
 The most dangerous error in AI-native organisation design is confusing access with authority.
 
@@ -208,8 +239,6 @@ An agent may be able to read a repository, query a CRM, open a browser, create a
 - `commit`: make a reversible change inside an approved boundary;
 - `emit`: send or publish externally.
 
-<img src="assets/authority-gates.svg" alt="Authority gates separate observation, preparation, commitment, and external emission." width="1200" />
-
 The default should be `prepare`. This is where most useful work happens anyway. The model can research, write, code on a branch, generate an interface, and assemble a decision packet without creating an irreversible external consequence.
 
 Importantly, a skill cannot grant itself more authority. The execution environment owns the permission boundary. The skill can ask for a transition; a policy and, where required, a human owner approves it.
@@ -218,13 +247,13 @@ This makes the system less magical and more trustworthy. A reviewer does not hav
 
 ## A harness is not a control plane
 
+<img src="assets/editorial/10-control-plane.svg" alt="A system boundary map for company method, work packet, runtime, tools, control plane, and surfaces." width="1600" />
+
 There are now several categories of multi-agent products. Some coordinate projects, repositories, and long-running tasks. Some manage agent teams. Some offer an interface for assigning work and tracking status. Those are useful control planes.
 
 A harness has a different job. It defines how a particular work packet is executed: which skills are available, how context is assembled, which tools can run, what model route is selected, and what evidence is preserved.
 
 The company operating method sits above both. It should be able to compile its work into a harness without being trapped inside it.
-
-<img src="assets/runtime-adapters.svg" alt="A portable operating method uses adapters for DeepSeek Harness, Codex, and Claude Code." width="1200" />
 
 That is why the registry uses adapters. The same skill contract can be expressed in DeepSeek Harness as a preset and component configuration. It can be exposed to Codex or Claude Code as a skill file. It can produce artifacts that a project control plane indexes and displays.
 
@@ -235,6 +264,8 @@ For DeepSeek Harness, two presets are enough to make this concrete. `company-res
 This is also why a company harness should not compete with every agent framework. It should make the organisation’s method portable across them.
 
 ## Build the first version from one real workflow
+
+<img src="assets/editorial/11-first-workflow.svg" alt="A seven-step first workflow from brief to review." width="1600" />
 
 Do not begin by modelling the whole company. That produces a decorative organisation chart and a large surface area for permission mistakes.
 
@@ -258,6 +289,8 @@ That standard keeps the project honest. The system should earn wider authority t
 
 ## What to measure in the first ninety days
 
+<img src="assets/editorial/12-measurement.svg" alt="An operating-metrics map covering cycle time, source rate, rework, latency, cost, and corrections." width="1600" />
+
 Traditional software metrics are not enough. A harness can produce output quickly while quietly increasing review load, confusion, or operational risk.
 
 Measure whether the work packet makes decisions faster and better. Track cycle time from brief to reviewed artifact. Track the proportion of claims with traceable sources. Track acceptance and rework rates. Track route cost and latency by task type. Track how often a reviewer changes the final recommendation.
@@ -271,6 +304,8 @@ After several runs, the company will learn what its real work is. It may discove
 That is the right kind of learning. It improves the operating method rather than merely tuning a prompt.
 
 ## The failure modes are organisational
+
+<img src="assets/editorial/13-failure-modes.svg" alt="A failure map for vague roles, bad context, late review, empty UI, and excess authority." width="1600" />
 
 Most harness projects fail for ordinary reasons. They fail because the work is vague, the data is inaccessible, the reviewer does not trust the output, or the artifact lands in a place where nobody uses it. Better prompting does not fix these failures.
 
@@ -292,6 +327,8 @@ Finally, avoid automatic expansion. A successful internal research packet does n
 
 ## Give the harness an operating cadence
 
+<img src="assets/editorial/14-operating-cadence.svg" alt="An operating cadence map for weekly runs, skills review, route evaluation, incidents, and versioning." width="1600" />
+
 The company harness should be tended like any other operational system. Skills need owners. Presets need versioning. Metrics need definitions. A model route that was sensible last quarter may be slow, costly, or poorly suited today.
 
 This does not require a large governance function. It requires a small cadence that makes changes visible.
@@ -310,11 +347,11 @@ That is what makes the harness operational rather than theatrical. The company l
 
 ## The company is the harness
 
+<img src="assets/editorial/15-harness-company.svg" alt="A company map joining briefs, skills, routing, artifacts, authority, and learning." width="1600" />
+
 The phrase “AI-native company” can encourage a fantasy: agents in every function, constant autonomy, no friction, no people in the loop.
 
 The practical version is more interesting. It is a company that can describe its recurring work clearly enough for humans and models to carry it out together. It treats customer evidence as a shared asset. It makes model choice observable. It gives artifacts a lineage. It keeps authority explicit. It turns good judgement into procedures without pretending that procedures are judgement itself.
-
-<img src="assets/architecture.svg" alt="The architecture connects briefs, skill registry, model routing, authority gates, artifacts, and adapters." width="1200" />
 
 The product is not a dashboard, a prompt library, or an agent that claims to run the business. **The product is an executable organisational design.**
 

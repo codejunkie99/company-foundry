@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title-10 desc-10">
+  <title id="title-10">The harness executes. The control plane coordinates.</title><desc id="desc-10">SYSTEM BOUNDARY · METHOD · RUNTIME · CONTROL PLANE. Keep the portable procedure above the runtime. The UI is a view of work, not the work itself.</desc>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#2563eb"/></marker></defs>
+  <rect width="1600" height="1000" fill="#f6f9ff"/>
+  <rect x="46" y="40" width="1508" height="920" rx="18" fill="#fcfdff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="78" y="92" font-family=".SF NS Mono, SFMono-Regular, Menlo, monospace" font-size="17" font-weight="700" fill="#52637c" text-anchor="start">SYSTEM BOUNDARY · METHOD · RUNTIME · CONTROL PLANE</text>
+  <rect x="78" y="130" width="1130" height="76" rx="28" fill="#dceaff"/>
+  <text x="78" y="187" font-family="Helvetica Neue, Arial, sans-serif" font-size="52" font-weight="700" fill="#101828" text-anchor="start">The harness executes. The control plane coordinates.</text>
+  <text x="78" y="242" font-family="Helvetica Neue, Arial, sans-serif" font-size="23" font-weight="400" fill="#52637c" text-anchor="start">A company harness turns an explicit operating rule into visible work, evidence, and a human decision.</text>
+  <line x1="78" y1="292" x2="1522" y2="292" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="78" y="325" font-family=".SF NS Mono, SFMono-Regular, Menlo, monospace" font-size="15" font-weight="700" fill="#52637c" text-anchor="start">EXECUTION PATH · STAGES MOVE LEFT TO RIGHT</text>
+  <rect x="786" y="328" width="244" height="236" rx="14" fill="#f2f7ff" stroke="#2563eb" stroke-width="2" stroke-dasharray="9 8"/>
+  
+      <g>
+        <rect x="78" y="360" width="196" height="174" rx="11" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+        <rect x="98" y="381" width="42" height="30" rx="7" fill="#f1f5f9"/>
+        <text x="119" y="403" font-family=".SF NS Mono, SFMono-Regular, Menlo, monospace" font-size="15" font-weight="700" fill="#475569" text-anchor="middle">01</text>
+        <rect x="150" y="387" width="58" height="8" rx="4" fill="#111827" opacity="0.72"/>
+        <rect x="150" y="403" width="40" height="8" rx="4" fill="#a8a8a8"/>
+        <text x="176" y="478" font-family="Helvetica Neue, Arial, sans-serif" font-size="22" font-weight="700" fill="#151515" text-anchor="middle">company method</text>
+        <text x="176" y="506" font-family=".SF NS Mono, SFMono-Regular, Menlo, monospace" font-size="13" font-weight="500" fill="#64748b" text-anchor="middle">named stage</text>
+      </g>
+      <g>
+        <rect x="322" y="360" width="196" height="174" rx="11" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+        <rect x="342" y="381" width="42" height="30" rx="7" fill="#f1f5f9"/>
+        <text x="363" y="403" font-family=".SF NS Mono, SFMono-Regular, Menlo, monospace" font-size="15" font-weight="700" fill="#475569" text-anchor="middle">02</text>
+        <rect x="394" y="387" width="58" height="8" rx="4" fill="#111827" opacity="0.72"/>
+        <rect x="394" y="403" width="40" height="8" rx="4" fill="#a8a8a8"/>
+        <text x="420" y="478" font-family="Helvetica Neue, Arial, sans-serif" font-size="22" font-weight="700" fill="#151515" text-anchor="middle">work packet</text>
+        <text x="420" y="506" font-family=".SF NS Mono, SFMono-Regular, Menlo, monospace" font-size="13" font-weight="500" fill="#64748b" text-anchor="middle">named stage</text>
+      </g>
+      <g>
+        <rect x="566" y="360" width="196" height="174" rx="11" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+        <rect x="586" y="381" width="42" height="30" rx="7" fill="#f1f5f9"/>
+        <text x="607" y="403" font-family=".SF NS Mono, SFMono-Regular, Menlo, monospace" font-size="15" font-weight="700" fill="#475569" text-anchor="middle">03</text>
+        <rect x="638" y="387" width="58" height="8" rx="4" fill="#111827" opacity="0.72"/>
+        <rect x="638" y="403" width="40" height="8" rx="4" fill="#a8a8a8"/>
+        <text x="664" y="478" font-family="Helvetica Neue, Arial, sans-serif" font-size="22" font-weight="700" fill="#151515" text-anchor="middle">runtime</text>
+        <text x="664" y="506" font-family=".SF NS Mono, SFMono-Regular, Menlo, monospace" font-size="13" font-weight="500" fill="#64748b" text-anchor="middle">named stage</text>
+      </g>
+      <g>
+        <rect x="810" y="360" width="196" height="174" rx="11" fill="#edf4ff" stroke="#2563eb" stroke-width="3"/>
+        <rect x="830" y="381" width="42" height="30" rx="7" fill="#d7e7ff"/>
+        <text x="851" y="403" font-family=".SF NS Mono, SFMono-Regular, Menlo, monospace" font-size="15" font-weight="700" fill="#1d4ed8" text-anchor="middle">04</text>
+        <rect x="882" y="387" width="58" height="8" rx="4" fill="#2563eb" opacity="1"/>
+        <rect x="882" y="403" width="40" height="8" rx="4" fill="#a8a8a8"/>
+        <text x="908" y="478" font-family="Helvetica Neue, Arial, sans-serif" font-size="22" font-weight="700" fill="#151515" text-anchor="middle">tools</text>
+        <text x="908" y="506" font-family=".SF NS Mono, SFMono-Regular, Menlo, monospace" font-size="13" font-weight="500" fill="#64748b" text-anchor="middle">written gate</text>
+      </g>
+      <g>
+        <rect x="1054" y="360" width="196" height="174" rx="11" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+        <rect x="1074" y="381" width="42" height="30" rx="7" fill="#f1f5f9"/>
+        <text x="1095" y="403" font-family=".SF NS Mono, SFMono-Regular, Menlo, monospace" font-size="15" font-weight="700" fill="#475569" text-anchor="middle">05</text>
+        <rect x="1126" y="387" width="58" height="8" rx="4" fill="#111827" opacity="0.72"/>
+        <rect x="1126" y="403" width="40" height="8" rx="4" fill="#a8a8a8"/>
+        <text x="1152" y="478" font-family="Helvetica Neue, Arial, sans-serif" font-size="22" font-weight="700" fill="#151515" text-anchor="middle">control plane</text>
+        <text x="1152" y="506" font-family=".SF NS Mono, SFMono-Regular, Menlo, monospace" font-size="13" font-weight="500" fill="#64748b" text-anchor="middle">named stage</text>
+      </g>
+      <g>
+        <rect x="1298" y="360" width="196" height="174" rx="11" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+        <rect x="1318" y="381" width="42" height="30" rx="7" fill="#f1f5f9"/>
+        <text x="1339" y="403" font-family=".SF NS Mono, SFMono-Regular, Menlo, monospace" font-size="15" font-weight="700" fill="#475569" text-anchor="middle">06</text>
+        <rect x="1370" y="387" width="58" height="8" rx="4" fill="#111827" opacity="0.72"/>
+        <rect x="1370" y="403" width="40" height="8" rx="4" fill="#a8a8a8"/>
+        <text x="1396" y="478" font-family="Helvetica Neue, Arial, sans-serif" font-size="22" font-weight="700" fill="#151515" text-anchor="middle">surfaces</text>
+        <text x="1396" y="506" font-family=".SF NS Mono, SFMono-Regular, Menlo, monospace" font-size="13" font-weight="500" fill="#64748b" text-anchor="middle">named stage</text>
+      </g><path d="M284 447H314" stroke="#2563eb" stroke-width="4" marker-end="url(#arrow)"/><path d="M528 447H558" stroke="#2563eb" stroke-width="4" marker-end="url(#arrow)"/><path d="M772 447H802" stroke="#2563eb" stroke-width="4" marker-end="url(#arrow)"/><path d="M1016 447H1046" stroke="#2563eb" stroke-width="4" marker-end="url(#arrow)"/><path d="M1260 447H1290" stroke="#2563eb" stroke-width="4" marker-end="url(#arrow)"/>
+  <rect x="78" y="602" width="1444" height="144" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="106" y="641" font-family=".SF NS Mono, SFMono-Regular, Menlo, monospace" font-size="15" font-weight="700" fill="#1d4ed8" text-anchor="start">WRITTEN GATE</text>
+  <rect x="106" y="664" width="482" height="44" rx="9" fill="#f8fbff" stroke="#bfdbfe" stroke-width="1.5"/>
+  <text x="128" y="693" font-family=".SF NS Mono, SFMono-Regular, Menlo, monospace" font-size="18" font-weight="500" fill="#1e293b" text-anchor="start">required record  →  reviewed  →  unlocked</text>
+  <line x1="637" y1="622" x2="637" y2="727" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="670" y="641" font-family=".SF NS Mono, SFMono-Regular, Menlo, monospace" font-size="15" font-weight="700" fill="#52637c" text-anchor="start">PARALLEL LANE</text>
+  <rect x="670" y="664" width="420" height="44" rx="9" fill="#14213d"/>
+  <text x="690" y="693" font-family=".SF NS Mono, SFMono-Regular, Menlo, monospace" font-size="15" font-weight="500" fill="#ffffff" text-anchor="start">draft, inspect, and improve in parallel</text>
+  <line x1="1140" y1="622" x2="1140" y2="727" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="1172" y="641" font-family=".SF NS Mono, SFMono-Regular, Menlo, monospace" font-size="15" font-weight="700" fill="#52637c" text-anchor="start">SYSTEM CLAIM</text>
+  <text x="1172" y="686" font-family="Helvetica Neue, Arial, sans-serif" font-size="18" font-weight="700" fill="#151515" text-anchor="start">Keep the portable procedure above the runtime.</text>
+  <rect x="78" y="782" width="704" height="132" rx="13" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="110" y="824" font-family=".SF NS Mono, SFMono-Regular, Menlo, monospace" font-size="15" font-weight="700" fill="#52637c" text-anchor="start">COST OF A MISTAKE</text>
+  <text x="110" y="875" font-family="Helvetica Neue, Arial, sans-serif" font-size="28" font-weight="700" fill="#101828" text-anchor="start">A clear boundary makes correction cheap.</text>
+  <rect x="818" y="782" width="704" height="132" rx="13" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="850" y="824" font-family=".SF NS Mono, SFMono-Regular, Menlo, monospace" font-size="15" font-weight="700" fill="#52637c" text-anchor="start">EXIT CONDITION</text>
+  <text x="850" y="875" font-family="Helvetica Neue, Arial, sans-serif" font-size="25" font-weight="700" fill="#101828" text-anchor="start">The UI is a view of work, not the work itself.</text>
+  <text x="78" y="940" font-family=".SF NS Mono, SFMono-Regular, Menlo, monospace" font-size="15" font-weight="700" fill="#52637c" text-anchor="start">HARNESS COMPANY · VISUAL 10 / 15</text>
+</svg>

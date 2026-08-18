@@ -3,15 +3,11 @@
   "content_state": {
     "blocks": [
       {
-        "text": "TLDR: If you don't want to read the 4,554 words in this article, you can just go to this GitHub repo: https://github.com/codejunkie99/company-foundry.\n\nAn AI-native company is not a company that bought a chat subscription.\n\nIt is not a group chat where five agents play at being a management team. It is not a dashboard that turns ordinary work into coloured boxes. And it is definitely not an autonomous CEO that is allowed to make decisions nobody can explain.",
+        "text": "TLDR: If you don't want to read the 4,912 words in this article, you can just go to this GitHub repo: https://github.com/codejunkie99/company-foundry.\n\nAn AI-native company is not a company that bought a chat subscription.\n\nIt is not a group chat where five agents play at being a management team. It is not a dashboard that turns ordinary work into coloured boxes. And it is definitely not an autonomous CEO that is allowed to make decisions nobody can explain.",
         "type": "unstyled"
       },
       {
         "text": "An AI-native company is a company whose recurring work has been made executable. A request arrives, the system finds the relevant context, chooses a suitable model, records what it did, produces an artifact, and asks the right person for the right decision.\n\nThat sounds modest. It is a much bigger change than it first appears.",
-        "type": "unstyled"
-      },
-      {
-        "text": "Diagram: Company Foundry turns a company brief into scoped work, skills, routes, artifacts, and review.\nhttps://raw.githubusercontent.com/codejunkie99/company-foundry/main/assets/company-foundry.svg",
         "type": "unstyled"
       },
       {
@@ -31,15 +27,15 @@
         "type": "header-two"
       },
       {
-        "text": "The word “agent” hides too much. A serious harness has six jobs, and each has to be designed deliberately.\n\n- Composition: choose the model, tools, policies, storage, UI, and extensions that exist for this agent.\n\n- Admission and state: accept inputs, serialize turns, preserve durable history, and resume or fork safely.\n\n- Context construction: decide exactly what the model sees: instructions, tool schemas, runtime context, and prior messages.",
+        "text": "<img src=\"../assets/editorial/01-first-principles.svg\" alt=\"A six-stage map of the first principles of an agent harness: composition, state, context, execution, recovery, and surfaces.\" width=\"1600\" />\n\nThe word “agent” hides too much. A serious harness has six jobs, and each has to be designed deliberately.\n\n- Composition: choose the model, tools, policies, storage, UI, and extensions that exist for this agent.",
         "type": "unstyled"
       },
       {
-        "text": "- Execution: run the model, dispatch tools, enforce permissions and sandbox policy, and close the turn.\n\n- Observation and recovery: retain events, checkpoint work, retry failures, compact history, recover interruptions, and report telemetry.\n\n- Surfaces: expose the same agent through a web app, CLI, protocol, or SDK.",
+        "text": "- Admission and state: accept inputs, serialize turns, preserve durable history, and resume or fork safely.\n\n- Context construction: decide exactly what the model sees: instructions, tool schemas, runtime context, and prior messages.\n\n- Execution: run the model, dispatch tools, enforce permissions and sandbox policy, and close the turn.\n\n- Observation and recovery: retain events, checkpoint work, retry failures, compact history, recover interruptions, and report telemetry.",
         "type": "unstyled"
       },
       {
-        "text": "These are the first principles of a harness because every company workflow depends on them, even when it does not name them. A good UI cannot compensate for bad context. A capable model cannot substitute for permission enforcement. A fast tool call does not create a durable record.",
+        "text": "- Surfaces: expose the same agent through a web app, CLI, protocol, or SDK.\n\nThese are the first principles of a harness because every company workflow depends on them, even when it does not name them. A good UI cannot compensate for bad context. A capable model cannot substitute for permission enforcement. A fast tool call does not create a durable record.",
         "type": "unstyled"
       },
       {
@@ -51,7 +47,7 @@
         "type": "header-two"
       },
       {
-        "text": "DeepSeek Harness is the native runtime because it is not one hard-coded agent. It composes a system from replaceable plugins: model adapters, prompt construction, tools, session logs, execution policies, filesystem and process providers, persistence, UI, and the agent loop.",
+        "text": "<img src=\"../assets/editorial/02-deepseek-harness.svg\" alt=\"A runtime map showing DeepSeek Harness as a reversible service graph from profile patches to event logs.\" width=\"1600\" />\n\nDeepSeek Harness is the native runtime because it is not one hard-coded agent. It composes a system from replaceable plugins: model adapters, prompt construction, tools, session logs, execution policies, filesystem and process providers, persistence, UI, and the agent loop.",
         "type": "unstyled"
       },
       {
@@ -59,7 +55,15 @@
         "type": "unstyled"
       },
       {
-        "text": "This is the missing bridge from first principles to an AI-native company. The company operating method should specify what a packet needs. DeepSeek Harness should compose and enforce the runtime that satisfies it.",
+        "text": "This is the missing bridge from first principles to an AI-native company. The company operating method should specify what a packet needs. DeepSeek Harness should compose and enforce the runtime that satisfies it.\n\nThe next two figures are primary-source excerpts from the Cordis paper that underpins this runtime model. They are included to establish the technical mechanism, not to claim that the paper proposes a company operating model.",
+        "type": "unstyled"
+      },
+      {
+        "text": "<img src=\"../assets/paper-excerpts/cordis-paper-p29-29.png\" alt=\"Paper page 29 showing the base component lifecycle: Inactive and Active.\" width=\"900\" />\n\nPrimary source, Figure 1, page 29: a component moves between inactive and active states through reload and unload transitions. Open the paper: https://github.com/cordiverse/paper/blob/main/paper.pdf.",
+        "type": "unstyled"
+      },
+      {
+        "text": "<img src=\"../assets/paper-excerpts/cordis-paper-p34-34.png\" alt=\"Paper page 34 showing an extended lifecycle with Reloading and Unloading states.\" width=\"900\" />\n\nPrimary source, Figure 2, page 34: the fuller lifecycle introduces visible in-progress states for reloading and unloading. The company-level inference is ours: a skill should make its own inputs, work, output, review, and stopping point equally explicit.",
         "type": "unstyled"
       },
       {
@@ -75,11 +79,11 @@
         "type": "header-two"
       },
       {
-        "text": "When people first add AI to a company, they often start with a question like: which model should we use?\n\nThat is a reasonable procurement question. It is not the first design question.\n\nThe first question is: what is the unit of work that this company needs to complete repeatedly, with evidence and a named owner? Until that is clear, a more capable model just creates more plausible output at a higher speed.",
+        "text": "<img src=\"../assets/editorial/03-work-not-intelligence.svg\" alt=\"A work-design map showing the stages that turn an outcome into a decision.\" width=\"1600\" />\n\nWhen people first add AI to a company, they often start with a question like: which model should we use?\n\nThat is a reasonable procurement question. It is not the first design question.",
         "type": "unstyled"
       },
       {
-        "text": "Consider a normal product request: “Research why mid-market customers stop using onboarding after the first week, recommend a fix, build the dashboard, and share a plan.”",
+        "text": "The first question is: what is the unit of work that this company needs to complete repeatedly, with evidence and a named owner? Until that is clear, a more capable model just creates more plausible output at a higher speed.\n\nConsider a normal product request: “Research why mid-market customers stop using onboarding after the first week, recommend a fix, build the dashboard, and share a plan.”",
         "type": "unstyled"
       },
       {
@@ -87,15 +91,11 @@
         "type": "unstyled"
       },
       {
-        "text": "In an ordinary organisation, the work passes through meetings. In an AI-native organisation, the hand-offs should become explicit objects.\n\nDiagram: A company brief defines an outcome, constraints, evidence, owners, and decisions.\nhttps://raw.githubusercontent.com/codejunkie99/company-foundry/main/assets/company-brief.svg\n\nThe first object is the company brief. It is not a grand strategy memo. It is a compact statement of what matters now:\n\n- the outcome to change;",
+        "text": "In an ordinary organisation, the work passes through meetings. In an AI-native organisation, the hand-offs should become explicit objects.\n\nThe first object is the company brief. It is not a grand strategy memo. It is a compact statement of what matters now:\n\n- the outcome to change;\n\n- the customer or operating context;\n\n- the available evidence and the missing evidence;\n\n- constraints such as budget, policy, deadline, and systems of record;\n\n- an accountable human owner;",
         "type": "unstyled"
       },
       {
-        "text": "- the customer or operating context;\n\n- the available evidence and the missing evidence;\n\n- constraints such as budget, policy, deadline, and systems of record;\n\n- an accountable human owner;\n\n- the decision that must be made at the end.\n\nA brief gives the model a boundary, not a personality. It tells the system what success means and, just as importantly, what it may not assume.",
-        "type": "unstyled"
-      },
-      {
-        "text": "This is why “give every department an agent” is a weak starting point. Departments are broad and durable. Work packets should be narrow and inspectable. A good packet can be run, reviewed, retried, compared, and stopped. A department-shaped prompt cannot.",
+        "text": "- the decision that must be made at the end.\n\nA brief gives the model a boundary, not a personality. It tells the system what success means and, just as importantly, what it may not assume.\n\nThis is why “give every department an agent” is a weak starting point. Departments are broad and durable. Work packets should be narrow and inspectable. A good packet can be run, reviewed, retried, compared, and stopped. A department-shaped prompt cannot.",
         "type": "unstyled"
       },
       {
@@ -103,11 +103,11 @@
         "type": "header-two"
       },
       {
-        "text": "The company harness should turn a brief into a closed loop:\n\n- define the work;\n\n- gather evidence;\n\n- select the capability and authority needed;\n\n- create a useful artifact;\n\n- review the artifact and record the decision;\n\n- use the result to improve the next packet.",
+        "text": "<img src=\"../assets/editorial/04-closed-loop.svg\" alt=\"A closed operating loop from brief to evidence, route, artifact, review, and decision.\" width=\"1600\" />\n\nThe company harness should turn a brief into a closed loop:\n\n- define the work;\n\n- gather evidence;\n\n- select the capability and authority needed;\n\n- create a useful artifact;\n\n- review the artifact and record the decision;\n\n- use the result to improve the next packet.",
         "type": "unstyled"
       },
       {
-        "text": "The loop matters because output is not the same as completed work. A beautiful research memo that cannot show its sources is not complete. A working pull request with no stated customer problem is not complete. A dashboard with no action attached is not complete.\n\nDiagram: A work packet moves from brief to evidence, route, artifact, review, and decision.\nhttps://raw.githubusercontent.com/codejunkie99/company-foundry/main/assets/work-packet.svg",
+        "text": "The loop matters because output is not the same as completed work. A beautiful research memo that cannot show its sources is not complete. A working pull request with no stated customer problem is not complete. A dashboard with no action attached is not complete.",
         "type": "unstyled"
       },
       {
@@ -127,7 +127,11 @@
         "type": "header-two"
       },
       {
-        "text": "Customer research is a good first workload because it exposes every weakness in the system.\n\nThe naive version asks a model to “research this company” from the web. It comes back with a clean summary, a list of competitors, and a confident point of view. The result may be useful. It may also be a polished version of the wrong problem.",
+        "text": "<img src=\"../assets/editorial/05-customer-evidence.svg\" alt=\"An evidence map joining interviews, tickets, usage data, market evidence, and a claim ledger.\" width=\"1600\" />\n\nCustomer research is a good first workload because it exposes every weakness in the system.",
+        "type": "unstyled"
+      },
+      {
+        "text": "The naive version asks a model to “research this company” from the web. It comes back with a clean summary, a list of competitors, and a confident point of view. The result may be useful. It may also be a polished version of the wrong problem.",
         "type": "unstyled"
       },
       {
@@ -135,11 +139,7 @@
         "type": "unstyled"
       },
       {
-        "text": "The internal record is what makes the research company-specific. Without it, the system is performing category research, not customer research.\n\nDiagram: Evidence is collected, cited, assessed, used for a decision, and fed back into the next research cycle.\nhttps://raw.githubusercontent.com/codejunkie99/company-foundry/main/assets/evidence-loop.svg",
-        "type": "unstyled"
-      },
-      {
-        "text": "The customer-evidence-research skill should require a claim ledger. Each material claim records its source, date, scope, confidence, and whether it is observed fact or interpretation. The system should say “we do not know” when the evidence is absent.",
+        "text": "The internal record is what makes the research company-specific. Without it, the system is performing category research, not customer research.\n\nThe customer-evidence-research skill should require a claim ledger. Each material claim records its source, date, scope, confidence, and whether it is observed fact or interpretation. The system should say “we do not know” when the evidence is absent.",
         "type": "unstyled"
       },
       {
@@ -159,19 +159,23 @@
         "type": "header-two"
       },
       {
-        "text": "Every company will use more than one model. This is not a temporary inconvenience. It is the normal condition of an AI-native organisation.\n\nSome tasks need inexpensive extraction across hundreds of files. Some need a quick response while a customer waits. Some need sustained reasoning over a complicated plan, a difficult codebase, or conflicting evidence. Some need a model that works with a specific tool or data boundary.",
+        "text": "<img src=\"../assets/editorial/06-model-router.svg\" alt=\"A model-routing map with economy, fast, capable, Kimi K3, fallback, and route receipt stages.\" width=\"1600\" />\n\nEvery company will use more than one model. This is not a temporary inconvenience. It is the normal condition of an AI-native organisation.",
         "type": "unstyled"
       },
       {
-        "text": "The answer is not to make every worker choose a model by instinct. The harness needs a model router.\n\nDiagram: A model router selects economy, fast, or capable tiers and records the route receipt.\nhttps://raw.githubusercontent.com/codejunkie99/company-foundry/main/assets/model-route.svg\n\nAt the simplest level, the router has three lanes:\n\n- economy for classification, extraction, deduplication, and first-pass triage;",
+        "text": "Some tasks need inexpensive extraction across hundreds of files. Some need a quick response while a customer waits. Some need sustained reasoning over a complicated plan, a difficult codebase, or conflicting evidence. Some need a model that works with a specific tool or data boundary.\n\nThe answer is not to make every worker choose a model by instinct. The harness needs a model router.\n\nAt the simplest level, the router has three lanes:",
         "type": "unstyled"
       },
       {
-        "text": "- fast for interactive work, quick iterations, and routine execution;\n\n- capable for difficult reasoning, complex code changes, high-stakes synthesis, and work that needs a careful review trail.\n\nKimi K3 can sit in the capable lane when the task benefits from its particular strengths. That is useful, but it is not a company architecture. The packet should request a capability, not pledge loyalty to a model.",
+        "text": "- economy for classification, extraction, deduplication, and first-pass triage;\n\n- fast for interactive work, quick iterations, and routine execution;\n\n- capable for difficult reasoning, complex code changes, high-stakes synthesis, and work that needs a careful review trail.",
         "type": "unstyled"
       },
       {
-        "text": "The router should return a route receipt. It records the selected provider and model, reasoning setting, tool permissions, budget, fallback, and reason for the choice. If the router degrades to a different model, the receipt should say so.\n\nA route receipt turns model choice into an observable engineering decision. It lets a team compare cost, speed, and result quality by task type instead of arguing from anecdotes.",
+        "text": "Kimi K3 can sit in the capable lane when the task benefits from its particular strengths. That is useful, but it is not a company architecture. The packet should request a capability, not pledge loyalty to a model.\n\nThe router should return a route receipt. It records the selected provider and model, reasoning setting, tool permissions, budget, fallback, and reason for the choice. If the router degrades to a different model, the receipt should say so.",
+        "type": "unstyled"
+      },
+      {
+        "text": "A route receipt turns model choice into an observable engineering decision. It lets a team compare cost, speed, and result quality by task type instead of arguing from anecdotes.",
         "type": "unstyled"
       },
       {
@@ -183,19 +187,27 @@
         "type": "header-two"
       },
       {
-        "text": "People use the word “skill” too loosely. A long prompt is not automatically a skill.\n\nA useful company skill is a versioned procedure with clear inputs, steps, artifact expectations, review checks, and stop conditions. It is small enough to understand and specific enough to reuse.\n\nDiagram: A skill registry makes procedures discoverable, versioned, reviewed, and portable.\nhttps://raw.githubusercontent.com/codejunkie99/company-foundry/main/assets/skill-registry.svg",
+        "text": "<img src=\"../assets/editorial/07-skill-registry.svg\" alt=\"A skill-registry map connecting work packets, research, routes, code, dashboards, and review.\" width=\"1600\" />\n\nPeople use the word “skill” too loosely. A long prompt is not automatically a skill.\n\nA useful company skill is a versioned procedure with clear inputs, steps, artifact expectations, review checks, and stop conditions. It is small enough to understand and specific enough to reuse.",
         "type": "unstyled"
       },
       {
-        "text": "The initial registry does not need hundreds of skills. It needs a few that match the company loop:\n\n- `company-work-packet` turns an outcome into bounded work.\n\n- `customer-evidence-research` produces a cited claim ledger and decision frame.\n\n- `model-route-record` selects a route and writes the receipt.\n\n- `company-code-delivery` plans, changes, tests, and documents a code artifact.\n\n- `company-ui-artifact` turns a decision or workflow into a usable interface.",
+        "text": "At minimum, a `SKILL.md` should look like an operating contract, not a creative brief:\n\n---\n\nname: company-code-delivery\n\ndescription: Deliver one approved change with evidence and review.\n\n---\n\n- Load the work packet and inspect the affected path.\n\n- State the acceptance criteria and the bounded implementation plan.\n\n- Change only the approved scope and run the focused checks.\n\n- Write a delivery artifact: files changed, checks run, result, authority used.",
         "type": "unstyled"
       },
       {
-        "text": "- `company-dashboard` creates an operating view with metrics, definitions, owners, and next actions.\n\n- `company-artifact-review` checks evidence, quality, permissions, and hand-off completeness.\n\nThe registry should answer questions that a prompt library usually ignores: who owns this skill, what inputs does it expect, what can it create, what review is mandatory, and where is it allowed to run?",
+        "text": "- Stop at review unless the packet grants a higher authority level.\n\nThe frontmatter makes the procedure discoverable. The numbered method gives the agent an order of work. The delivery artifact gives the reviewer something independent of the chat. The authority line tells the runtime where execution ends.",
         "type": "unstyled"
       },
       {
-        "text": "The skill is the company’s reusable judgement, written down as an executable procedure. It should carry the organisation’s standards forward without pretending that judgement has disappeared.",
+        "text": "A skill file is where a company turns a standard into an executable, reviewable commitment. It has the same shape as a sound engineering component: declared needs, bounded behaviour, and a visible result.\n\nThe initial registry does not need hundreds of skills. It needs a few that match the company loop:\n\n- `company-work-packet` turns an outcome into bounded work.\n\n- `customer-evidence-research` produces a cited claim ledger and decision frame.",
+        "type": "unstyled"
+      },
+      {
+        "text": "- `model-route-record` selects a route and writes the receipt.\n\n- `company-code-delivery` plans, changes, tests, and documents a code artifact.\n\n- `company-ui-artifact` turns a decision or workflow into a usable interface.\n\n- `company-dashboard` creates an operating view with metrics, definitions, owners, and next actions.\n\n- `company-artifact-review` checks evidence, quality, permissions, and hand-off completeness.",
+        "type": "unstyled"
+      },
+      {
+        "text": "The registry should answer questions that a prompt library usually ignores: who owns this skill, what inputs does it expect, what can it create, what review is mandatory, and where is it allowed to run?\n\nThe skill is the company’s reusable judgement, written down as an executable procedure. It should carry the organisation’s standards forward without pretending that judgement has disappeared.",
         "type": "unstyled"
       },
       {
@@ -207,23 +219,27 @@
         "type": "header-two"
       },
       {
-        "text": "The weakest form of agent work lives only in a conversation window.\n\nThat is acceptable for brainstorming. It is not acceptable for company memory. A company needs artifacts that can be inspected without replaying a chat: a research brief, a decision record, a pull request, an interface preview, a dashboard, an experiment plan, or a customer account review.",
+        "text": "<img src=\"../assets/editorial/08-artifact-lineage.svg\" alt=\"An artifact-lineage map linking the work packet, sources, skill version, model route, artifact, and review.\" width=\"1600\" />\n\nThe weakest form of agent work lives only in a conversation window.",
         "type": "unstyled"
       },
       {
-        "text": "Diagram: Artifacts preserve lineage from work packet through evidence and review to the final decision.\nhttps://raw.githubusercontent.com/codejunkie99/company-foundry/main/assets/artifact-lineage.svg\n\nEach artifact should carry lineage. It should point to the work packet, the evidence used, the model route, the skill version, the reviewer, and the resulting decision. It does not need to be verbose. It needs to be findable.",
+        "text": "That is acceptable for brainstorming. It is not acceptable for company memory. A company needs artifacts that can be inspected without replaying a chat: a research brief, a decision record, a pull request, an interface preview, a dashboard, an experiment plan, or a customer account review.",
         "type": "unstyled"
       },
       {
-        "text": "This is where UI artifacts and dashboards matter. A company should not treat them as decorative output from an agent. They are decision surfaces.\n\nA customer-risk dashboard, for example, should show the measure, the time window, the cohort, the data freshness, the owner, and the action it supports. A generated product interface should show the scenario it was designed for, the state it handles, and the acceptance checks it passed.",
+        "text": "Each artifact should carry lineage. It should point to the work packet, the evidence used, the model route, the skill version, the reviewer, and the resulting decision. It does not need to be verbose. It needs to be findable.\n\nThis is where UI artifacts and dashboards matter. A company should not treat them as decorative output from an agent. They are decision surfaces.",
         "type": "unstyled"
       },
       {
-        "text": "An artifact is a contract between the work that happened and the person who must act on it. If the artifact cannot support action, it is not finished.\n\nThe Company Room is a practical way to collect these artifacts. It is not another strategy board. It is an operational view of active packets: what is in progress, what evidence has arrived, which model route was used, what artifact exists, which review is waiting, and what decision is blocked.",
+        "text": "A customer-risk dashboard, for example, should show the measure, the time window, the cohort, the data freshness, the owner, and the action it supports. A generated product interface should show the scenario it was designed for, the state it handles, and the acceptance checks it passed.\n\nAn artifact is a contract between the work that happened and the person who must act on it. If the artifact cannot support action, it is not finished.",
         "type": "unstyled"
       },
       {
-        "text": "Diagram: A Company Room shows active work packets, artifacts, review state, and blocked decisions.\nhttps://raw.githubusercontent.com/codejunkie99/company-foundry/main/assets/company-room.svg\n\nThe interface can be generated by Codex or another coding environment when the skill has a clear artifact contract. The important point is not which computer-use tool creates the page. The important point is that the generated page has a defined job in the company loop.",
+        "text": "The Company Room is a practical way to collect these artifacts. It is not another strategy board. It is an operational view of active packets: what is in progress, what evidence has arrived, which model route was used, what artifact exists, which review is waiting, and what decision is blocked.",
+        "type": "unstyled"
+      },
+      {
+        "text": "The interface can be generated by Codex or another coding environment when the skill has a clear artifact contract. The important point is not which computer-use tool creates the page. The important point is that the generated page has a defined job in the company loop.",
         "type": "unstyled"
       },
       {
@@ -231,19 +247,19 @@
         "type": "header-two"
       },
       {
-        "text": "The most dangerous error in AI-native organisation design is confusing access with authority.\n\nAn agent may be able to read a repository, query a CRM, open a browser, create a draft, and prepare a deployment. None of that means it should be allowed to send a customer email, change a price, merge a release, or move money.\n\nAuthority should be explicit, narrow, and visible in the packet. A simple ladder is enough to begin:",
+        "text": "<img src=\"../assets/editorial/09-authority-gates.svg\" alt=\"An authority ladder from observe to prepare, commit, emit, policy, and audit log.\" width=\"1600\" />\n\nThe most dangerous error in AI-native organisation design is confusing access with authority.",
         "type": "unstyled"
       },
       {
-        "text": "- `observe`: inspect permitted systems and produce analysis;\n\n- `prepare`: create drafts, branches, queries, and proposed artifacts;\n\n- `commit`: make a reversible change inside an approved boundary;\n\n- `emit`: send or publish externally.\n\nDiagram: Authority gates separate observation, preparation, commitment, and external emission.\nhttps://raw.githubusercontent.com/codejunkie99/company-foundry/main/assets/authority-gates.svg",
+        "text": "An agent may be able to read a repository, query a CRM, open a browser, create a draft, and prepare a deployment. None of that means it should be allowed to send a customer email, change a price, merge a release, or move money.\n\nAuthority should be explicit, narrow, and visible in the packet. A simple ladder is enough to begin:\n\n- `observe`: inspect permitted systems and produce analysis;\n\n- `prepare`: create drafts, branches, queries, and proposed artifacts;",
         "type": "unstyled"
       },
       {
-        "text": "The default should be `prepare`. This is where most useful work happens anyway. The model can research, write, code on a branch, generate an interface, and assemble a decision packet without creating an irreversible external consequence.\n\nImportantly, a skill cannot grant itself more authority. The execution environment owns the permission boundary. The skill can ask for a transition; a policy and, where required, a human owner approves it.",
+        "text": "- `commit`: make a reversible change inside an approved boundary;\n\n- `emit`: send or publish externally.\n\nThe default should be `prepare`. This is where most useful work happens anyway. The model can research, write, code on a branch, generate an interface, and assemble a decision packet without creating an irreversible external consequence.",
         "type": "unstyled"
       },
       {
-        "text": "This makes the system less magical and more trustworthy. A reviewer does not have to guess whether an agent acted. The packet, artifact lineage, and authority record show what happened.",
+        "text": "Importantly, a skill cannot grant itself more authority. The execution environment owns the permission boundary. The skill can ask for a transition; a policy and, where required, a human owner approves it.\n\nThis makes the system less magical and more trustworthy. A reviewer does not have to guess whether an agent acted. The packet, artifact lineage, and authority record show what happened.",
         "type": "unstyled"
       },
       {
@@ -251,11 +267,11 @@
         "type": "header-two"
       },
       {
-        "text": "There are now several categories of multi-agent products. Some coordinate projects, repositories, and long-running tasks. Some manage agent teams. Some offer an interface for assigning work and tracking status. Those are useful control planes.\n\nA harness has a different job. It defines how a particular work packet is executed: which skills are available, how context is assembled, which tools can run, what model route is selected, and what evidence is preserved.",
+        "text": "<img src=\"../assets/editorial/10-control-plane.svg\" alt=\"A system boundary map for company method, work packet, runtime, tools, control plane, and surfaces.\" width=\"1600\" />\n\nThere are now several categories of multi-agent products. Some coordinate projects, repositories, and long-running tasks. Some manage agent teams. Some offer an interface for assigning work and tracking status. Those are useful control planes.",
         "type": "unstyled"
       },
       {
-        "text": "The company operating method sits above both. It should be able to compile its work into a harness without being trapped inside it.\n\nDiagram: A portable operating method uses adapters for DeepSeek Harness, Codex, and Claude Code.\nhttps://raw.githubusercontent.com/codejunkie99/company-foundry/main/assets/runtime-adapters.svg",
+        "text": "A harness has a different job. It defines how a particular work packet is executed: which skills are available, how context is assembled, which tools can run, what model route is selected, and what evidence is preserved.\n\nThe company operating method sits above both. It should be able to compile its work into a harness without being trapped inside it.",
         "type": "unstyled"
       },
       {
@@ -275,7 +291,7 @@
         "type": "header-two"
       },
       {
-        "text": "Do not begin by modelling the whole company. That produces a decorative organisation chart and a large surface area for permission mistakes.\n\nChoose one workflow that has these properties: it happens at least twice a month, it needs evidence from more than one place, it results in an artifact, and a human already makes a recurring decision at the end.",
+        "text": "<img src=\"../assets/editorial/11-first-workflow.svg\" alt=\"A seven-step first workflow from brief to review.\" width=\"1600\" />\n\nDo not begin by modelling the whole company. That produces a decorative organisation chart and a large surface area for permission mistakes.\n\nChoose one workflow that has these properties: it happens at least twice a month, it needs evidence from more than one place, it results in an artifact, and a human already makes a recurring decision at the end.",
         "type": "unstyled"
       },
       {
@@ -295,7 +311,11 @@
         "type": "header-two"
       },
       {
-        "text": "Traditional software metrics are not enough. A harness can produce output quickly while quietly increasing review load, confusion, or operational risk.\n\nMeasure whether the work packet makes decisions faster and better. Track cycle time from brief to reviewed artifact. Track the proportion of claims with traceable sources. Track acceptance and rework rates. Track route cost and latency by task type. Track how often a reviewer changes the final recommendation.",
+        "text": "<img src=\"../assets/editorial/12-measurement.svg\" alt=\"An operating-metrics map covering cycle time, source rate, rework, latency, cost, and corrections.\" width=\"1600\" />\n\nTraditional software metrics are not enough. A harness can produce output quickly while quietly increasing review load, confusion, or operational risk.",
+        "type": "unstyled"
+      },
+      {
+        "text": "Measure whether the work packet makes decisions faster and better. Track cycle time from brief to reviewed artifact. Track the proportion of claims with traceable sources. Track acceptance and rework rates. Track route cost and latency by task type. Track how often a reviewer changes the final recommendation.",
         "type": "unstyled"
       },
       {
@@ -311,7 +331,7 @@
         "type": "header-two"
       },
       {
-        "text": "Most harness projects fail for ordinary reasons. They fail because the work is vague, the data is inaccessible, the reviewer does not trust the output, or the artifact lands in a place where nobody uses it. Better prompting does not fix these failures.",
+        "text": "<img src=\"../assets/editorial/13-failure-modes.svg\" alt=\"A failure map for vague roles, bad context, late review, empty UI, and excess authority.\" width=\"1600\" />\n\nMost harness projects fail for ordinary reasons. They fail because the work is vague, the data is inaccessible, the reviewer does not trust the output, or the artifact lands in a place where nobody uses it. Better prompting does not fix these failures.",
         "type": "unstyled"
       },
       {
@@ -347,11 +367,11 @@
         "type": "header-two"
       },
       {
-        "text": "The company harness should be tended like any other operational system. Skills need owners. Presets need versioning. Metrics need definitions. A model route that was sensible last quarter may be slow, costly, or poorly suited today.\n\nThis does not require a large governance function. It requires a small cadence that makes changes visible.",
+        "text": "<img src=\"../assets/editorial/14-operating-cadence.svg\" alt=\"An operating cadence map for weekly runs, skills review, route evaluation, incidents, and versioning.\" width=\"1600\" />\n\nThe company harness should be tended like any other operational system. Skills need owners. Presets need versioning. Metrics need definitions. A model route that was sensible last quarter may be slow, costly, or poorly suited today.",
         "type": "unstyled"
       },
       {
-        "text": "Once a week, review the packets that were blocked, rejected, or unusually expensive. Look for the first broken boundary. Was the brief unclear? Was required evidence unavailable? Did the route choose the wrong capability tier? Did the artifact fail its acceptance test? Did the reviewer lack enough context to decide?",
+        "text": "This does not require a large governance function. It requires a small cadence that makes changes visible.\n\nOnce a week, review the packets that were blocked, rejected, or unusually expensive. Look for the first broken boundary. Was the brief unclear? Was required evidence unavailable? Did the route choose the wrong capability tier? Did the artifact fail its acceptance test? Did the reviewer lack enough context to decide?",
         "type": "unstyled"
       },
       {
@@ -379,7 +399,7 @@
         "type": "header-two"
       },
       {
-        "text": "The phrase “AI-native company” can encourage a fantasy: agents in every function, constant autonomy, no friction, no people in the loop.",
+        "text": "<img src=\"../assets/editorial/15-harness-company.svg\" alt=\"A company map joining briefs, skills, routing, artifacts, authority, and learning.\" width=\"1600\" />\n\nThe phrase “AI-native company” can encourage a fantasy: agents in every function, constant autonomy, no friction, no people in the loop.",
         "type": "unstyled"
       },
       {
@@ -387,11 +407,7 @@
         "type": "unstyled"
       },
       {
-        "text": "Diagram: The architecture connects briefs, skill registry, model routing, authority gates, artifacts, and adapters.\nhttps://raw.githubusercontent.com/codejunkie99/company-foundry/main/assets/architecture.svg\n\nThe product is not a dashboard, a prompt library, or an agent that claims to run the business. The product is an executable organisational design.\n\nBuild one work packet. Make it honest. Keep the evidence, route receipt, artifact, and review. Then run it again.",
-        "type": "unstyled"
-      },
-      {
-        "text": "That is how a company becomes AI-native: not when it has the most agents, but when its work can survive contact with a new model, a new operator, and a real decision.",
+        "text": "The product is not a dashboard, a prompt library, or an agent that claims to run the business. The product is an executable organisational design.\n\nBuild one work packet. Make it honest. Keep the evidence, route receipt, artifact, and review. Then run it again.\n\nThat is how a company becomes AI-native: not when it has the most agents, but when its work can survive contact with a new model, a new operator, and a real decision.",
         "type": "unstyled"
       }
     ],

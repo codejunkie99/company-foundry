@@ -4,6 +4,7 @@ import { join } from 'node:path'
 const root = new URL('..', import.meta.url).pathname
 const skillRoot = join(root, 'skills')
 const assetRoot = join(root, 'assets')
+const editorialRoot = join(assetRoot, 'editorial')
 
 async function filesNamed(dir, name) {
   const found = []
@@ -18,10 +19,12 @@ async function filesNamed(dir, name) {
 const registry = await readFile(join(root, 'registry/company-harness.yml'), 'utf8')
 const skills = await filesNamed(skillRoot, 'SKILL.md')
 const svgs = (await readdir(assetRoot)).filter(file => file.endsWith('.svg'))
+const editorialSvgs = (await readdir(editorialRoot)).filter(file => file.endsWith('.svg'))
 
 if ((registry.match(/^  - name:/gm) ?? []).length !== 7) throw new Error('registry must declare seven skills')
 if (skills.length !== 7) throw new Error(`expected seven portable skills, found ${skills.length}`)
 if (svgs.length !== 11) throw new Error(`expected eleven SVG assets, found ${svgs.length}`)
+if (editorialSvgs.length !== 15) throw new Error(`expected fifteen editorial SVG plates, found ${editorialSvgs.length}`)
 
 for (const file of skills) {
   const source = await readFile(file, 'utf8')
@@ -33,9 +36,14 @@ for (const file of svgs) {
   if (!source.includes('<svg') || !source.includes('</svg>')) throw new Error(`invalid SVG: ${file}`)
 }
 
+for (const file of editorialSvgs) {
+  const source = await readFile(join(editorialRoot, file), 'utf8')
+  if (!source.includes('<svg') || !source.includes('</svg>')) throw new Error(`invalid editorial SVG: ${file}`)
+}
+
 for (const path of [
   join(root, 'presets/deepseek-harness/company-research/agent.cordis.yml'),
   join(root, 'presets/deepseek-harness/company-builder/agent.cordis.yml'),
 ]) await stat(path)
 
-console.log(`validated ${skills.length} skills and ${svgs.length} SVG assets`)
+console.log(`validated ${skills.length} skills, ${svgs.length} SVG assets, and ${editorialSvgs.length} editorial plates`)

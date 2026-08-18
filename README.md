@@ -66,7 +66,7 @@ Copy `adapters/codex/company-harness/` into a Codex skill root and `adapters/cla
 npm run validate
 ```
 
-This checks registry structure, skill frontmatter, preset metadata, and the eleven SVG assets. It does not validate a running DeepSeek Harness installation; use the harness's own preset mount check for that.
+This checks registry structure, skill frontmatter, preset metadata, eleven core SVG assets, and fifteen editorial SVG plates. It does not validate a running DeepSeek Harness installation; use the harness's own preset mount check for that.
 
 ## Scope
 
