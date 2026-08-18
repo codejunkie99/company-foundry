@@ -1,6 +1,6 @@
 # The Harness Company: How to Build Your First AI-Native Company with Kimi K3
 
-TLDR: If you don't want to read the 3,780 words in this article, you can just go to this [GitHub repo](https://github.com/codejunkie99/company-foundry).
+TLDR: If you don't want to read the 3,945 words in this article, you can just go to this [GitHub repo](https://github.com/codejunkie99/company-foundry).
 
 i built the part of an AI company nobody wants to build...
 
@@ -22,6 +22,8 @@ Then another agent gets access to the repository. Then someone connects a spread
 
 The demos look insane. Work starts to move faster.
 
+### the demo breaks at accountability
+
 Then someone asks a very boring question.
 
 Where did that customer claim come from?
@@ -29,6 +31,8 @@ Where did that customer claim come from?
 The answer is often: somewhere in a chat.
 
 That is the whole problem.
+
+### good work needs a durable record
 
 A chat can contain good work. **A chat is not a company method.**
 
@@ -42,6 +46,8 @@ A model setting can choose something smart today. It is not a routing policy tha
 >
 > the company method is owned
 
+### the system has to answer for the work
+
 I think this is where most "AI-native company" conversations go wrong.
 
 People picture an organisation made of autonomous personalities. An AI CEO. An AI sales team. An AI product manager. A little org chart of bots talking to each other until the business runs itself.
@@ -49,6 +55,8 @@ People picture an organisation made of autonomous personalities. An AI CEO. An A
 That is the visible layer. It is not the useful layer.
 
 The useful layer is much less glamorous. It is a system that turns a company question into accountable work.
+
+### the path from question to action must be visible
 
 Why does the work exist? Which customer sources are approved? What is the agent allowed to do? Which model tier fits? What artifact does it owe the next person? Who reviews the result before it changes anything real?
 
@@ -66,31 +74,27 @@ Not one giant prompt.
 
 Not one agent persona pretending to know the business.
 
+### from company description to runtime method
+
 **A portable company specification with the parts a runtime actually needs.**
 
 <img src="../assets/architecture.svg" alt="Company specification, operating methods, and runtime adapters" width="1200" />
 
 ### three layers, one method
 
-The first layer is the company specification.
+- **Company specification.** Identity, customers, active goals, source rules, authority, resources, and standards. It is not a knowledge dump. The harness selects the relevant records when a task needs them.
 
-It holds identity, customers, active goals, source rules, authority, resources, and standards. This is not a knowledge dump that every model receives. It is the set of records the harness selects from when a task needs them.
+- **Method registry.** The company's reusable ways of working: customer research, product decisions, code delivery, dashboard creation, and artifact review.
 
-The second layer is the method registry.
-
-This is where the company defines its reusable ways of working. How it researches a customer question. How it turns a product decision into a code change. How it builds a dashboard. How it reviews an artifact before it becomes company truth.
-
-The third layer is the runtime adapter.
-
-DeepSeek Harness can consume native presets and scoped skill files. Codex and Claude Code can consume the same operating method through their own skill roots.
-
-A company control plane can consume goals, budgets, approvals, and audit records. A work runtime can consume task and agent configuration.
+- **Runtime adapter.** DeepSeek Harness consumes native presets and scoped skill files. Codex and Claude Code consume the same method through their own skill roots. A control plane consumes goals, budgets, approvals, and audit records.
 
 The company should not be trapped in a chat UI.
 
 That is the point of compiling the method before you pick the interface.
 
 ## the company brief is the first artifact
+
+### name the operating facts before the worker
 
 Most people begin by naming an agent.
 
@@ -102,6 +106,8 @@ The more useful question is: what does this company need a worker to know before
 
 <img src="../assets/company-brief.svg" alt="The six fields in a company brief" width="900" />
 
+### company context is a record, not a prompt
+
 **The first input to Company Foundry is a company brief.**
 
 It is deliberately structured.
@@ -111,6 +117,8 @@ Identity tells the harness what the company sells, who it serves, and which prod
 Evidence tells it which sources are approved and which data is restricted. Authority tells it what a worker may observe, prepare, commit, or emit.
 
 Resources tell it which repos, apps, and tools exist. Standards tell it what a finished piece of work must contain.
+
+### the brief makes the operating choice explicit
 
 That gives you a clean answer to a subtle problem.
 
@@ -122,6 +130,8 @@ You do not want every agent to receive every customer note and every access cred
 
 The agent gets the context it needs for its job. The company keeps the rest under policy.
 
+### update the rule once, then reuse it everywhere
+
 This also makes change boring in a good way.
 
 If your customer segment changes, update the company brief. If an old source is no longer approved, update its policy. If a new model becomes useful, update the registry. The next relevant task gets the new rule without rewriting twenty agent prompts.
@@ -132,6 +142,8 @@ Company records describe a method.
 
 ## every important job needs a packet
 
+### describe the job before the model begins
+
 Here is the easiest way to tell whether you have a company method or an agent demo.
 
 Can you write down the job before the model starts?
@@ -139,6 +151,8 @@ Can you write down the job before the model starts?
 <img src="../assets/work-packet.svg" alt="A bounded company work packet" width="900" />
 
 **I call that record a work packet.**
+
+### scope and output make the work inspectable
 
 A work packet names the outcome, owner, scope, inputs, authority, required artifacts, and quality checks. It is not a project plan. It is a bounded unit of work that another worker can inspect, run, review, or resume.
 
@@ -159,7 +173,9 @@ Check: Every material claim points to an inspectable source
 
 ### the packet owns the definition of done
 
-Now the model has a job. The company has a record. A reviewer knows what to inspect.
+**Now the model has a job. The company has a record. A reviewer knows what to inspect.**
+
+### stop vague performance before it starts
 
 This is also how you stop AI work from becoming vague performance.
 
@@ -179,15 +195,17 @@ Every model can create an impressive market summary. Very few systems can show y
 
 <img src="../assets/evidence-loop.svg" alt="Sources become a ledger and support reviewable claims" width="900" />
 
+### research needs a proof chain
+
 **The research skill runs in four steps.**
 
-First, discovery maps the question. Customer segments. Buying triggers. Product terms. Competitor names. Unknowns. This is coverage work. It may be cheap enough for an economy model.
+1. **Discovery** maps the question: customer segments, buying triggers, product terms, competitor names, and unknowns. This is coverage work. An economy model may be enough.
 
-Second, evidence builds the source ledger. Each source gets an identifier, type, location, access status, date, and the relevant extract. This seems trivial until you try to review a generated brief and discover its best claim came from nowhere.
+2. **Evidence** builds the source ledger. Each source gets an identifier, type, location, access status, date, and relevant extract.
 
-Third, synthesis compares the evidence and writes the brief. This is where a capable model such as Kimi K3 can be useful. It has a defined question, a bounded source set, and a required structured artifact. It is not being asked to "know the customer" from vibes.
+3. **Synthesis** compares the evidence and writes the brief. A capable model such as Kimi K3 can be useful here because the question, source set, and required artifact are bounded.
 
-Fourth, review checks the evidence match, sensitive-data rule, claim strength, and recommendation. The result becomes an artifact another team can consume.
+4. **Review** checks the evidence match, sensitive-data rule, claim strength, and recommendation. The result becomes an artifact another team can consume.
 
 > discovery finds the question
 >
@@ -207,35 +225,43 @@ It can extract, compare, draft, and propose. It does not become company evidence
 
 Once you have that, the next workflow gets easier.
 
+### artifacts feed the next workflow
+
 The product skill does not need to research the whole company again. It consumes the approved research artifact.
 
 It creates a problem map, a decision brief, and a specification. The build skill consumes the approved specification.
 
 It produces an implementation plan, changed files, checks, and a reviewable delivery record.
 
-That is how company memory compounds.
+### memory compounds through approved artifacts
 
-Not by making one model remember everything.
+**Company memory compounds through approved artifacts, not model recall.**
 
-By giving every important result a place in a chain of evidence and artifacts.
+Each approved result becomes an input another workflow can inspect and reuse. That is how the company compounds work without asking one model to remember everything.
 
 ## Kimi K3 is a worker, not the company
 
 The title says Kimi K3 because it is a good way to make the idea concrete.
 
-You can put Kimi K3 in the capable tier for work that needs deep synthesis, difficult code, architecture, or a high-value decision. You can use a faster model for time-sensitive small work. You can use an economy model for extraction, tagging, or broad first-pass coverage.
+You can put Kimi K3 in the capable tier for deep synthesis, difficult code, architecture, or high-value decisions.
+
+Use a faster model for time-sensitive small work. Use an economy model for extraction, tagging, or broad first-pass coverage.
 
 **The mistake is turning that choice into a dropdown people click at random.**
 
 <img src="../assets/model-route.svg" alt="A packet selects an economy, fast, or capable model tier" width="900" />
 
+### route the work before it starts
+
 The router should decide before the work begins.
 
-It reads the work packet. Does this job require structured output? Browser or computer use? A large evidence set? A rapid response? A high-quality conclusion? Then it filters the models that cannot meet the requirement and records the selected tier, reason, and fallback.
+It reads the work packet. Does this job require structured output, browser or computer use, a large evidence set, rapid response, or a high-quality conclusion?
+
+Then it filters out models that cannot meet the requirement. It records the selected tier, reason, and fallback.
 
 ### keep a route receipt
 
-The route receipt is tiny:
+**The route receipt makes the model choice inspectable.**
 
 ```yaml
 packet: customer-insight-q3
@@ -246,9 +272,15 @@ reason: The packet compares evidence across approved sources.
 fallback: approved-capable-model, then human review
 ```
 
+### inspect the choice when the result is weak
+
 That receipt changes the conversation after a bad result.
 
-Instead of saying "AI got it wrong," the company can inspect the packet, source set, skill version, route, artifact, and review. Maybe the evidence was poor. Maybe the skill was too vague. Maybe the capable model was unnecessary. Maybe the task should have been escalated to a person.
+Instead of saying "AI got it wrong," inspect the packet, source set, skill version, route, artifact, and review.
+
+Maybe the evidence was poor. Maybe the skill was too vague. Maybe the capable model was unnecessary. Maybe the task needed a person.
+
+### explain the trade-off, not just the failure
 
 This is what a company needs from model routing.
 
@@ -270,13 +302,19 @@ The harness needs a clean difference between internal exploration and an effect 
 
 The easiest mental model is a work scope.
 
-Inside the scope, an agent can read the approved files, create a candidate brief, prepare code in an isolated branch, test a dashboard query, or retry a failed tool call. The scope can be discarded, retried, or reviewed. This is where model work should be flexible.
+Inside the scope, an agent can read approved files, create a candidate brief, prepare code in an isolated branch, test a dashboard query, or retry a failed tool call.
+
+The scope can be discarded, retried, or reviewed. This is where model work should be flexible.
+
+### declare the effect before it becomes real
 
 Outside the scope, the system should be careful.
 
 Writing a CRM update, merging code, charging a card, changing a shared database record, or sending information to a customer changes company or external state.
 
 Before that happens, the system needs a visible proposed effect. What will change? Where? Why? Which packet permits it? What evidence supports it? Who can approve it? Can it be compensated if it goes wrong?
+
+### automate by policy, not accident
 
 This does not mean the company must make every agent wait for a human.
 
@@ -286,9 +324,13 @@ That is what makes a harness flexible instead of reckless.
 
 It lets models explore freely where exploration is cheap. It adds a gate where the company creates an obligation.
 
+### preserve a clear result, even after a failed run
+
 The loop should converge even when the model changes its mind.
 
-If two research paths reach the same approved artifact, the system should preserve one clear result and its evidence, not make the team untangle every abandoned branch. If a run fails in the middle, the next worker should see where it stopped, not start from a guessed narrative.
+If two research paths reach the same approved artifact, preserve one clear result and its evidence. Do not make the team untangle every abandoned branch.
+
+If a run fails in the middle, the next worker should see where it stopped. It should not start from a guessed narrative.
 
 Company memory is not every token the model produced.
 
@@ -308,13 +350,10 @@ Those are emissions from the company into the world.
 
 Company Foundry uses four levels of authority.
 
-`observe` lets a worker inspect approved information.
-
-`prepare` lets it produce a draft, a candidate dashboard, or code in an isolated workspace.
-
-`commit` lets it change internal company state.
-
-`emit` lets it act outside the company boundary.
+- `observe` lets a worker inspect approved information.
+- `prepare` lets it produce a draft, a candidate dashboard, or code in an isolated workspace.
+- `commit` lets it change internal company state.
+- `emit` lets it act outside the company boundary.
 
 ### reversible work and irreversible effects
 
@@ -326,6 +365,8 @@ An agent can draft ten versions of an email. It can prepare code in a branch. It
 
 Sending the email is one event. Merging the code is one event. Publishing the dashboard is one event. Changing the roadmap is one decision.
 
+### make the transition visible
+
 The harness should make that transition visible.
 
 > explore freely inside the work scope
@@ -333,6 +374,8 @@ The harness should make that transition visible.
 > commit deliberately to company state
 >
 > emit externally through an explicit gate
+
+### authority follows the packet, not the model
 
 The model does not choose its own authority. The work packet and runtime policy do.
 
@@ -350,19 +393,13 @@ Sometimes it means a folder with a good prompt. Sometimes it means a tool. Somet
 
 The Company Foundry registry starts with seven skills.
 
-`company-work-packet` turns a request into bounded work.
-
-`customer-evidence-research` produces a ledger and insight brief.
-
-`model-route-record` selects and records a route.
-
-`company-code-delivery` produces a scoped plan, changed files, and actual test evidence.
-
-`company-ui-artifact` produces a UI brief, information architecture, data contract, state matrix, implementation record, and verification evidence.
-
-`company-dashboard` produces metric definitions, lineage, freshness, permission rules, views, and all of the states a real dashboard needs.
-
-`company-artifact-review` records provenance, uncertainty, and review state.
+- `company-work-packet` turns a request into bounded work.
+- `customer-evidence-research` produces a ledger and insight brief.
+- `model-route-record` selects and records a route.
+- `company-code-delivery` produces a scoped plan, changed files, and actual test evidence.
+- `company-ui-artifact` produces a UI brief, information architecture, data contract, state matrix, implementation record, and verification evidence.
+- `company-dashboard` produces metric definitions, lineage, freshness, permission rules, views, and all of the states a real dashboard needs.
+- `company-artifact-review` records provenance, uncertainty, and review state.
 
 ### artifacts make work inspectable
 
@@ -390,7 +427,7 @@ Why do these customers buy from us? What should we build next? Which work should
 
 ### a dashboard needs an operating job
 
-The room should show the packet, approved context, skill, route, authority, evidence, artifact, and review state.
+**The room should show the packet, approved context, skill, route, authority, evidence, artifact, and review state.**
 
 This is the real use of a dashboard.
 
@@ -398,11 +435,19 @@ Not a pretty collection of activity metrics.
 
 It is an operating surface for decisions.
 
-The UI skill in the repository makes this concrete. Before an agent builds an interface, it has to name the user, job, primary action, entities, data sources, roles, views, every field's source, and every visible state. Loading. Empty. Partial data. Error. Permission denied. Stale data.
+### UI artifacts define the experience before code exists
+
+The UI skill makes this concrete. Before an agent builds an interface, it names the user, job, primary action, entities, data sources, roles, views, and every field's source.
+
+It also names every visible state: loading, empty, partial data, error, permission denied, and stale data.
 
 That requirement kills a lot of AI slop before it reaches the screen.
 
-The dashboard skill does the same thing for metrics. A metric needs a definition, source, owner, freshness rule, visibility rule, and path back to the artifact that produced it. A model-generated estimate must be labelled as an estimate, not quietly rendered as company truth.
+### dashboard metrics need provenance
+
+The dashboard skill does the same thing for metrics. A metric needs a definition, source, owner, freshness rule, visibility rule, and a path back to the artifact that produced it.
+
+A model-generated estimate must be labelled as an estimate. It must not quietly appear as company truth.
 
 The artifact is the interface contract.
 
@@ -428,7 +473,11 @@ The repository includes two native DeepSeek Harness presets.
 
 `company-builder` gives it the work-packet, routing, code-delivery, UI, dashboard, and review methods.
 
-They are intentionally not a secret permission system. They use the harness's real sandbox and permission services. They do not hard-pin Kimi K3. The packet says what the task needs. The registry says which model tiers are allowed. The runtime enforces the model route and authority policy.
+### use the runtime's real permission system
+
+They are intentionally not a secret permission system. They use the harness's real sandbox and permission services.
+
+They do not hard-pin Kimi K3. The packet states the task need, the registry states allowed model tiers, and the runtime enforces route and authority policy.
 
 Codex and Claude Code get the same method through adapter skills. Their tools are different. The packet, evidence, route, artifact, and review records stay the same.
 
@@ -446,13 +495,17 @@ That produces a large product before it produces one reliable workflow.
 
 ### give each layer one job
 
-The better split is simple.
+**The better split is simple.**
+
+### record why the work exists, where it runs, and how it is assembled
 
 A control plane owns why work exists. It tracks goals, budgets, owners, approvals, and audit. It can answer: should this job exist, who is responsible, and can the company spend on it?
 
 A work runtime owns where the job runs. It knows the agent identity, the machine or sandbox, the task, and the live execution record. It can answer: which worker did this, where did it run, and what happened while it ran?
 
 A harness owns how the work is assembled. It selects context, tools, skills, policy, route, and artifact rules. It can answer: what did this worker receive, what method did it follow, and what must the result contain?
+
+### compile one company method into many adapters
 
 Company Foundry sits above those layers as the compiler.
 
@@ -461,6 +514,8 @@ It begins with one company specification and exports the appropriate form for ea
 A DeepSeek Harness target gets a native preset, scoped skills, and policy-ready files. A control plane gets roles, goals, budgets, approvals, and work records.
 
 A runtime gets agent and task definitions. Codex and Claude Code get portable operating skills.
+
+### adapters preserve choice without pretending to be identical
 
 No fake integration is required.
 
@@ -491,9 +546,13 @@ company brief
   -> product decision record
 ```
 
+### test a real loop before you add another one
+
 Make it real.
 
 Use a real company question. Use approved sources. Let the system produce a real artifact. Let a reviewer find something wrong. Fix the skill. Update the packet. Run it again.
+
+### add complexity only after the loop is dependable
 
 Then add the next loop.
 
@@ -505,15 +564,23 @@ Not by giving every model every tool.
 
 By giving every important piece of work a stable path through the company.
 
+### make the first capability dependable
+
 The repository is intentionally small because the first job is not to simulate a company.
 
 **The first job is to make one company capability dependable.**
 
-Start with the customer question that already causes confusion. Put the approved evidence in one place. Make the route visible. Demand an artifact. Give a reviewer a real opportunity to reject it. Then ask whether the next workflow can consume that artifact without restarting the research from scratch.
+Start with the customer question that already causes confusion. Put approved evidence in one place. Make the route visible. Demand an artifact.
+
+Give a reviewer a real opportunity to reject it. Then ask whether the next workflow can consume that artifact without restarting the research.
+
+### the loop earns compounding work
 
 When that works, the company has its first compounding loop.
 
 That is more valuable than another impressive agent demo.
+
+### the method outlives the worker
 
 The workers will keep changing.
 

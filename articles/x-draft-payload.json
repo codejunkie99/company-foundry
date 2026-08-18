@@ -3,7 +3,7 @@
   "content_state": {
     "blocks": [
       {
-        "text": "TLDR: If you don't want to read the 3,780 words in this article, you can just go to this GitHub repo: https://github.com/codejunkie99/company-foundry.",
+        "text": "TLDR: If you don't want to read the 3,945 words in this article, you can just go to this GitHub repo: https://github.com/codejunkie99/company-foundry.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -147,7 +147,7 @@
         "key": "000b"
       },
       {
-        "text": "Then someone asks a very boring question.",
+        "text": "the demo breaks at accountability",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -159,7 +159,7 @@
         "key": "000c"
       },
       {
-        "text": "Where did that customer claim come from?",
+        "text": "Then someone asks a very boring question.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -171,7 +171,7 @@
         "key": "000d"
       },
       {
-        "text": "The answer is often: somewhere in a chat.",
+        "text": "Where did that customer claim come from?",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -183,7 +183,7 @@
         "key": "000e"
       },
       {
-        "text": "That is the whole problem.",
+        "text": "The answer is often: somewhere in a chat.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -195,7 +195,7 @@
         "key": "000f"
       },
       {
-        "text": "A chat can contain good work. A chat is not a company method.",
+        "text": "That is the whole problem.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -207,7 +207,7 @@
         "key": "000g"
       },
       {
-        "text": "A prompt can contain a clever workflow. A prompt is not a durable operating system.",
+        "text": "good work needs a durable record",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -219,7 +219,7 @@
         "key": "000h"
       },
       {
-        "text": "A model setting can choose something smart today. It is not a routing policy that explains cost, speed, quality, and what happens when the model is unavailable.",
+        "text": "A chat can contain good work. A chat is not a company method.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -231,7 +231,7 @@
         "key": "000i"
       },
       {
-        "text": "the model is rented",
+        "text": "A prompt can contain a clever workflow. A prompt is not a durable operating system.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -243,7 +243,7 @@
         "key": "000j"
       },
       {
-        "text": "the agent is replaceable",
+        "text": "A model setting can choose something smart today. It is not a routing policy that explains cost, speed, quality, and what happens when the model is unavailable.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -255,7 +255,7 @@
         "key": "000k"
       },
       {
-        "text": "the company method is owned",
+        "text": "the model is rented",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -267,7 +267,7 @@
         "key": "000l"
       },
       {
-        "text": "I think this is where most \"AI-native company\" conversations go wrong.",
+        "text": "the agent is replaceable",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -279,7 +279,7 @@
         "key": "000m"
       },
       {
-        "text": "People picture an organisation made of autonomous personalities. An AI CEO. An AI sales team. An AI product manager. A little org chart of bots talking to each other until the business runs itself.",
+        "text": "the company method is owned",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -291,7 +291,7 @@
         "key": "000n"
       },
       {
-        "text": "That is the visible layer. It is not the useful layer.",
+        "text": "the system has to answer for the work",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -303,7 +303,7 @@
         "key": "000o"
       },
       {
-        "text": "The useful layer is much less glamorous. It is a system that turns a company question into accountable work.",
+        "text": "I think this is where most \"AI-native company\" conversations go wrong.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -315,7 +315,7 @@
         "key": "000p"
       },
       {
-        "text": "Why does the work exist? Which customer sources are approved? What is the agent allowed to do? Which model tier fits? What artifact does it owe the next person? Who reviews the result before it changes anything real?",
+        "text": "People picture an organisation made of autonomous personalities. An AI CEO. An AI sales team. An AI product manager. A little org chart of bots talking to each other until the business runs itself.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -327,7 +327,7 @@
         "key": "000q"
       },
       {
-        "text": "If the system cannot answer those questions, it may be a useful assistant. It is not yet an organisation.",
+        "text": "That is the visible layer. It is not the useful layer.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -339,7 +339,7 @@
         "key": "000r"
       },
       {
-        "text": "i wanted to compile a company, not prompt one",
+        "text": "The useful layer is much less glamorous. It is a system that turns a company question into accountable work.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -351,7 +351,7 @@
         "key": "000s"
       },
       {
-        "text": "The project is called Company Foundry.",
+        "text": "the path from question to action must be visible",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -363,7 +363,7 @@
         "key": "000t"
       },
       {
-        "text": "You describe a company once. Its product. Customers. Goals. Approved sources. Repositories. Applications. Access limits. Budgets. Review rules. What a good artifact looks like.",
+        "text": "Why does the work exist? Which customer sources are approved? What is the agent allowed to do? Which model tier fits? What artifact does it owe the next person? Who reviews the result before it changes anything real?",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -375,7 +375,7 @@
         "key": "000u"
       },
       {
-        "text": "Then the system turns that into a working company harness.",
+        "text": "If the system cannot answer those questions, it may be a useful assistant. It is not yet an organisation.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -387,7 +387,7 @@
         "key": "000v"
       },
       {
-        "text": "Not one giant prompt.",
+        "text": "i wanted to compile a company, not prompt one",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -399,7 +399,7 @@
         "key": "000w"
       },
       {
-        "text": "Not one agent persona pretending to know the business.",
+        "text": "The project is called Company Foundry.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -411,7 +411,7 @@
         "key": "000x"
       },
       {
-        "text": "A portable company specification with the parts a runtime actually needs.",
+        "text": "You describe a company once. Its product. Customers. Goals. Approved sources. Repositories. Applications. Access limits. Budgets. Review rules. What a good artifact looks like.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -421,6 +421,66 @@
         "entity_ranges": [],
         "inline_style_ranges": [],
         "key": "000y"
+      },
+      {
+        "text": "Then the system turns that into a working company harness.",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "000z"
+      },
+      {
+        "text": "Not one giant prompt.",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "0010"
+      },
+      {
+        "text": "Not one agent persona pretending to know the business.",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "0011"
+      },
+      {
+        "text": "from company description to runtime method",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "0012"
+      },
+      {
+        "text": "A portable company specification with the parts a runtime actually needs.",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "0013"
       },
       {
         "text": "Diagram: Company specification, operating methods, and runtime adapters\nhttps://raw.githubusercontent.com/codejunkie99/company-foundry/main/assets/architecture.svg",
@@ -438,7 +498,7 @@
         },
         "entity_ranges": [],
         "inline_style_ranges": [],
-        "key": "000z"
+        "key": "0014"
       },
       {
         "text": "three layers, one method",
@@ -450,70 +510,10 @@
         },
         "entity_ranges": [],
         "inline_style_ranges": [],
-        "key": "0010"
-      },
-      {
-        "text": "The first layer is the company specification.",
-        "data": {
-          "cashtags": [],
-          "hashtags": [],
-          "mentions": [],
-          "urls": []
-        },
-        "entity_ranges": [],
-        "inline_style_ranges": [],
-        "key": "0011"
-      },
-      {
-        "text": "It holds identity, customers, active goals, source rules, authority, resources, and standards. This is not a knowledge dump that every model receives. It is the set of records the harness selects from when a task needs them.",
-        "data": {
-          "cashtags": [],
-          "hashtags": [],
-          "mentions": [],
-          "urls": []
-        },
-        "entity_ranges": [],
-        "inline_style_ranges": [],
-        "key": "0012"
-      },
-      {
-        "text": "The second layer is the method registry.",
-        "data": {
-          "cashtags": [],
-          "hashtags": [],
-          "mentions": [],
-          "urls": []
-        },
-        "entity_ranges": [],
-        "inline_style_ranges": [],
-        "key": "0013"
-      },
-      {
-        "text": "This is where the company defines its reusable ways of working. How it researches a customer question. How it turns a product decision into a code change. How it builds a dashboard. How it reviews an artifact before it becomes company truth.",
-        "data": {
-          "cashtags": [],
-          "hashtags": [],
-          "mentions": [],
-          "urls": []
-        },
-        "entity_ranges": [],
-        "inline_style_ranges": [],
-        "key": "0014"
-      },
-      {
-        "text": "The third layer is the runtime adapter.",
-        "data": {
-          "cashtags": [],
-          "hashtags": [],
-          "mentions": [],
-          "urls": []
-        },
-        "entity_ranges": [],
-        "inline_style_ranges": [],
         "key": "0015"
       },
       {
-        "text": "DeepSeek Harness can consume native presets and scoped skill files. Codex and Claude Code can consume the same operating method through their own skill roots.",
+        "text": "- Company specification. Identity, customers, active goals, source rules, authority, resources, and standards. It is not a knowledge dump. The harness selects the relevant records when a task needs them.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -525,7 +525,7 @@
         "key": "0016"
       },
       {
-        "text": "A company control plane can consume goals, budgets, approvals, and audit records. A work runtime can consume task and agent configuration.",
+        "text": "- Method registry. The company's reusable ways of working: customer research, product decisions, code delivery, dashboard creation, and artifact review.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -537,7 +537,7 @@
         "key": "0017"
       },
       {
-        "text": "The company should not be trapped in a chat UI.",
+        "text": "- Runtime adapter. DeepSeek Harness consumes native presets and scoped skill files. Codex and Claude Code consume the same method through their own skill roots. A control plane consumes goals, budgets, approvals, and audit records.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -549,7 +549,7 @@
         "key": "0018"
       },
       {
-        "text": "That is the point of compiling the method before you pick the interface.",
+        "text": "The company should not be trapped in a chat UI.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -561,7 +561,7 @@
         "key": "0019"
       },
       {
-        "text": "the company brief is the first artifact",
+        "text": "That is the point of compiling the method before you pick the interface.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -573,7 +573,7 @@
         "key": "001a"
       },
       {
-        "text": "Most people begin by naming an agent.",
+        "text": "the company brief is the first artifact",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -585,7 +585,7 @@
         "key": "001b"
       },
       {
-        "text": "\"You are a world-class researcher.\" \"You are our chief of staff.\" \"You are the best product manager in the world.\"",
+        "text": "name the operating facts before the worker",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -597,7 +597,7 @@
         "key": "001c"
       },
       {
-        "text": "That is fun for five minutes.",
+        "text": "Most people begin by naming an agent.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -609,7 +609,7 @@
         "key": "001d"
       },
       {
-        "text": "The more useful question is: what does this company need a worker to know before it can do anything safely?",
+        "text": "\"You are a world-class researcher.\" \"You are our chief of staff.\" \"You are the best product manager in the world.\"",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -619,6 +619,30 @@
         "entity_ranges": [],
         "inline_style_ranges": [],
         "key": "001e"
+      },
+      {
+        "text": "That is fun for five minutes.",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "001f"
+      },
+      {
+        "text": "The more useful question is: what does this company need a worker to know before it can do anything safely?",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "001g"
       },
       {
         "text": "Diagram: The six fields in a company brief\nhttps://raw.githubusercontent.com/codejunkie99/company-foundry/main/assets/company-brief.svg",
@@ -636,34 +660,10 @@
         },
         "entity_ranges": [],
         "inline_style_ranges": [],
-        "key": "001f"
-      },
-      {
-        "text": "The first input to Company Foundry is a company brief.",
-        "data": {
-          "cashtags": [],
-          "hashtags": [],
-          "mentions": [],
-          "urls": []
-        },
-        "entity_ranges": [],
-        "inline_style_ranges": [],
-        "key": "001g"
-      },
-      {
-        "text": "It is deliberately structured.",
-        "data": {
-          "cashtags": [],
-          "hashtags": [],
-          "mentions": [],
-          "urls": []
-        },
-        "entity_ranges": [],
-        "inline_style_ranges": [],
         "key": "001h"
       },
       {
-        "text": "Identity tells the harness what the company sells, who it serves, and which product terms matter. Goals tell it what outcome matters now, not every idea the founder has ever had.",
+        "text": "company context is a record, not a prompt",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -675,7 +675,7 @@
         "key": "001i"
       },
       {
-        "text": "Evidence tells it which sources are approved and which data is restricted. Authority tells it what a worker may observe, prepare, commit, or emit.",
+        "text": "The first input to Company Foundry is a company brief.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -687,7 +687,7 @@
         "key": "001j"
       },
       {
-        "text": "Resources tell it which repos, apps, and tools exist. Standards tell it what a finished piece of work must contain.",
+        "text": "It is deliberately structured.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -699,7 +699,7 @@
         "key": "001k"
       },
       {
-        "text": "That gives you a clean answer to a subtle problem.",
+        "text": "Identity tells the harness what the company sells, who it serves, and which product terms matter. Goals tell it what outcome matters now, not every idea the founder has ever had.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -711,7 +711,7 @@
         "key": "001l"
       },
       {
-        "text": "select context; do not flood the model",
+        "text": "Evidence tells it which sources are approved and which data is restricted. Authority tells it what a worker may observe, prepare, commit, or emit.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -723,7 +723,7 @@
         "key": "001m"
       },
       {
-        "text": "Company context should be durable. Task context should be selective.",
+        "text": "Resources tell it which repos, apps, and tools exist. Standards tell it what a finished piece of work must contain.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -735,7 +735,7 @@
         "key": "001n"
       },
       {
-        "text": "You do not want every agent to receive every customer note and every access credential. You want a customer-research task to receive the relevant company definition, approved evidence references, appropriate skills, and a tightly scoped permission set.",
+        "text": "the brief makes the operating choice explicit",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -747,7 +747,7 @@
         "key": "001o"
       },
       {
-        "text": "The agent gets the context it needs for its job. The company keeps the rest under policy.",
+        "text": "That gives you a clean answer to a subtle problem.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -759,7 +759,7 @@
         "key": "001p"
       },
       {
-        "text": "This also makes change boring in a good way.",
+        "text": "select context; do not flood the model",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -771,7 +771,7 @@
         "key": "001q"
       },
       {
-        "text": "If your customer segment changes, update the company brief. If an old source is no longer approved, update its policy. If a new model becomes useful, update the registry. The next relevant task gets the new rule without rewriting twenty agent prompts.",
+        "text": "Company context should be durable. Task context should be selective.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -783,7 +783,7 @@
         "key": "001r"
       },
       {
-        "text": "Prompts describe a moment.",
+        "text": "You do not want every agent to receive every customer note and every access credential. You want a customer-research task to receive the relevant company definition, approved evidence references, appropriate skills, and a tightly scoped permission set.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -795,7 +795,7 @@
         "key": "001s"
       },
       {
-        "text": "Company records describe a method.",
+        "text": "The agent gets the context it needs for its job. The company keeps the rest under policy.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -807,7 +807,7 @@
         "key": "001t"
       },
       {
-        "text": "every important job needs a packet",
+        "text": "update the rule once, then reuse it everywhere",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -819,7 +819,7 @@
         "key": "001u"
       },
       {
-        "text": "Here is the easiest way to tell whether you have a company method or an agent demo.",
+        "text": "This also makes change boring in a good way.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -831,7 +831,7 @@
         "key": "001v"
       },
       {
-        "text": "Can you write down the job before the model starts?",
+        "text": "If your customer segment changes, update the company brief. If an old source is no longer approved, update its policy. If a new model becomes useful, update the registry. The next relevant task gets the new rule without rewriting twenty agent prompts.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -841,6 +841,78 @@
         "entity_ranges": [],
         "inline_style_ranges": [],
         "key": "001w"
+      },
+      {
+        "text": "Prompts describe a moment.",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "001x"
+      },
+      {
+        "text": "Company records describe a method.",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "001y"
+      },
+      {
+        "text": "every important job needs a packet",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "001z"
+      },
+      {
+        "text": "describe the job before the model begins",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "0020"
+      },
+      {
+        "text": "Here is the easiest way to tell whether you have a company method or an agent demo.",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "0021"
+      },
+      {
+        "text": "Can you write down the job before the model starts?",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "0022"
       },
       {
         "text": "Diagram: A bounded company work packet\nhttps://raw.githubusercontent.com/codejunkie99/company-foundry/main/assets/work-packet.svg",
@@ -858,7 +930,7 @@
         },
         "entity_ranges": [],
         "inline_style_ranges": [],
-        "key": "001x"
+        "key": "0023"
       },
       {
         "text": "I call that record a work packet.",
@@ -870,82 +942,10 @@
         },
         "entity_ranges": [],
         "inline_style_ranges": [],
-        "key": "001y"
-      },
-      {
-        "text": "A work packet names the outcome, owner, scope, inputs, authority, required artifacts, and quality checks. It is not a project plan. It is a bounded unit of work that another worker can inspect, run, review, or resume.",
-        "data": {
-          "cashtags": [],
-          "hashtags": [],
-          "mentions": [],
-          "urls": []
-        },
-        "entity_ranges": [],
-        "inline_style_ranges": [],
-        "key": "001z"
-      },
-      {
-        "text": "Take customer research.",
-        "data": {
-          "cashtags": [],
-          "hashtags": [],
-          "mentions": [],
-          "urls": []
-        },
-        "entity_ranges": [],
-        "inline_style_ranges": [],
-        "key": "0020"
-      },
-      {
-        "text": "The bad request is: \"research our customers.\"",
-        "data": {
-          "cashtags": [],
-          "hashtags": [],
-          "mentions": [],
-          "urls": []
-        },
-        "entity_ranges": [],
-        "inline_style_ranges": [],
-        "key": "0021"
-      },
-      {
-        "text": "The useful request is closer to this:",
-        "data": {
-          "cashtags": [],
-          "hashtags": [],
-          "mentions": [],
-          "urls": []
-        },
-        "entity_ranges": [],
-        "inline_style_ranges": [],
-        "key": "0022"
-      },
-      {
-        "text": "Question: Why do mid-market operations teams choose us?",
-        "data": {
-          "cashtags": [],
-          "hashtags": [],
-          "mentions": [],
-          "urls": []
-        },
-        "entity_ranges": [],
-        "inline_style_ranges": [],
-        "key": "0023"
-      },
-      {
-        "text": "Audience: Product and growth leaders",
-        "data": {
-          "cashtags": [],
-          "hashtags": [],
-          "mentions": [],
-          "urls": []
-        },
-        "entity_ranges": [],
-        "inline_style_ranges": [],
         "key": "0024"
       },
       {
-        "text": "Sources: Approved interviews, support summaries, CRM notes",
+        "text": "scope and output make the work inspectable",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -957,7 +957,7 @@
         "key": "0025"
       },
       {
-        "text": "Authority: Prepare only",
+        "text": "A work packet names the outcome, owner, scope, inputs, authority, required artifacts, and quality checks. It is not a project plan. It is a bounded unit of work that another worker can inspect, run, review, or resume.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -969,7 +969,7 @@
         "key": "0026"
       },
       {
-        "text": "Artifact: Evidence ledger and insight brief",
+        "text": "Take customer research.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -981,7 +981,7 @@
         "key": "0027"
       },
       {
-        "text": "Check: Every material claim points to an inspectable source",
+        "text": "The bad request is: \"research our customers.\"",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -993,7 +993,7 @@
         "key": "0028"
       },
       {
-        "text": "the packet owns the definition of done",
+        "text": "The useful request is closer to this:",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1005,7 +1005,7 @@
         "key": "0029"
       },
       {
-        "text": "Now the model has a job. The company has a record. A reviewer knows what to inspect.",
+        "text": "Question: Why do mid-market operations teams choose us?",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1017,7 +1017,7 @@
         "key": "002a"
       },
       {
-        "text": "This is also how you stop AI work from becoming vague performance.",
+        "text": "Audience: Product and growth leaders",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1029,7 +1029,7 @@
         "key": "002b"
       },
       {
-        "text": "The agent cannot quietly redefine success because the packet owns the outcome.",
+        "text": "Sources: Approved interviews, support summaries, CRM notes",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1041,7 +1041,7 @@
         "key": "002c"
       },
       {
-        "text": "It cannot pretend a broad brief grants production access because the packet owns authority.",
+        "text": "Authority: Prepare only",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1053,7 +1053,7 @@
         "key": "002d"
       },
       {
-        "text": "It cannot call a beautiful summary complete if the packet requires source references and a review state.",
+        "text": "Artifact: Evidence ledger and insight brief",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1065,7 +1065,7 @@
         "key": "002e"
       },
       {
-        "text": "The packet makes work legible before the model makes it fluent.",
+        "text": "Check: Every material claim points to an inspectable source",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1077,7 +1077,7 @@
         "key": "002f"
       },
       {
-        "text": "customer research is where the harness becomes real",
+        "text": "the packet owns the definition of done",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1089,7 +1089,7 @@
         "key": "002g"
       },
       {
-        "text": "Customer research is a perfect first workflow because it is useful everywhere and easy to fake.",
+        "text": "Now the model has a job. The company has a record. A reviewer knows what to inspect.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1101,7 +1101,7 @@
         "key": "002h"
       },
       {
-        "text": "Every model can create an impressive market summary. Very few systems can show you exactly which customer interviews support its recommendation, what it inferred, what it does not know, and who checked the conclusion before it entered a product decision.",
+        "text": "stop vague performance before it starts",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1111,6 +1111,102 @@
         "entity_ranges": [],
         "inline_style_ranges": [],
         "key": "002i"
+      },
+      {
+        "text": "This is also how you stop AI work from becoming vague performance.",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "002j"
+      },
+      {
+        "text": "The agent cannot quietly redefine success because the packet owns the outcome.",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "002k"
+      },
+      {
+        "text": "It cannot pretend a broad brief grants production access because the packet owns authority.",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "002l"
+      },
+      {
+        "text": "It cannot call a beautiful summary complete if the packet requires source references and a review state.",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "002m"
+      },
+      {
+        "text": "The packet makes work legible before the model makes it fluent.",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "002n"
+      },
+      {
+        "text": "customer research is where the harness becomes real",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "002o"
+      },
+      {
+        "text": "Customer research is a perfect first workflow because it is useful everywhere and easy to fake.",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "002p"
+      },
+      {
+        "text": "Every model can create an impressive market summary. Very few systems can show you exactly which customer interviews support its recommendation, what it inferred, what it does not know, and who checked the conclusion before it entered a product decision.",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "002q"
       },
       {
         "text": "Diagram: Sources become a ledger and support reviewable claims\nhttps://raw.githubusercontent.com/codejunkie99/company-foundry/main/assets/evidence-loop.svg",
@@ -1128,106 +1224,10 @@
         },
         "entity_ranges": [],
         "inline_style_ranges": [],
-        "key": "002j"
-      },
-      {
-        "text": "The research skill runs in four steps.",
-        "data": {
-          "cashtags": [],
-          "hashtags": [],
-          "mentions": [],
-          "urls": []
-        },
-        "entity_ranges": [],
-        "inline_style_ranges": [],
-        "key": "002k"
-      },
-      {
-        "text": "First, discovery maps the question. Customer segments. Buying triggers. Product terms. Competitor names. Unknowns. This is coverage work. It may be cheap enough for an economy model.",
-        "data": {
-          "cashtags": [],
-          "hashtags": [],
-          "mentions": [],
-          "urls": []
-        },
-        "entity_ranges": [],
-        "inline_style_ranges": [],
-        "key": "002l"
-      },
-      {
-        "text": "Second, evidence builds the source ledger. Each source gets an identifier, type, location, access status, date, and the relevant extract. This seems trivial until you try to review a generated brief and discover its best claim came from nowhere.",
-        "data": {
-          "cashtags": [],
-          "hashtags": [],
-          "mentions": [],
-          "urls": []
-        },
-        "entity_ranges": [],
-        "inline_style_ranges": [],
-        "key": "002m"
-      },
-      {
-        "text": "Third, synthesis compares the evidence and writes the brief. This is where a capable model such as Kimi K3 can be useful. It has a defined question, a bounded source set, and a required structured artifact. It is not being asked to \"know the customer\" from vibes.",
-        "data": {
-          "cashtags": [],
-          "hashtags": [],
-          "mentions": [],
-          "urls": []
-        },
-        "entity_ranges": [],
-        "inline_style_ranges": [],
-        "key": "002n"
-      },
-      {
-        "text": "Fourth, review checks the evidence match, sensitive-data rule, claim strength, and recommendation. The result becomes an artifact another team can consume.",
-        "data": {
-          "cashtags": [],
-          "hashtags": [],
-          "mentions": [],
-          "urls": []
-        },
-        "entity_ranges": [],
-        "inline_style_ranges": [],
-        "key": "002o"
-      },
-      {
-        "text": "discovery finds the question",
-        "data": {
-          "cashtags": [],
-          "hashtags": [],
-          "mentions": [],
-          "urls": []
-        },
-        "entity_ranges": [],
-        "inline_style_ranges": [],
-        "key": "002p"
-      },
-      {
-        "text": "evidence proves the claim",
-        "data": {
-          "cashtags": [],
-          "hashtags": [],
-          "mentions": [],
-          "urls": []
-        },
-        "entity_ranges": [],
-        "inline_style_ranges": [],
-        "key": "002q"
-      },
-      {
-        "text": "synthesis explains the meaning",
-        "data": {
-          "cashtags": [],
-          "hashtags": [],
-          "mentions": [],
-          "urls": []
-        },
-        "entity_ranges": [],
-        "inline_style_ranges": [],
         "key": "002r"
       },
       {
-        "text": "review protects the company from a confident mistake",
+        "text": "research needs a proof chain",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1239,7 +1239,7 @@
         "key": "002s"
       },
       {
-        "text": "keep facts separate from conclusions",
+        "text": "The research skill runs in four steps.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1251,7 +1251,7 @@
         "key": "002t"
       },
       {
-        "text": "The important rule is almost embarrassingly simple.",
+        "text": "1. Discovery maps the question: customer segments, buying triggers, product terms, competitor names, and unknowns. This is coverage work. An economy model may be enough.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1263,7 +1263,7 @@
         "key": "002u"
       },
       {
-        "text": "Model output is not a source.",
+        "text": "2. Evidence builds the source ledger. Each source gets an identifier, type, location, access status, date, and relevant extract.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1275,7 +1275,7 @@
         "key": "002v"
       },
       {
-        "text": "It can extract, compare, draft, and propose. It does not become company evidence because it sounds clear. The evidence ledger stays separate from the conclusion.",
+        "text": "3. Synthesis compares the evidence and writes the brief. A capable model such as Kimi K3 can be useful here because the question, source set, and required artifact are bounded.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1287,7 +1287,7 @@
         "key": "002w"
       },
       {
-        "text": "Once you have that, the next workflow gets easier.",
+        "text": "4. Review checks the evidence match, sensitive-data rule, claim strength, and recommendation. The result becomes an artifact another team can consume.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1299,7 +1299,7 @@
         "key": "002x"
       },
       {
-        "text": "The product skill does not need to research the whole company again. It consumes the approved research artifact.",
+        "text": "discovery finds the question",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1311,7 +1311,7 @@
         "key": "002y"
       },
       {
-        "text": "It creates a problem map, a decision brief, and a specification. The build skill consumes the approved specification.",
+        "text": "evidence proves the claim",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1323,7 +1323,7 @@
         "key": "002z"
       },
       {
-        "text": "It produces an implementation plan, changed files, checks, and a reviewable delivery record.",
+        "text": "synthesis explains the meaning",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1335,7 +1335,7 @@
         "key": "0030"
       },
       {
-        "text": "That is how company memory compounds.",
+        "text": "review protects the company from a confident mistake",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1347,7 +1347,7 @@
         "key": "0031"
       },
       {
-        "text": "Not by making one model remember everything.",
+        "text": "keep facts separate from conclusions",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1359,7 +1359,7 @@
         "key": "0032"
       },
       {
-        "text": "By giving every important result a place in a chain of evidence and artifacts.",
+        "text": "The important rule is almost embarrassingly simple.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1371,7 +1371,7 @@
         "key": "0033"
       },
       {
-        "text": "Kimi K3 is a worker, not the company",
+        "text": "Model output is not a source.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1383,7 +1383,7 @@
         "key": "0034"
       },
       {
-        "text": "The title says Kimi K3 because it is a good way to make the idea concrete.",
+        "text": "It can extract, compare, draft, and propose. It does not become company evidence because it sounds clear. The evidence ledger stays separate from the conclusion.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1395,7 +1395,7 @@
         "key": "0035"
       },
       {
-        "text": "You can put Kimi K3 in the capable tier for work that needs deep synthesis, difficult code, architecture, or a high-value decision. You can use a faster model for time-sensitive small work. You can use an economy model for extraction, tagging, or broad first-pass coverage.",
+        "text": "Once you have that, the next workflow gets easier.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1407,7 +1407,7 @@
         "key": "0036"
       },
       {
-        "text": "The mistake is turning that choice into a dropdown people click at random.",
+        "text": "artifacts feed the next workflow",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1417,6 +1417,138 @@
         "entity_ranges": [],
         "inline_style_ranges": [],
         "key": "0037"
+      },
+      {
+        "text": "The product skill does not need to research the whole company again. It consumes the approved research artifact.",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "0038"
+      },
+      {
+        "text": "It creates a problem map, a decision brief, and a specification. The build skill consumes the approved specification.",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "0039"
+      },
+      {
+        "text": "It produces an implementation plan, changed files, checks, and a reviewable delivery record.",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "003a"
+      },
+      {
+        "text": "memory compounds through approved artifacts",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "003b"
+      },
+      {
+        "text": "Company memory compounds through approved artifacts, not model recall.",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "003c"
+      },
+      {
+        "text": "Each approved result becomes an input another workflow can inspect and reuse. That is how the company compounds work without asking one model to remember everything.",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "003d"
+      },
+      {
+        "text": "Kimi K3 is a worker, not the company",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "003e"
+      },
+      {
+        "text": "The title says Kimi K3 because it is a good way to make the idea concrete.",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "003f"
+      },
+      {
+        "text": "You can put Kimi K3 in the capable tier for deep synthesis, difficult code, architecture, or high-value decisions.",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "003g"
+      },
+      {
+        "text": "Use a faster model for time-sensitive small work. Use an economy model for extraction, tagging, or broad first-pass coverage.",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "003h"
+      },
+      {
+        "text": "The mistake is turning that choice into a dropdown people click at random.",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "003i"
       },
       {
         "text": "Diagram: A packet selects an economy, fast, or capable model tier\nhttps://raw.githubusercontent.com/codejunkie99/company-foundry/main/assets/model-route.svg",
@@ -1434,142 +1566,10 @@
         },
         "entity_ranges": [],
         "inline_style_ranges": [],
-        "key": "0038"
-      },
-      {
-        "text": "The router should decide before the work begins.",
-        "data": {
-          "cashtags": [],
-          "hashtags": [],
-          "mentions": [],
-          "urls": []
-        },
-        "entity_ranges": [],
-        "inline_style_ranges": [],
-        "key": "0039"
-      },
-      {
-        "text": "It reads the work packet. Does this job require structured output? Browser or computer use? A large evidence set? A rapid response? A high-quality conclusion? Then it filters the models that cannot meet the requirement and records the selected tier, reason, and fallback.",
-        "data": {
-          "cashtags": [],
-          "hashtags": [],
-          "mentions": [],
-          "urls": []
-        },
-        "entity_ranges": [],
-        "inline_style_ranges": [],
-        "key": "003a"
-      },
-      {
-        "text": "keep a route receipt",
-        "data": {
-          "cashtags": [],
-          "hashtags": [],
-          "mentions": [],
-          "urls": []
-        },
-        "entity_ranges": [],
-        "inline_style_ranges": [],
-        "key": "003b"
-      },
-      {
-        "text": "The route receipt is tiny:",
-        "data": {
-          "cashtags": [],
-          "hashtags": [],
-          "mentions": [],
-          "urls": []
-        },
-        "entity_ranges": [],
-        "inline_style_ranges": [],
-        "key": "003c"
-      },
-      {
-        "text": "packet: customer-insight-q3",
-        "data": {
-          "cashtags": [],
-          "hashtags": [],
-          "mentions": [],
-          "urls": []
-        },
-        "entity_ranges": [],
-        "inline_style_ranges": [],
-        "key": "003d"
-      },
-      {
-        "text": "requirements: [cross-source-synthesis, structured-artifact]",
-        "data": {
-          "cashtags": [],
-          "hashtags": [],
-          "mentions": [],
-          "urls": []
-        },
-        "entity_ranges": [],
-        "inline_style_ranges": [],
-        "key": "003e"
-      },
-      {
-        "text": "preference: quality",
-        "data": {
-          "cashtags": [],
-          "hashtags": [],
-          "mentions": [],
-          "urls": []
-        },
-        "entity_ranges": [],
-        "inline_style_ranges": [],
-        "key": "003f"
-      },
-      {
-        "text": "selected: Kimi K3",
-        "data": {
-          "cashtags": [],
-          "hashtags": [],
-          "mentions": [],
-          "urls": []
-        },
-        "entity_ranges": [],
-        "inline_style_ranges": [],
-        "key": "003g"
-      },
-      {
-        "text": "reason: The packet compares evidence across approved sources.",
-        "data": {
-          "cashtags": [],
-          "hashtags": [],
-          "mentions": [],
-          "urls": []
-        },
-        "entity_ranges": [],
-        "inline_style_ranges": [],
-        "key": "003h"
-      },
-      {
-        "text": "fallback: approved-capable-model, then human review",
-        "data": {
-          "cashtags": [],
-          "hashtags": [],
-          "mentions": [],
-          "urls": []
-        },
-        "entity_ranges": [],
-        "inline_style_ranges": [],
-        "key": "003i"
-      },
-      {
-        "text": "That receipt changes the conversation after a bad result.",
-        "data": {
-          "cashtags": [],
-          "hashtags": [],
-          "mentions": [],
-          "urls": []
-        },
-        "entity_ranges": [],
-        "inline_style_ranges": [],
         "key": "003j"
       },
       {
-        "text": "Instead of saying \"AI got it wrong,\" the company can inspect the packet, source set, skill version, route, artifact, and review. Maybe the evidence was poor. Maybe the skill was too vague. Maybe the capable model was unnecessary. Maybe the task should have been escalated to a person.",
+        "text": "route the work before it starts",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1581,7 +1581,7 @@
         "key": "003k"
       },
       {
-        "text": "This is what a company needs from model routing.",
+        "text": "The router should decide before the work begins.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1593,7 +1593,7 @@
         "key": "003l"
       },
       {
-        "text": "Not a leaderboard.",
+        "text": "It reads the work packet. Does this job require structured output, browser or computer use, a large evidence set, rapid response, or a high-quality conclusion?",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1605,7 +1605,7 @@
         "key": "003m"
       },
       {
-        "text": "A way to explain a trade-off.",
+        "text": "Then it filters out models that cannot meet the requirement. It records the selected tier, reason, and fallback.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1617,7 +1617,7 @@
         "key": "003n"
       },
       {
-        "text": "a good harness lets work fail without leaving a mess",
+        "text": "keep a route receipt",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1629,7 +1629,7 @@
         "key": "003o"
       },
       {
-        "text": "Company logic should not be trapped inside a long agent conversation.",
+        "text": "The route receipt makes the model choice inspectable.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1641,7 +1641,7 @@
         "key": "003p"
       },
       {
-        "text": "Real work changes state.",
+        "text": "packet: customer-insight-q3",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1653,7 +1653,7 @@
         "key": "003q"
       },
       {
-        "text": "An agent can draft an answer, discover that a source is weak, choose another approach, and start again. That should not leave five half-finished artifacts, three accidental records, and an unclear decision trail behind it.",
+        "text": "requirements: [cross-source-synthesis, structured-artifact]",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1665,7 +1665,7 @@
         "key": "003r"
       },
       {
-        "text": "The harness needs a clean difference between internal exploration and an effect that the company has to live with.",
+        "text": "preference: quality",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1677,7 +1677,7 @@
         "key": "003s"
       },
       {
-        "text": "scope exploration; gate real effects",
+        "text": "selected: Kimi K3",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1689,7 +1689,7 @@
         "key": "003t"
       },
       {
-        "text": "The easiest mental model is a work scope.",
+        "text": "reason: The packet compares evidence across approved sources.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1701,7 +1701,7 @@
         "key": "003u"
       },
       {
-        "text": "Inside the scope, an agent can read the approved files, create a candidate brief, prepare code in an isolated branch, test a dashboard query, or retry a failed tool call. The scope can be discarded, retried, or reviewed. This is where model work should be flexible.",
+        "text": "fallback: approved-capable-model, then human review",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1713,7 +1713,7 @@
         "key": "003v"
       },
       {
-        "text": "Outside the scope, the system should be careful.",
+        "text": "inspect the choice when the result is weak",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1725,7 +1725,7 @@
         "key": "003w"
       },
       {
-        "text": "Writing a CRM update, merging code, charging a card, changing a shared database record, or sending information to a customer changes company or external state.",
+        "text": "That receipt changes the conversation after a bad result.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1737,7 +1737,7 @@
         "key": "003x"
       },
       {
-        "text": "Before that happens, the system needs a visible proposed effect. What will change? Where? Why? Which packet permits it? What evidence supports it? Who can approve it? Can it be compensated if it goes wrong?",
+        "text": "Instead of saying \"AI got it wrong,\" inspect the packet, source set, skill version, route, artifact, and review.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1749,7 +1749,7 @@
         "key": "003y"
       },
       {
-        "text": "This does not mean the company must make every agent wait for a human.",
+        "text": "Maybe the evidence was poor. Maybe the skill was too vague. Maybe the capable model was unnecessary. Maybe the task needed a person.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1761,7 +1761,7 @@
         "key": "003z"
       },
       {
-        "text": "It means the company decides where it is safe to automate. Some internal changes may be approved in policy. Some public or financial actions may require a person. The difference must be declared before the model begins to act.",
+        "text": "explain the trade-off, not just the failure",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1773,7 +1773,7 @@
         "key": "0040"
       },
       {
-        "text": "That is what makes a harness flexible instead of reckless.",
+        "text": "This is what a company needs from model routing.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1785,7 +1785,7 @@
         "key": "0041"
       },
       {
-        "text": "It lets models explore freely where exploration is cheap. It adds a gate where the company creates an obligation.",
+        "text": "Not a leaderboard.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1797,7 +1797,7 @@
         "key": "0042"
       },
       {
-        "text": "The loop should converge even when the model changes its mind.",
+        "text": "A way to explain a trade-off.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1809,7 +1809,7 @@
         "key": "0043"
       },
       {
-        "text": "If two research paths reach the same approved artifact, the system should preserve one clear result and its evidence, not make the team untangle every abandoned branch. If a run fails in the middle, the next worker should see where it stopped, not start from a guessed narrative.",
+        "text": "a good harness lets work fail without leaving a mess",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1821,7 +1821,7 @@
         "key": "0044"
       },
       {
-        "text": "Company memory is not every token the model produced.",
+        "text": "Company logic should not be trapped inside a long agent conversation.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1833,7 +1833,7 @@
         "key": "0045"
       },
       {
-        "text": "Company memory is the small set of work records and effects the next person needs to trust.",
+        "text": "Real work changes state.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1845,7 +1845,7 @@
         "key": "0046"
       },
       {
-        "text": "the real safety system is authority",
+        "text": "An agent can draft an answer, discover that a source is weak, choose another approach, and start again. That should not leave five half-finished artifacts, three accidental records, and an unclear decision trail behind it.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1857,7 +1857,7 @@
         "key": "0047"
       },
       {
-        "text": "The dangerous part of an agent is not that it writes text.",
+        "text": "The harness needs a clean difference between internal exploration and an effect that the company has to live with.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1869,7 +1869,7 @@
         "key": "0048"
       },
       {
-        "text": "The dangerous part is that it can make a change outside itself.",
+        "text": "scope exploration; gate real effects",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1881,7 +1881,7 @@
         "key": "0049"
       },
       {
-        "text": "Create a CRM record. Modify production code. Start a paid campaign. Send a customer email. Publish something public. Trigger a third-party workflow.",
+        "text": "The easiest mental model is a work scope.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1893,7 +1893,7 @@
         "key": "004a"
       },
       {
-        "text": "Those are emissions from the company into the world.",
+        "text": "Inside the scope, an agent can read approved files, create a candidate brief, prepare code in an isolated branch, test a dashboard query, or retry a failed tool call.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1903,6 +1903,258 @@
         "entity_ranges": [],
         "inline_style_ranges": [],
         "key": "004b"
+      },
+      {
+        "text": "The scope can be discarded, retried, or reviewed. This is where model work should be flexible.",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "004c"
+      },
+      {
+        "text": "declare the effect before it becomes real",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "004d"
+      },
+      {
+        "text": "Outside the scope, the system should be careful.",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "004e"
+      },
+      {
+        "text": "Writing a CRM update, merging code, charging a card, changing a shared database record, or sending information to a customer changes company or external state.",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "004f"
+      },
+      {
+        "text": "Before that happens, the system needs a visible proposed effect. What will change? Where? Why? Which packet permits it? What evidence supports it? Who can approve it? Can it be compensated if it goes wrong?",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "004g"
+      },
+      {
+        "text": "automate by policy, not accident",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "004h"
+      },
+      {
+        "text": "This does not mean the company must make every agent wait for a human.",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "004i"
+      },
+      {
+        "text": "It means the company decides where it is safe to automate. Some internal changes may be approved in policy. Some public or financial actions may require a person. The difference must be declared before the model begins to act.",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "004j"
+      },
+      {
+        "text": "That is what makes a harness flexible instead of reckless.",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "004k"
+      },
+      {
+        "text": "It lets models explore freely where exploration is cheap. It adds a gate where the company creates an obligation.",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "004l"
+      },
+      {
+        "text": "preserve a clear result, even after a failed run",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "004m"
+      },
+      {
+        "text": "The loop should converge even when the model changes its mind.",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "004n"
+      },
+      {
+        "text": "If two research paths reach the same approved artifact, preserve one clear result and its evidence. Do not make the team untangle every abandoned branch.",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "004o"
+      },
+      {
+        "text": "If a run fails in the middle, the next worker should see where it stopped. It should not start from a guessed narrative.",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "004p"
+      },
+      {
+        "text": "Company memory is not every token the model produced.",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "004q"
+      },
+      {
+        "text": "Company memory is the small set of work records and effects the next person needs to trust.",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "004r"
+      },
+      {
+        "text": "the real safety system is authority",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "004s"
+      },
+      {
+        "text": "The dangerous part of an agent is not that it writes text.",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "004t"
+      },
+      {
+        "text": "The dangerous part is that it can make a change outside itself.",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "004u"
+      },
+      {
+        "text": "Create a CRM record. Modify production code. Start a paid campaign. Send a customer email. Publish something public. Trigger a third-party workflow.",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "004v"
+      },
+      {
+        "text": "Those are emissions from the company into the world.",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "004w"
       },
       {
         "text": "Diagram: Observe, prepare, commit, and emit authority gates\nhttps://raw.githubusercontent.com/codejunkie99/company-foundry/main/assets/authority-gates.svg",
@@ -1920,7 +2172,7 @@
         },
         "entity_ranges": [],
         "inline_style_ranges": [],
-        "key": "004c"
+        "key": "004x"
       },
       {
         "text": "Company Foundry uses four levels of authority.",
@@ -1932,10 +2184,10 @@
         },
         "entity_ranges": [],
         "inline_style_ranges": [],
-        "key": "004d"
+        "key": "004y"
       },
       {
-        "text": "`observe` lets a worker inspect approved information.",
+        "text": "- `observe` lets a worker inspect approved information.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1944,10 +2196,10 @@
         },
         "entity_ranges": [],
         "inline_style_ranges": [],
-        "key": "004e"
+        "key": "004z"
       },
       {
-        "text": "`prepare` lets it produce a draft, a candidate dashboard, or code in an isolated workspace.",
+        "text": "- `prepare` lets it produce a draft, a candidate dashboard, or code in an isolated workspace.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1956,10 +2208,10 @@
         },
         "entity_ranges": [],
         "inline_style_ranges": [],
-        "key": "004f"
+        "key": "0050"
       },
       {
-        "text": "`commit` lets it change internal company state.",
+        "text": "- `commit` lets it change internal company state.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1968,10 +2220,10 @@
         },
         "entity_ranges": [],
         "inline_style_ranges": [],
-        "key": "004g"
+        "key": "0051"
       },
       {
-        "text": "`emit` lets it act outside the company boundary.",
+        "text": "- `emit` lets it act outside the company boundary.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -1980,7 +2232,7 @@
         },
         "entity_ranges": [],
         "inline_style_ranges": [],
-        "key": "004h"
+        "key": "0052"
       },
       {
         "text": "reversible work and irreversible effects",
@@ -1992,7 +2244,7 @@
         },
         "entity_ranges": [],
         "inline_style_ranges": [],
-        "key": "004i"
+        "key": "0053"
       },
       {
         "text": "This is not about making agents slow.",
@@ -2004,7 +2256,7 @@
         },
         "entity_ranges": [],
         "inline_style_ranges": [],
-        "key": "004j"
+        "key": "0054"
       },
       {
         "text": "It is how you let them explore quickly without letting them create permanent mess.",
@@ -2016,7 +2268,7 @@
         },
         "entity_ranges": [],
         "inline_style_ranges": [],
-        "key": "004k"
+        "key": "0055"
       },
       {
         "text": "An agent can draft ten versions of an email. It can prepare code in a branch. It can make a candidate dashboard. Those are reversible internal actions.",
@@ -2028,7 +2280,7 @@
         },
         "entity_ranges": [],
         "inline_style_ranges": [],
-        "key": "004l"
+        "key": "0056"
       },
       {
         "text": "Sending the email is one event. Merging the code is one event. Publishing the dashboard is one event. Changing the roadmap is one decision.",
@@ -2040,7 +2292,19 @@
         },
         "entity_ranges": [],
         "inline_style_ranges": [],
-        "key": "004m"
+        "key": "0057"
+      },
+      {
+        "text": "make the transition visible",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "0058"
       },
       {
         "text": "The harness should make that transition visible.",
@@ -2052,7 +2316,7 @@
         },
         "entity_ranges": [],
         "inline_style_ranges": [],
-        "key": "004n"
+        "key": "0059"
       },
       {
         "text": "explore freely inside the work scope",
@@ -2064,7 +2328,7 @@
         },
         "entity_ranges": [],
         "inline_style_ranges": [],
-        "key": "004o"
+        "key": "005a"
       },
       {
         "text": "commit deliberately to company state",
@@ -2076,7 +2340,7 @@
         },
         "entity_ranges": [],
         "inline_style_ranges": [],
-        "key": "004p"
+        "key": "005b"
       },
       {
         "text": "emit externally through an explicit gate",
@@ -2088,7 +2352,19 @@
         },
         "entity_ranges": [],
         "inline_style_ranges": [],
-        "key": "004q"
+        "key": "005c"
+      },
+      {
+        "text": "authority follows the packet, not the model",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "005d"
       },
       {
         "text": "The model does not choose its own authority. The work packet and runtime policy do.",
@@ -2100,7 +2376,7 @@
         },
         "entity_ranges": [],
         "inline_style_ranges": [],
-        "key": "004r"
+        "key": "005e"
       },
       {
         "text": "That is the difference between a bot with tools and a company that can trust its automation.",
@@ -2112,7 +2388,7 @@
         },
         "entity_ranges": [],
         "inline_style_ranges": [],
-        "key": "004s"
+        "key": "005f"
       },
       {
         "text": "skills are not prompt files",
@@ -2124,7 +2400,7 @@
         },
         "entity_ranges": [],
         "inline_style_ranges": [],
-        "key": "004t"
+        "key": "005g"
       },
       {
         "text": "The word skill gets used for almost anything now.",
@@ -2136,7 +2412,7 @@
         },
         "entity_ranges": [],
         "inline_style_ranges": [],
-        "key": "004u"
+        "key": "005h"
       },
       {
         "text": "Sometimes it means a folder with a good prompt. Sometimes it means a tool. Sometimes it means a model can magically do something.",
@@ -2148,7 +2424,7 @@
         },
         "entity_ranges": [],
         "inline_style_ranges": [],
-        "key": "004v"
+        "key": "005i"
       },
       {
         "text": "For a company, a skill should mean a reusable method with a known input and a known output.",
@@ -2160,7 +2436,7 @@
         },
         "entity_ranges": [],
         "inline_style_ranges": [],
-        "key": "004w"
+        "key": "005j"
       },
       {
         "text": "Diagram: Artifact lineage from inputs to review\nhttps://raw.githubusercontent.com/codejunkie99/company-foundry/main/assets/artifact-lineage.svg",
@@ -2178,7 +2454,7 @@
         },
         "entity_ranges": [],
         "inline_style_ranges": [],
-        "key": "004x"
+        "key": "005k"
       },
       {
         "text": "The Company Foundry registry starts with seven skills.",
@@ -2190,10 +2466,10 @@
         },
         "entity_ranges": [],
         "inline_style_ranges": [],
-        "key": "004y"
+        "key": "005l"
       },
       {
-        "text": "`company-work-packet` turns a request into bounded work.",
+        "text": "- `company-work-packet` turns a request into bounded work.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2202,10 +2478,10 @@
         },
         "entity_ranges": [],
         "inline_style_ranges": [],
-        "key": "004z"
+        "key": "005m"
       },
       {
-        "text": "`customer-evidence-research` produces a ledger and insight brief.",
+        "text": "- `customer-evidence-research` produces a ledger and insight brief.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2214,10 +2490,10 @@
         },
         "entity_ranges": [],
         "inline_style_ranges": [],
-        "key": "0050"
+        "key": "005n"
       },
       {
-        "text": "`model-route-record` selects and records a route.",
+        "text": "- `model-route-record` selects and records a route.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2226,10 +2502,10 @@
         },
         "entity_ranges": [],
         "inline_style_ranges": [],
-        "key": "0051"
+        "key": "005o"
       },
       {
-        "text": "`company-code-delivery` produces a scoped plan, changed files, and actual test evidence.",
+        "text": "- `company-code-delivery` produces a scoped plan, changed files, and actual test evidence.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2238,10 +2514,10 @@
         },
         "entity_ranges": [],
         "inline_style_ranges": [],
-        "key": "0052"
+        "key": "005p"
       },
       {
-        "text": "`company-ui-artifact` produces a UI brief, information architecture, data contract, state matrix, implementation record, and verification evidence.",
+        "text": "- `company-ui-artifact` produces a UI brief, information architecture, data contract, state matrix, implementation record, and verification evidence.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2250,10 +2526,10 @@
         },
         "entity_ranges": [],
         "inline_style_ranges": [],
-        "key": "0053"
+        "key": "005q"
       },
       {
-        "text": "`company-dashboard` produces metric definitions, lineage, freshness, permission rules, views, and all of the states a real dashboard needs.",
+        "text": "- `company-dashboard` produces metric definitions, lineage, freshness, permission rules, views, and all of the states a real dashboard needs.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2262,10 +2538,10 @@
         },
         "entity_ranges": [],
         "inline_style_ranges": [],
-        "key": "0054"
+        "key": "005r"
       },
       {
-        "text": "`company-artifact-review` records provenance, uncertainty, and review state.",
+        "text": "- `company-artifact-review` records provenance, uncertainty, and review state.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2274,7 +2550,7 @@
         },
         "entity_ranges": [],
         "inline_style_ranges": [],
-        "key": "0055"
+        "key": "005s"
       },
       {
         "text": "artifacts make work inspectable",
@@ -2286,7 +2562,7 @@
         },
         "entity_ranges": [],
         "inline_style_ranges": [],
-        "key": "0056"
+        "key": "005t"
       },
       {
         "text": "That last part matters more than it looks.",
@@ -2298,7 +2574,7 @@
         },
         "entity_ranges": [],
         "inline_style_ranges": [],
-        "key": "0057"
+        "key": "005u"
       },
       {
         "text": "A chat answer disappears into history. A company artifact has a path. It has inputs. It has a route. It has source references. It has a reviewer. It can be marked draft, review-required, approved, rejected, or superseded.",
@@ -2310,7 +2586,7 @@
         },
         "entity_ranges": [],
         "inline_style_ranges": [],
-        "key": "0058"
+        "key": "005v"
       },
       {
         "text": "Now a dashboard can trace back to the research brief that informed it. The research brief can trace back to sources. The source selection can trace back to the work packet. The packet can trace back to a company goal.",
@@ -2322,7 +2598,7 @@
         },
         "entity_ranges": [],
         "inline_style_ranges": [],
-        "key": "0059"
+        "key": "005w"
       },
       {
         "text": "You can actually inspect how work became a decision.",
@@ -2334,7 +2610,7 @@
         },
         "entity_ranges": [],
         "inline_style_ranges": [],
-        "key": "005a"
+        "key": "005x"
       },
       {
         "text": "the Company Room is the interface i want",
@@ -2346,7 +2622,7 @@
         },
         "entity_ranges": [],
         "inline_style_ranges": [],
-        "key": "005b"
+        "key": "005y"
       },
       {
         "text": "I do not think the first interface should be an animated chart of ten agents talking to each other.",
@@ -2358,7 +2634,7 @@
         },
         "entity_ranges": [],
         "inline_style_ranges": [],
-        "key": "005c"
+        "key": "005z"
       },
       {
         "text": "That is a demo interface.",
@@ -2370,7 +2646,7 @@
         },
         "entity_ranges": [],
         "inline_style_ranges": [],
-        "key": "005d"
+        "key": "0060"
       },
       {
         "text": "The first interface should be a Company Room.",
@@ -2382,7 +2658,7 @@
         },
         "entity_ranges": [],
         "inline_style_ranges": [],
-        "key": "005e"
+        "key": "0061"
       },
       {
         "text": "Diagram: The Company Room operating dashboard\nhttps://raw.githubusercontent.com/codejunkie99/company-foundry/main/assets/company-room.svg",
@@ -2400,7 +2676,7 @@
         },
         "entity_ranges": [],
         "inline_style_ranges": [],
-        "key": "005f"
+        "key": "0062"
       },
       {
         "text": "One place where a person can ask a company question and see the accountable system behind the answer.",
@@ -2412,7 +2688,7 @@
         },
         "entity_ranges": [],
         "inline_style_ranges": [],
-        "key": "005g"
+        "key": "0063"
       },
       {
         "text": "Why do these customers buy from us? What should we build next? Which work should use Kimi K3? Which artifact is waiting for review? Which claim has weak evidence? Which action is blocked because the worker only has prepare authority?",
@@ -2424,7 +2700,7 @@
         },
         "entity_ranges": [],
         "inline_style_ranges": [],
-        "key": "005h"
+        "key": "0064"
       },
       {
         "text": "a dashboard needs an operating job",
@@ -2436,7 +2712,7 @@
         },
         "entity_ranges": [],
         "inline_style_ranges": [],
-        "key": "005i"
+        "key": "0065"
       },
       {
         "text": "The room should show the packet, approved context, skill, route, authority, evidence, artifact, and review state.",
@@ -2448,7 +2724,7 @@
         },
         "entity_ranges": [],
         "inline_style_ranges": [],
-        "key": "005j"
+        "key": "0066"
       },
       {
         "text": "This is the real use of a dashboard.",
@@ -2460,7 +2736,7 @@
         },
         "entity_ranges": [],
         "inline_style_ranges": [],
-        "key": "005k"
+        "key": "0067"
       },
       {
         "text": "Not a pretty collection of activity metrics.",
@@ -2472,7 +2748,7 @@
         },
         "entity_ranges": [],
         "inline_style_ranges": [],
-        "key": "005l"
+        "key": "0068"
       },
       {
         "text": "It is an operating surface for decisions.",
@@ -2484,10 +2760,10 @@
         },
         "entity_ranges": [],
         "inline_style_ranges": [],
-        "key": "005m"
+        "key": "0069"
       },
       {
-        "text": "The UI skill in the repository makes this concrete. Before an agent builds an interface, it has to name the user, job, primary action, entities, data sources, roles, views, every field's source, and every visible state. Loading. Empty. Partial data. Error. Permission denied. Stale data.",
+        "text": "UI artifacts define the experience before code exists",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2496,7 +2772,31 @@
         },
         "entity_ranges": [],
         "inline_style_ranges": [],
-        "key": "005n"
+        "key": "006a"
+      },
+      {
+        "text": "The UI skill makes this concrete. Before an agent builds an interface, it names the user, job, primary action, entities, data sources, roles, views, and every field's source.",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "006b"
+      },
+      {
+        "text": "It also names every visible state: loading, empty, partial data, error, permission denied, and stale data.",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "006c"
       },
       {
         "text": "That requirement kills a lot of AI slop before it reaches the screen.",
@@ -2508,10 +2808,10 @@
         },
         "entity_ranges": [],
         "inline_style_ranges": [],
-        "key": "005o"
+        "key": "006d"
       },
       {
-        "text": "The dashboard skill does the same thing for metrics. A metric needs a definition, source, owner, freshness rule, visibility rule, and path back to the artifact that produced it. A model-generated estimate must be labelled as an estimate, not quietly rendered as company truth.",
+        "text": "dashboard metrics need provenance",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -2520,7 +2820,31 @@
         },
         "entity_ranges": [],
         "inline_style_ranges": [],
-        "key": "005p"
+        "key": "006e"
+      },
+      {
+        "text": "The dashboard skill does the same thing for metrics. A metric needs a definition, source, owner, freshness rule, visibility rule, and a path back to the artifact that produced it.",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "006f"
+      },
+      {
+        "text": "A model-generated estimate must be labelled as an estimate. It must not quietly appear as company truth.",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "006g"
       },
       {
         "text": "The artifact is the interface contract.",
@@ -2532,7 +2856,7 @@
         },
         "entity_ranges": [],
         "inline_style_ranges": [],
-        "key": "005q"
+        "key": "006h"
       },
       {
         "text": "The dashboard is the company looking at its own work.",
@@ -2544,7 +2868,7 @@
         },
         "entity_ranges": [],
         "inline_style_ranges": [],
-        "key": "005r"
+        "key": "006i"
       },
       {
         "text": "this is why DeepSeek Harness matters",
@@ -2556,7 +2880,7 @@
         },
         "entity_ranges": [],
         "inline_style_ranges": [],
-        "key": "005s"
+        "key": "006j"
       },
       {
         "text": "DeepSeek Harness is not a company operating system.",
@@ -2568,7 +2892,7 @@
         },
         "entity_ranges": [],
         "inline_style_ranges": [],
-        "key": "005t"
+        "key": "006k"
       },
       {
         "text": "It is a good place to start because it treats agent systems as composition. Models, tools, storage, policy, interfaces, and agent behavior are separate capabilities.",
@@ -2580,7 +2904,7 @@
         },
         "entity_ranges": [],
         "inline_style_ranges": [],
-        "key": "005u"
+        "key": "006l"
       },
       {
         "text": "A preset can scope which model-facing tools and skills an agent receives. It does not own the global sandbox, permission system, session store, or provider configuration.",
@@ -2592,7 +2916,7 @@
         },
         "entity_ranges": [],
         "inline_style_ranges": [],
-        "key": "005v"
+        "key": "006m"
       },
       {
         "text": "portable method, native runtime",
@@ -2604,7 +2928,7 @@
         },
         "entity_ranges": [],
         "inline_style_ranges": [],
-        "key": "005w"
+        "key": "006n"
       },
       {
         "text": "That is exactly the boundary Company Foundry needs.",
@@ -2616,7 +2940,7 @@
         },
         "entity_ranges": [],
         "inline_style_ranges": [],
-        "key": "005x"
+        "key": "006o"
       },
       {
         "text": "Diagram: Company Foundry adapters for DeepSeek Harness, Codex, and Claude Code\nhttps://raw.githubusercontent.com/codejunkie99/company-foundry/main/assets/runtime-adapters.svg",
@@ -2634,7 +2958,7 @@
         },
         "entity_ranges": [],
         "inline_style_ranges": [],
-        "key": "005y"
+        "key": "006p"
       },
       {
         "text": "The repository includes two native DeepSeek Harness presets.",
@@ -2646,7 +2970,7 @@
         },
         "entity_ranges": [],
         "inline_style_ranges": [],
-        "key": "005z"
+        "key": "006q"
       },
       {
         "text": "`company-research` gives an agent the work-packet, customer-evidence, routing, dashboard, and artifact-review methods.",
@@ -2658,7 +2982,7 @@
         },
         "entity_ranges": [],
         "inline_style_ranges": [],
-        "key": "0060"
+        "key": "006r"
       },
       {
         "text": "`company-builder` gives it the work-packet, routing, code-delivery, UI, dashboard, and review methods.",
@@ -2670,334 +2994,10 @@
         },
         "entity_ranges": [],
         "inline_style_ranges": [],
-        "key": "0061"
-      },
-      {
-        "text": "They are intentionally not a secret permission system. They use the harness's real sandbox and permission services. They do not hard-pin Kimi K3. The packet says what the task needs. The registry says which model tiers are allowed. The runtime enforces the model route and authority policy.",
-        "data": {
-          "cashtags": [],
-          "hashtags": [],
-          "mentions": [],
-          "urls": []
-        },
-        "entity_ranges": [],
-        "inline_style_ranges": [],
-        "key": "0062"
-      },
-      {
-        "text": "Codex and Claude Code get the same method through adapter skills. Their tools are different. The packet, evidence, route, artifact, and review records stay the same.",
-        "data": {
-          "cashtags": [],
-          "hashtags": [],
-          "mentions": [],
-          "urls": []
-        },
-        "entity_ranges": [],
-        "inline_style_ranges": [],
-        "key": "0063"
-      },
-      {
-        "text": "That makes the company method portable.",
-        "data": {
-          "cashtags": [],
-          "hashtags": [],
-          "mentions": [],
-          "urls": []
-        },
-        "entity_ranges": [],
-        "inline_style_ranges": [],
-        "key": "0064"
-      },
-      {
-        "text": "The runtime can change. The company does not have to start from zero.",
-        "data": {
-          "cashtags": [],
-          "hashtags": [],
-          "mentions": [],
-          "urls": []
-        },
-        "entity_ranges": [],
-        "inline_style_ranges": [],
-        "key": "0065"
-      },
-      {
-        "text": "control planes are not harnesses, and that is fine",
-        "data": {
-          "cashtags": [],
-          "hashtags": [],
-          "mentions": [],
-          "urls": []
-        },
-        "entity_ranges": [],
-        "inline_style_ranges": [],
-        "key": "0066"
-      },
-      {
-        "text": "The company does not need one framework to own everything.",
-        "data": {
-          "cashtags": [],
-          "hashtags": [],
-          "mentions": [],
-          "urls": []
-        },
-        "entity_ranges": [],
-        "inline_style_ranges": [],
-        "key": "0067"
-      },
-      {
-        "text": "This is where a lot of AI infrastructure projects get needlessly complicated. They try to make one product be the agent runtime, permission system, org chart, goal tracker, budget service, dashboard, browser, model router, and coding environment at the same time.",
-        "data": {
-          "cashtags": [],
-          "hashtags": [],
-          "mentions": [],
-          "urls": []
-        },
-        "entity_ranges": [],
-        "inline_style_ranges": [],
-        "key": "0068"
-      },
-      {
-        "text": "That produces a large product before it produces one reliable workflow.",
-        "data": {
-          "cashtags": [],
-          "hashtags": [],
-          "mentions": [],
-          "urls": []
-        },
-        "entity_ranges": [],
-        "inline_style_ranges": [],
-        "key": "0069"
-      },
-      {
-        "text": "give each layer one job",
-        "data": {
-          "cashtags": [],
-          "hashtags": [],
-          "mentions": [],
-          "urls": []
-        },
-        "entity_ranges": [],
-        "inline_style_ranges": [],
-        "key": "006a"
-      },
-      {
-        "text": "The better split is simple.",
-        "data": {
-          "cashtags": [],
-          "hashtags": [],
-          "mentions": [],
-          "urls": []
-        },
-        "entity_ranges": [],
-        "inline_style_ranges": [],
-        "key": "006b"
-      },
-      {
-        "text": "A control plane owns why work exists. It tracks goals, budgets, owners, approvals, and audit. It can answer: should this job exist, who is responsible, and can the company spend on it?",
-        "data": {
-          "cashtags": [],
-          "hashtags": [],
-          "mentions": [],
-          "urls": []
-        },
-        "entity_ranges": [],
-        "inline_style_ranges": [],
-        "key": "006c"
-      },
-      {
-        "text": "A work runtime owns where the job runs. It knows the agent identity, the machine or sandbox, the task, and the live execution record. It can answer: which worker did this, where did it run, and what happened while it ran?",
-        "data": {
-          "cashtags": [],
-          "hashtags": [],
-          "mentions": [],
-          "urls": []
-        },
-        "entity_ranges": [],
-        "inline_style_ranges": [],
-        "key": "006d"
-      },
-      {
-        "text": "A harness owns how the work is assembled. It selects context, tools, skills, policy, route, and artifact rules. It can answer: what did this worker receive, what method did it follow, and what must the result contain?",
-        "data": {
-          "cashtags": [],
-          "hashtags": [],
-          "mentions": [],
-          "urls": []
-        },
-        "entity_ranges": [],
-        "inline_style_ranges": [],
-        "key": "006e"
-      },
-      {
-        "text": "Company Foundry sits above those layers as the compiler.",
-        "data": {
-          "cashtags": [],
-          "hashtags": [],
-          "mentions": [],
-          "urls": []
-        },
-        "entity_ranges": [],
-        "inline_style_ranges": [],
-        "key": "006f"
-      },
-      {
-        "text": "It begins with one company specification and exports the appropriate form for each layer.",
-        "data": {
-          "cashtags": [],
-          "hashtags": [],
-          "mentions": [],
-          "urls": []
-        },
-        "entity_ranges": [],
-        "inline_style_ranges": [],
-        "key": "006g"
-      },
-      {
-        "text": "A DeepSeek Harness target gets a native preset, scoped skills, and policy-ready files. A control plane gets roles, goals, budgets, approvals, and work records.",
-        "data": {
-          "cashtags": [],
-          "hashtags": [],
-          "mentions": [],
-          "urls": []
-        },
-        "entity_ranges": [],
-        "inline_style_ranges": [],
-        "key": "006h"
-      },
-      {
-        "text": "A runtime gets agent and task definitions. Codex and Claude Code get portable operating skills.",
-        "data": {
-          "cashtags": [],
-          "hashtags": [],
-          "mentions": [],
-          "urls": []
-        },
-        "entity_ranges": [],
-        "inline_style_ranges": [],
-        "key": "006i"
-      },
-      {
-        "text": "No fake integration is required.",
-        "data": {
-          "cashtags": [],
-          "hashtags": [],
-          "mentions": [],
-          "urls": []
-        },
-        "entity_ranges": [],
-        "inline_style_ranges": [],
-        "key": "006j"
-      },
-      {
-        "text": "If a runtime does not have a native adapter yet, it still receives an implementation specification. That is much better than pretending every product is the same under a different logo.",
-        "data": {
-          "cashtags": [],
-          "hashtags": [],
-          "mentions": [],
-          "urls": []
-        },
-        "entity_ranges": [],
-        "inline_style_ranges": [],
-        "key": "006k"
-      },
-      {
-        "text": "The company specification is the common language. The adapters are replaceable.",
-        "data": {
-          "cashtags": [],
-          "hashtags": [],
-          "mentions": [],
-          "urls": []
-        },
-        "entity_ranges": [],
-        "inline_style_ranges": [],
-        "key": "006l"
-      },
-      {
-        "text": "build the smallest possible AI-native company",
-        "data": {
-          "cashtags": [],
-          "hashtags": [],
-          "mentions": [],
-          "urls": []
-        },
-        "entity_ranges": [],
-        "inline_style_ranges": [],
-        "key": "006m"
-      },
-      {
-        "text": "Do not begin by creating a fake executive team.",
-        "data": {
-          "cashtags": [],
-          "hashtags": [],
-          "mentions": [],
-          "urls": []
-        },
-        "entity_ranges": [],
-        "inline_style_ranges": [],
-        "key": "006n"
-      },
-      {
-        "text": "Do not begin by handing an agent every company credential.",
-        "data": {
-          "cashtags": [],
-          "hashtags": [],
-          "mentions": [],
-          "urls": []
-        },
-        "entity_ranges": [],
-        "inline_style_ranges": [],
-        "key": "006o"
-      },
-      {
-        "text": "Do not begin by making a dashboard of messages.",
-        "data": {
-          "cashtags": [],
-          "hashtags": [],
-          "mentions": [],
-          "urls": []
-        },
-        "entity_ranges": [],
-        "inline_style_ranges": [],
-        "key": "006p"
-      },
-      {
-        "text": "start with one closed loop",
-        "data": {
-          "cashtags": [],
-          "hashtags": [],
-          "mentions": [],
-          "urls": []
-        },
-        "entity_ranges": [],
-        "inline_style_ranges": [],
-        "key": "006q"
-      },
-      {
-        "text": "Start with one closed loop:",
-        "data": {
-          "cashtags": [],
-          "hashtags": [],
-          "mentions": [],
-          "urls": []
-        },
-        "entity_ranges": [],
-        "inline_style_ranges": [],
-        "key": "006r"
-      },
-      {
-        "text": "company brief",
-        "data": {
-          "cashtags": [],
-          "hashtags": [],
-          "mentions": [],
-          "urls": []
-        },
-        "entity_ranges": [],
-        "inline_style_ranges": [],
         "key": "006s"
       },
       {
-        "text": "-> customer research packet",
+        "text": "use the runtime's real permission system",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3009,7 +3009,7 @@
         "key": "006t"
       },
       {
-        "text": "-> approved sources",
+        "text": "They are intentionally not a secret permission system. They use the harness's real sandbox and permission services.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3021,7 +3021,7 @@
         "key": "006u"
       },
       {
-        "text": "-> evidence skill",
+        "text": "They do not hard-pin Kimi K3. The packet states the task need, the registry states allowed model tiers, and the runtime enforces route and authority policy.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3033,7 +3033,7 @@
         "key": "006v"
       },
       {
-        "text": "-> Kimi K3 route",
+        "text": "Codex and Claude Code get the same method through adapter skills. Their tools are different. The packet, evidence, route, artifact, and review records stay the same.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3045,7 +3045,7 @@
         "key": "006w"
       },
       {
-        "text": "-> source-led insight brief",
+        "text": "That makes the company method portable.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3057,7 +3057,7 @@
         "key": "006x"
       },
       {
-        "text": "-> human review",
+        "text": "The runtime can change. The company does not have to start from zero.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3069,7 +3069,7 @@
         "key": "006y"
       },
       {
-        "text": "-> product decision record",
+        "text": "control planes are not harnesses, and that is fine",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3081,7 +3081,7 @@
         "key": "006z"
       },
       {
-        "text": "Make it real.",
+        "text": "The company does not need one framework to own everything.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3093,7 +3093,7 @@
         "key": "0070"
       },
       {
-        "text": "Use a real company question. Use approved sources. Let the system produce a real artifact. Let a reviewer find something wrong. Fix the skill. Update the packet. Run it again.",
+        "text": "This is where a lot of AI infrastructure projects get needlessly complicated. They try to make one product be the agent runtime, permission system, org chart, goal tracker, budget service, dashboard, browser, model router, and coding environment at the same time.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3105,7 +3105,7 @@
         "key": "0071"
       },
       {
-        "text": "Then add the next loop.",
+        "text": "That produces a large product before it produces one reliable workflow.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3117,7 +3117,7 @@
         "key": "0072"
       },
       {
-        "text": "Decision brief to product specification. Product specification to code plan. Code plan to reviewed pull request. Pull request to release record. Each loop adds a skill, artifact type, authority boundary, and evaluation only when the company has earned the complexity.",
+        "text": "give each layer one job",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3129,7 +3129,7 @@
         "key": "0073"
       },
       {
-        "text": "That is how you stay flexible.",
+        "text": "The better split is simple.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3141,7 +3141,7 @@
         "key": "0074"
       },
       {
-        "text": "Not by giving every model every tool.",
+        "text": "record why the work exists, where it runs, and how it is assembled",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3153,7 +3153,7 @@
         "key": "0075"
       },
       {
-        "text": "By giving every important piece of work a stable path through the company.",
+        "text": "A control plane owns why work exists. It tracks goals, budgets, owners, approvals, and audit. It can answer: should this job exist, who is responsible, and can the company spend on it?",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3165,7 +3165,7 @@
         "key": "0076"
       },
       {
-        "text": "The repository is intentionally small because the first job is not to simulate a company.",
+        "text": "A work runtime owns where the job runs. It knows the agent identity, the machine or sandbox, the task, and the live execution record. It can answer: which worker did this, where did it run, and what happened while it ran?",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3177,7 +3177,7 @@
         "key": "0077"
       },
       {
-        "text": "The first job is to make one company capability dependable.",
+        "text": "A harness owns how the work is assembled. It selects context, tools, skills, policy, route, and artifact rules. It can answer: what did this worker receive, what method did it follow, and what must the result contain?",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3189,7 +3189,7 @@
         "key": "0078"
       },
       {
-        "text": "Start with the customer question that already causes confusion. Put the approved evidence in one place. Make the route visible. Demand an artifact. Give a reviewer a real opportunity to reject it. Then ask whether the next workflow can consume that artifact without restarting the research from scratch.",
+        "text": "compile one company method into many adapters",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3201,7 +3201,7 @@
         "key": "0079"
       },
       {
-        "text": "When that works, the company has its first compounding loop.",
+        "text": "Company Foundry sits above those layers as the compiler.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3213,7 +3213,7 @@
         "key": "007a"
       },
       {
-        "text": "That is more valuable than another impressive agent demo.",
+        "text": "It begins with one company specification and exports the appropriate form for each layer.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3225,7 +3225,7 @@
         "key": "007b"
       },
       {
-        "text": "The workers will keep changing.",
+        "text": "A DeepSeek Harness target gets a native preset, scoped skills, and policy-ready files. A control plane gets roles, goals, budgets, approvals, and work records.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3237,7 +3237,7 @@
         "key": "007c"
       },
       {
-        "text": "The company method is what stays.",
+        "text": "A runtime gets agent and task definitions. Codex and Claude Code get portable operating skills.",
         "data": {
           "cashtags": [],
           "hashtags": [],
@@ -3247,6 +3247,462 @@
         "entity_ranges": [],
         "inline_style_ranges": [],
         "key": "007d"
+      },
+      {
+        "text": "adapters preserve choice without pretending to be identical",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "007e"
+      },
+      {
+        "text": "No fake integration is required.",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "007f"
+      },
+      {
+        "text": "If a runtime does not have a native adapter yet, it still receives an implementation specification. That is much better than pretending every product is the same under a different logo.",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "007g"
+      },
+      {
+        "text": "The company specification is the common language. The adapters are replaceable.",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "007h"
+      },
+      {
+        "text": "build the smallest possible AI-native company",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "007i"
+      },
+      {
+        "text": "Do not begin by creating a fake executive team.",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "007j"
+      },
+      {
+        "text": "Do not begin by handing an agent every company credential.",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "007k"
+      },
+      {
+        "text": "Do not begin by making a dashboard of messages.",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "007l"
+      },
+      {
+        "text": "start with one closed loop",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "007m"
+      },
+      {
+        "text": "Start with one closed loop:",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "007n"
+      },
+      {
+        "text": "company brief",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "007o"
+      },
+      {
+        "text": "-> customer research packet",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "007p"
+      },
+      {
+        "text": "-> approved sources",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "007q"
+      },
+      {
+        "text": "-> evidence skill",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "007r"
+      },
+      {
+        "text": "-> Kimi K3 route",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "007s"
+      },
+      {
+        "text": "-> source-led insight brief",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "007t"
+      },
+      {
+        "text": "-> human review",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "007u"
+      },
+      {
+        "text": "-> product decision record",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "007v"
+      },
+      {
+        "text": "test a real loop before you add another one",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "007w"
+      },
+      {
+        "text": "Make it real.",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "007x"
+      },
+      {
+        "text": "Use a real company question. Use approved sources. Let the system produce a real artifact. Let a reviewer find something wrong. Fix the skill. Update the packet. Run it again.",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "007y"
+      },
+      {
+        "text": "add complexity only after the loop is dependable",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "007z"
+      },
+      {
+        "text": "Then add the next loop.",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "0080"
+      },
+      {
+        "text": "Decision brief to product specification. Product specification to code plan. Code plan to reviewed pull request. Pull request to release record. Each loop adds a skill, artifact type, authority boundary, and evaluation only when the company has earned the complexity.",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "0081"
+      },
+      {
+        "text": "That is how you stay flexible.",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "0082"
+      },
+      {
+        "text": "Not by giving every model every tool.",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "0083"
+      },
+      {
+        "text": "By giving every important piece of work a stable path through the company.",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "0084"
+      },
+      {
+        "text": "make the first capability dependable",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "0085"
+      },
+      {
+        "text": "The repository is intentionally small because the first job is not to simulate a company.",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "0086"
+      },
+      {
+        "text": "The first job is to make one company capability dependable.",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "0087"
+      },
+      {
+        "text": "Start with the customer question that already causes confusion. Put approved evidence in one place. Make the route visible. Demand an artifact.",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "0088"
+      },
+      {
+        "text": "Give a reviewer a real opportunity to reject it. Then ask whether the next workflow can consume that artifact without restarting the research.",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "0089"
+      },
+      {
+        "text": "the loop earns compounding work",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "008a"
+      },
+      {
+        "text": "When that works, the company has its first compounding loop.",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "008b"
+      },
+      {
+        "text": "That is more valuable than another impressive agent demo.",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "008c"
+      },
+      {
+        "text": "the method outlives the worker",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "008d"
+      },
+      {
+        "text": "The workers will keep changing.",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "008e"
+      },
+      {
+        "text": "The company method is what stays.",
+        "data": {
+          "cashtags": [],
+          "hashtags": [],
+          "mentions": [],
+          "urls": []
+        },
+        "entity_ranges": [],
+        "inline_style_ranges": [],
+        "key": "008f"
       },
       {
         "text": "Build the first Company Foundry harness here.: https://github.com/codejunkie99/company-foundry",
@@ -3264,7 +3720,7 @@
         },
         "entity_ranges": [],
         "inline_style_ranges": [],
-        "key": "007e"
+        "key": "008g"
       }
     ],
     "entities": []
